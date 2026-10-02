@@ -1,0 +1,1024 @@
+{
+  "board": {
+    "3dviewports": [],
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "sramBoard.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "sramBoard.kicad_sch",
+        "name": "Root",
+        "uuid": "13380198-0e23-4241-a844-cca11526fb8d"
+      }
+    ],
+    "used_designators": "Q1-1024,#PWR1-256",
+    "variants": []
+  },
+  "sheets": [
+    [
+      "13380198-0e23-4241-a844-cca11526fb8d",
+      "Root"
+    ],
+    [
+      "114b08f3-3b7e-42ed-8ce4-d3fd139423d8",
+      "8BIT_ROW"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "c82dc8a0-2642-46c7-8ac0-14fe1a066d3f",
+      "8BIT_ROW1"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "7f57749b-2848-4322-a579-b270760a13c3",
+      "8BIT_ROW2"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "a536d280-baef-4c0e-b1d1-0e9c25cba4cd",
+      "8BIT_ROW3"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "e647ce2c-7ba0-45da-a8cf-3a4f16550447",
+      "8BIT_ROW4"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "b2441238-aee5-40c0-a9ec-2aa0cdbb6eeb",
+      "8BIT_ROW5"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "1b10016b-7324-4c39-b57b-5a3333f284bd",
+      "8BIT_ROW6"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "32d74872-01d4-4777-8826-6518c1f3c256",
+      "8BIT_ROW7"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "6356eaf7-0e22-4bce-856e-3c4d6adc1a69",
+      "8BIT_ROW8"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "3075c1ff-51e4-467a-879e-859784573f14",
+      "8BIT_ROW9"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "62908514-578e-4b2e-bcb0-cab684fe3124",
+      "8BIT_ROW10"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "22068ac8-f3db-42fc-b690-634a25738462",
+      "8BIT_ROW11"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "48a2877d-00b1-4f95-9fb1-8dce7444406f",
+      "8BIT_ROW12"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "94d5634e-aacc-48b3-a5f3-ee9d806fc599",
+      "8BIT_ROW13"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "54e1da9a-93f5-41a4-a22e-3377c4601832",
+      "8BIT_ROW14"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ],
+    [
+      "01567c42-bc88-474e-869b-e5eb6f1f67c5",
+      "8BIT_ROW15"
+    ],
+    [
+      "ab807c65-b438-4e6c-9c9d-48e201d929f5",
+      "1BIT_CELL3"
+    ],
+    [
+      "17bbe299-0656-4853-990a-fdcb1052836d",
+      "1BIT_CELL4"
+    ],
+    [
+      "4360df3b-ea67-4692-a8f7-03fd81851aa9",
+      "1BIT_CELL"
+    ],
+    [
+      "e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6",
+      "1BIT_CELL1"
+    ],
+    [
+      "432c19c9-4d7e-4617-be83-ec58f674c9d2",
+      "1BIT_CELL2"
+    ],
+    [
+      "e211a87a-d1a4-448e-80a6-f4606708627d",
+      "1BIT_CELL6"
+    ],
+    [
+      "060f00d6-f3a9-4a2c-99b5-870ee4ec36af",
+      "1BIT_CELL5"
+    ],
+    [
+      "dd73a9e8-4d37-4ad4-b8db-0474c8401732",
+      "1BIT_CELL7"
+    ]
+  ],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
