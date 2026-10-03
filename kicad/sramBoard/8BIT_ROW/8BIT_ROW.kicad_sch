@@ -5,15 +5,41 @@
 	(uuid "7a88225d-509d-4ec2-be32-db8525e19ccb")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 100.33 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6821e386-5553-4cc4-af0d-9c2c72d6e0cb")
+	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 107.95 80.01)
+			(xy 100.33 80.01) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250edea6-004d-453d-a40e-6c73d8aa11e5")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 100.33 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2dc40633-8719-4f0f-b282-6915af0f94e2")
+	)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7b5107-3f35-4beb-b5bc-1960a11820fa")
 	)
 	(hierarchical_label "~{BL_{1}}_"
 		(shape input)
@@ -405,7 +431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 177.8 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -556,7 +582,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 163.83 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,7 +733,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 135.89 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -858,7 +884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 107.95 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1009,7 +1035,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 149.86 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1160,7 +1186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 205.74 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,7 +1337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 191.77 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,7 +1488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1BIT_CELL.kicad_sch"
+		(property "Sheetfile" "1BIT_CELL/1BIT_CELL.kicad_sch"
 			(at 121.92 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
