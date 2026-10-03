@@ -6293,7 +6293,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 111.76 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6669,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 237.49 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7045,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LOGIC_TO_WL_LEVEL_SHIFT.kicad_sch"
+		(property "Sheetfile" "LOGIC_TO_WL_LEVEL_SHIFT/LOGIC_TO_WL_LEVEL_SHIFT.kicad_sch"
 			(at 52.07 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7411,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 130.81 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +7787,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 182.88 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +8163,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 218.44 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8539,7 +8539,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 113.03 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,7 +8915,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 165.1 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,7 +9291,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 129.54 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9667,7 +9667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 200.66 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10043,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 236.22 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 201.93 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10795,7 +10795,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 147.32 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11171,7 +11171,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1_16_5V_DEMUX_NOTOUT.kicad_sch"
+		(property "Sheetfile" "1_16_5V_DEMUX_NOTOUT/1_16_5V_DEMUX_NOTOUT.kicad_sch"
 			(at 25.4 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11427,7 +11427,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 184.15 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11803,7 +11803,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 148.59 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12179,7 +12179,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 219.71 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12555,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8BIT_ROW.kicad_sch"
+		(property "Sheetfile" "8BIT_ROW/8BIT_ROW.kicad_sch"
 			(at 166.37 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
