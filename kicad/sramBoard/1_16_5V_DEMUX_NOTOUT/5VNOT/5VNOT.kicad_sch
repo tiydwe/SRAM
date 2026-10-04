@@ -1028,7 +1028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 119.38 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1285,7 +1285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 119.38 57.15 0)
 			(hide yes)
 			(show_name no)

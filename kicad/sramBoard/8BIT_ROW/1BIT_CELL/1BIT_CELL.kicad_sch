@@ -1523,7 +1523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2853,7 +2853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3520,7 +3520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 123.19 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4810,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 152.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5474,7 +5474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 72.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 107.95 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7430,7 +7430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
