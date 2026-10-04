@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "sramBoard.kicad_prl",
+    "filename": "1BIT_CELL.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

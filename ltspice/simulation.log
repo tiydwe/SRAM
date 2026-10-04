@@ -1,0 +1,18 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net
+Start Time: Sat Oct  3 16:15:45 2026
+C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net(49): Ignoring unknown model parameter. This may or may not be a problem.
+.model JTD2302B NMOS(Level=1 Vto=0.65 Kp=22.8 Lambda=0.01 Rs=15m Rd=20m Cgso=120p Cgdo=80p Cbd=120p Vact=20 Is=1n)
+                                                                                                    ^^^^^^^^
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.139 seconds.
+
+Files loaded:
+C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net
+C:\Users\jayde\AppData\Local\LTspice\lib\cmp\standard.mos
+

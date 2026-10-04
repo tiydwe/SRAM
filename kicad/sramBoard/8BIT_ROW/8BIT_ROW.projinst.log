@@ -1,0 +1,43 @@
+Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\sramBoard\8BIT_ROW\8BIT_ROW.kicad_sch
+8 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\sramBoard\8BIT_ROW\8BIT_ROW.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\sramBoard\8BIT_ROW\1BIT_CELL\1BIT_CELL.kicad_sch
+Anchor changed to Q1
+Enabled leaf: 060f00d6-f3a9-4a2c-99b5-870ee4ec36af
+Enabled leaf: 17bbe299-0656-4853-990a-fdcb1052836d
+Enabled leaf: 432c19c9-4d7e-4617-be83-ec58f674c9d2
+Enabled leaf: 4360df3b-ea67-4692-a8f7-03fd81851aa9
+Enabled leaf: ab807c65-b438-4e6c-9c9d-48e201d929f5
+Enabled leaf: dd73a9e8-4d37-4ad4-b8db-0474c8401732
+Enabled leaf: e211a87a-d1a4-448e-80a6-f4606708627d
+Enabled leaf: e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
+Root item: <wx._dataview.TreeListItem object at 0x0000025DCE8589D0>
+Valid board for 060f00d6-f3a9-4a2c-99b5-870ee4ec36af
+Valid child board for 
+Instance is a branch: Root
+Valid board for 060f00d6-f3a9-4a2c-99b5-870ee4ec36af
+Instance is a leaf: /060f00d6-f3a9-4a2c-99b5-870ee4ec36af
+Valid board for 17bbe299-0656-4853-990a-fdcb1052836d
+Instance is a leaf: /17bbe299-0656-4853-990a-fdcb1052836d
+Valid board for 432c19c9-4d7e-4617-be83-ec58f674c9d2
+Instance is a leaf: /432c19c9-4d7e-4617-be83-ec58f674c9d2
+Valid board for 4360df3b-ea67-4692-a8f7-03fd81851aa9
+Instance is a leaf: /4360df3b-ea67-4692-a8f7-03fd81851aa9
+Valid board for ab807c65-b438-4e6c-9c9d-48e201d929f5
+Instance is a leaf: /ab807c65-b438-4e6c-9c9d-48e201d929f5
+Valid board for dd73a9e8-4d37-4ad4-b8db-0474c8401732
+Instance is a leaf: /dd73a9e8-4d37-4ad4-b8db-0474c8401732
+Valid board for e211a87a-d1a4-448e-80a6-f4606708627d
+Instance is a leaf: /e211a87a-d1a4-448e-80a6-f4606708627d
+Valid board for e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
+Instance is a leaf: /e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
+Saving info for 060f00d6-f3a9-4a2c-99b5-870ee4ec36af
+Saving info for 17bbe299-0656-4853-990a-fdcb1052836d
+Saving info for 432c19c9-4d7e-4617-be83-ec58f674c9d2
+Saving info for 4360df3b-ea67-4692-a8f7-03fd81851aa9
+Saving info for ab807c65-b438-4e6c-9c9d-48e201d929f5
+Saving info for dd73a9e8-4d37-4ad4-b8db-0474c8401732
+Saving info for e211a87a-d1a4-448e-80a6-f4606708627d
+Saving info for e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
+Saving anchor Q1 for C:\Users\jayde\hackclubprojects\SRAM\kicad\sramBoard\8BIT_ROW\1BIT_CELL\1BIT_CELL.kicad_sch
+Saved.

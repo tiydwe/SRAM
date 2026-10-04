@@ -677,6 +677,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+10V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+10V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+10V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+10V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2067,7 +2206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d8a0c8-5e9b-4433-ad3a-d1ba8eeb5bb5")
-		(property "Reference" "Q1214"
+		(property "Reference" "Q1204"
 			(at 100.33 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,6 +2306,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1204")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1214")
 					(unit 1)
 				)
@@ -2185,7 +2330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031a2a58-70fc-407f-ab9f-a2464a0f610f")
-		(property "Reference" "#PWR0299"
+		(property "Reference" "#PWR0302"
 			(at 68.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2245,6 +2390,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0299")
 					(unit 1)
 				)
@@ -2368,6 +2519,12 @@
 					(unit 1)
 				)
 			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "Q1223")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2382,7 +2539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f57e4c-caba-4139-b17d-294b0a13c29f")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0314"
 			(at 204.47 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2442,6 +2599,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0312")
 					(unit 1)
 				)
@@ -2461,7 +2624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129b7d58-6ff4-4ee0-b837-5d548e94c4c0")
-		(property "Reference" "Q1217"
+		(property "Reference" "Q1211"
 			(at 153.67 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,6 +2724,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1211")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1217")
 					(unit 1)
 				)
@@ -2579,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d1eb8a-9cf0-45c6-91c7-2da014fd07e2")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0312"
 			(at 176.53 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2639,7 +2808,97 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+10V")
+		(at 133.35 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1791f967-c4c7-425e-be55-a25ecff89beb")
+		(property "Reference" "#PWR0308"
+			(at 133.35 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+10V"
+			(at 133.35 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 133.35 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5362dba4-34db-402e-9232-7cf194e097fc")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2658,7 +2917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4dd118-49b4-491a-afb3-5dff6f2c7587")
-		(property "Reference" "Q1207"
+		(property "Reference" "Q1221"
 			(at 234.95 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,6 +3017,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1221")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1207")
 					(unit 1)
 				)
@@ -2776,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d2bfd47-96d2-4f1d-aed1-f20a1167344e")
-		(property "Reference" "Q1208"
+		(property "Reference" "Q1222"
 			(at 234.95 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,6 +3141,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1222")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1208")
 					(unit 1)
 				)
@@ -2894,7 +3165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd29b43-f26e-4e1c-b908-27a49fa2d26e")
-		(property "Reference" "Q1210"
+		(property "Reference" "Q1196"
 			(at 45.72 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,6 +3265,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1196")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1210")
 					(unit 1)
 				)
@@ -3012,7 +3289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1768d5-d209-41cd-9b4d-cc1d50d96d94")
-		(property "Reference" "Q1220"
+		(property "Reference" "Q1216"
 			(at 180.34 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,6 +3389,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1216")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1220")
 					(unit 1)
 				)
@@ -3131,7 +3414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac90d9a-d4b8-44c0-8c87-7262797e8ea1")
-		(property "Reference" "Q1213"
+		(property "Reference" "Q1203"
 			(at 100.33 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,6 +3514,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1203")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1213")
 					(unit 1)
 				)
@@ -3249,7 +3538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a9ef23-0c25-4607-8abb-6335a552faa3")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0313"
 			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3309,6 +3598,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0304")
 					(unit 1)
 				)
@@ -3327,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32af1d82-d94b-4ef4-9011-efc85ddab89f")
-		(property "Reference" "#PWR0298"
+		(property "Reference" "#PWR0300"
 			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3387,6 +3682,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0300")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0298")
 					(unit 1)
 				)
@@ -3405,7 +3706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fe56ba-afe6-43bd-88d4-8cf8c3036163")
-		(property "Reference" "Q1202"
+		(property "Reference" "Q1210"
 			(at 153.67 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,6 +3806,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1210")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1202")
 					(unit 1)
 				)
@@ -3523,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc22d8a-5042-4916-a879-29e07ea14de1")
-		(property "Reference" "Q1216"
+		(property "Reference" "Q1208"
 			(at 127 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,6 +3930,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1208")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1216")
 					(unit 1)
 				)
@@ -3642,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec2184e-dfac-4357-bed8-8f577e4987a4")
-		(property "Reference" "Q1219"
+		(property "Reference" "Q1215"
 			(at 180.34 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,6 +4055,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1215")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1219")
 					(unit 1)
 				)
@@ -3760,7 +4079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c505d3a-2349-4946-bb4f-b9aec82fb523")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0311"
 			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3820,6 +4139,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0303")
 					(unit 1)
 				)
@@ -3838,7 +4163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d7be443-ee79-4541-82d6-815dace5c44a")
-		(property "Reference" "Q1204"
+		(property "Reference" "Q1214"
 			(at 180.34 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,6 +4263,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1214")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1204")
 					(unit 1)
 				)
@@ -3957,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "544072c7-e05e-4c0c-8879-788ba36a0084")
-		(property "Reference" "Q1221"
+		(property "Reference" "Q1219"
 			(at 208.28 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4057,6 +4388,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1219")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1221")
 					(unit 1)
 				)
@@ -4076,7 +4413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "584a4a9c-245a-4e36-9392-c90c9b72fb6c")
-		(property "Reference" "Q1197"
+		(property "Reference" "Q1201"
 			(at 100.33 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,6 +4513,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1201")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1197")
 					(unit 1)
 				)
@@ -4195,7 +4538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59410790-d8cc-4256-aa7a-492a3b59c1df")
-		(property "Reference" "Q1205"
+		(property "Reference" "Q1217"
 			(at 208.28 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,6 +4638,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1217")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1205")
 					(unit 1)
 				)
@@ -4313,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eafd817-4567-4ac1-b450-8f20f07642e3")
-		(property "Reference" "#PWR0300"
+		(property "Reference" "#PWR0304"
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4373,6 +4722,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0300")
 					(unit 1)
 				)
@@ -4392,7 +4747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6198a667-146c-419d-8a33-0bc2afd29b98")
-		(property "Reference" "Q1215"
+		(property "Reference" "Q1207"
 			(at 127 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,6 +4847,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1207")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1215")
 					(unit 1)
 				)
@@ -4510,7 +4871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fcb603-2797-4710-a74a-108a253034f9")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 149.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4570,6 +4931,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0302")
 					(unit 1)
 				)
@@ -4588,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63892bdb-9c60-42f7-8845-01f5f7e4ebad")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0305"
 			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4648,6 +5015,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0308")
 					(unit 1)
 				)
@@ -4667,7 +5040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71121bb9-3424-4823-bc36-cb60a128b0f7")
-		(property "Reference" "Q1211"
+		(property "Reference" "Q1199"
 			(at 72.39 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,6 +5140,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1199")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1211")
 					(unit 1)
 				)
@@ -4786,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1e2ba0-3ae9-4ce0-8865-efc860286b03")
-		(property "Reference" "Q1201"
+		(property "Reference" "Q1209"
 			(at 153.67 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,6 +5265,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1209")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1201")
 					(unit 1)
 				)
@@ -4905,7 +5290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c93beed-80ae-4ebe-a103-974ed795690b")
-		(property "Reference" "Q1195"
+		(property "Reference" "Q1197"
 			(at 72.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,6 +5390,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1197")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1195")
 					(unit 1)
 				)
@@ -5128,6 +5519,12 @@
 					(unit 1)
 				)
 			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "Q1193")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5142,7 +5539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8845ce2b-5f51-434f-b549-710759f91898")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0303"
 			(at 68.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5202,6 +5599,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0307")
 					(unit 1)
 				)
@@ -5220,7 +5623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91599517-4389-4db0-ba68-b0d906f08905")
-		(property "Reference" "Q1218"
+		(property "Reference" "Q1212"
 			(at 153.67 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,6 +5723,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1212")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1218")
 					(unit 1)
 				)
@@ -5338,7 +5747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e209232-ced3-4cc5-9c7c-94bbc48780d9")
-		(property "Reference" "Q1196"
+		(property "Reference" "Q1198"
 			(at 72.39 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,6 +5847,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1198")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1196")
 					(unit 1)
 				)
@@ -5456,7 +5871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dc389d-b31f-4e90-95cf-a37c1df63c06")
-		(property "Reference" "Q1200"
+		(property "Reference" "Q1206"
 			(at 127 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,6 +5971,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1206")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1200")
 					(unit 1)
 				)
@@ -5575,7 +5996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b0de28-f0c4-49f6-88b3-30d3ac8b504c")
-		(property "Reference" "Q1203"
+		(property "Reference" "Q1213"
 			(at 180.34 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,6 +6096,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1213")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1203")
 					(unit 1)
 				)
@@ -5693,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9326f4f-fddb-4e2f-9368-b545bec6af6b")
-		(property "Reference" "Q1206"
+		(property "Reference" "Q1218"
 			(at 208.28 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,6 +6220,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1218")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1206")
 					(unit 1)
 				)
@@ -5812,7 +6245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeff3233-c1ce-42c5-a748-5d86ed199168")
-		(property "Reference" "Q1209"
+		(property "Reference" "Q1195"
 			(at 45.72 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,6 +6345,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1195")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1209")
 					(unit 1)
 				)
@@ -5930,7 +6369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0db5360-2bd0-4fa5-9d76-494ff33a34c8")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0306"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5990,6 +6429,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0301")
 					(unit 1)
 				)
@@ -6112,6 +6557,12 @@
 					(unit 1)
 				)
 			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "Q1224")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6126,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc730e9b-05b4-4d38-be14-efcbf8a0c75c")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0315"
 			(at 231.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6186,6 +6637,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0305")
 					(unit 1)
 				)
@@ -6268,6 +6725,12 @@
 					(unit 1)
 				)
 			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6282,7 +6745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc170ff6-1674-4972-86f6-3af8f13d8e32")
-		(property "Reference" "Q1222"
+		(property "Reference" "Q1220"
 			(at 208.28 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,6 +6845,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1220")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1222")
 					(unit 1)
 				)
@@ -6400,7 +6869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce865ae7-c1a0-4815-a0af-b8b36c69e029")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0301"
 			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6460,6 +6929,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0306")
 					(unit 1)
 				)
@@ -6582,6 +7057,12 @@
 					(unit 1)
 				)
 			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "Q1194")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6596,7 +7077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc81b02b-3ed8-4422-8465-9b7284d53852")
-		(property "Reference" "Q1212"
+		(property "Reference" "Q1200"
 			(at 72.39 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,6 +7177,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1200")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1212")
 					(unit 1)
 				)
@@ -6714,7 +7201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd17544b-e3c7-4474-9821-bd960deb5520")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0307"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6774,6 +7261,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0309")
 					(unit 1)
 				)
@@ -6792,7 +7285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def70122-855f-4000-9c4e-fe9ad1d44693")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0316"
 			(at 231.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6852,6 +7345,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0316")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0313")
 					(unit 1)
 				)
@@ -6871,7 +7370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea2c7706-b4e6-483b-b8b3-e6b73d9e2b8a")
-		(property "Reference" "Q1199"
+		(property "Reference" "Q1205"
 			(at 127 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,6 +7470,12 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1205")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1199")
 					(unit 1)
 				)
@@ -6989,7 +7494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d80d69-9c6b-47a2-8c0f-2720ef9154c0")
-		(property "Reference" "Q1198"
+		(property "Reference" "Q1202"
 			(at 100.33 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7089,10 +7594,21 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "Q1202")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1198")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
