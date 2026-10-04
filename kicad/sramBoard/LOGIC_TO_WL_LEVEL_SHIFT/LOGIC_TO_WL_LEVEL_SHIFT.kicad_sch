@@ -5,6 +5,146 @@
 	(uuid "48659937-bd5e-4036-aa2a-bfad3599e7ad")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -341,342 +481,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+10V"
 			(power global)
 			(pin_numbers
@@ -933,10 +737,10 @@
 		)
 	)
 	(junction
-		(at 176.53 72.39)
+		(at 123.19 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03572fec-620d-4542-ab9f-02c0c0b87300")
+		(uuid "06d8d8bf-45a8-4ff9-8f51-025c2865e9e7")
 	)
 	(junction
 		(at 133.35 72.39)
@@ -945,46 +749,46 @@
 		(uuid "0fbb2473-d9f0-4013-8a06-8578cc4f649b")
 	)
 	(junction
-		(at 123.19 36.83)
+		(at 96.52 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fd5ffbe-b230-499f-b651-577d02e2577c")
-	)
-	(junction
-		(at 204.47 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12c8ef6c-38a6-4e9c-ae0c-7a4c4452a9bc")
-	)
-	(junction
-		(at 149.86 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a0bd1f2-1929-41f6-ac5c-e6aa44abab7d")
-	)
-	(junction
-		(at 123.19 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b05f7d5-56a9-490e-bc9e-89e42ecdc5ef")
+		(uuid "3acadfa8-3d73-46fa-8ef5-2f6c7c705aaf")
 	)
 	(junction
 		(at 176.53 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66fa3e82-49dc-42b0-a776-dae934c6aa3b")
+		(uuid "57d8b98e-d1e8-44cf-8cee-74b744b115ec")
 	)
 	(junction
-		(at 96.52 72.39)
+		(at 204.47 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f688991-89da-4d60-94d6-cd6f802057df")
+		(uuid "5f82b717-adb7-4628-b838-b3aeef6d3857")
 	)
 	(junction
-		(at 149.86 36.83)
+		(at 231.14 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8cf40ada-0826-4dab-9d86-a1e78f70d3fd")
+		(uuid "7db3ea8e-31e0-4796-8f81-d06be19897e3")
+	)
+	(junction
+		(at 176.53 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801f6c8e-4787-4597-9404-fd522ce61f74")
+	)
+	(junction
+		(at 68.58 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "806ff3a8-a921-4b3b-9adc-9576eec29232")
+	)
+	(junction
+		(at 149.86 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81651258-e238-4f5a-aada-3a6226cdd296")
 	)
 	(junction
 		(at 133.35 36.83)
@@ -993,34 +797,34 @@
 		(uuid "987eebba-0f86-4179-bd5c-9eb714d15b35")
 	)
 	(junction
-		(at 231.14 36.83)
+		(at 68.58 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d7b064e-4f6d-443d-9732-efaa022d5be1")
+		(uuid "b1616369-a431-43e3-9d62-fa5d5634d898")
+	)
+	(junction
+		(at 149.86 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd2dec4-b1f5-48b1-adbc-c5f4c2200e20")
+	)
+	(junction
+		(at 96.52 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e01b0bd6-ac5d-481c-a1d4-fa6555e9bf85")
 	)
 	(junction
 		(at 204.47 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b99aa1ce-f9e1-4712-96ab-0a3eabb1b897")
+		(uuid "ed606f6a-e1fe-4ffb-80bf-fd7bcd2e9a3c")
 	)
 	(junction
-		(at 68.58 36.83)
+		(at 123.19 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bebcec6d-f3bf-4efc-a5b0-482ba91a3c0c")
-	)
-	(junction
-		(at 68.58 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5980e40-4de3-4a69-9165-3d2b546e27a4")
-	)
-	(junction
-		(at 96.52 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e99d1e76-d6a0-4497-aa92-e2d5cce7ec2b")
+		(uuid "f3cadd05-49fe-4d37-8908-061244bf4f34")
 	)
 	(wire
 		(pts
@@ -1044,13 +848,33 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 46.99) (xy 231.14 52.07)
+			(xy 231.14 44.45) (xy 231.14 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0af51b83-e68e-4920-86b3-1aaa2b895c53")
+	)
+	(wire
+		(pts
+			(xy 41.91 80.01) (xy 41.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2de8e6-d1cc-4b0b-9c04-d23384657687")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 231.14 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb7dbda-04da-4691-811e-07060e56af4d")
 	)
 	(wire
 		(pts
@@ -1064,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 46.99) (xy 204.47 52.07)
+			(xy 204.47 44.45) (xy 204.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1084,33 +908,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 36.83) (xy 232.41 36.83)
+			(xy 149.86 72.39) (xy 176.53 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17bb11cd-c7de-4a00-9a1a-8fe596417de7")
-	)
-	(wire
-		(pts
-			(xy 41.91 36.83) (xy 68.58 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17fba293-d53b-4ad3-92ff-808ea58e528f")
-	)
-	(wire
-		(pts
-			(xy 149.86 46.99) (xy 149.86 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5c4740-4179-4abc-b612-fde5bac8849c")
+		(uuid "143553e5-8c1a-40ab-99df-e5591bbe56c1")
 	)
 	(wire
 		(pts
@@ -1134,6 +938,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 36.83) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7ff596-c766-4459-942a-d4984d1d66c9")
+	)
+	(wire
+		(pts
+			(xy 123.19 36.83) (xy 133.35 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220005ee-0982-4d6c-a601-b597caa3c56d")
+	)
+	(wire
+		(pts
 			(xy 163.83 77.47) (xy 163.83 92.71)
 		)
 		(stroke
@@ -1144,13 +968,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 36.83) (xy 96.52 36.83)
+			(xy 96.52 36.83) (xy 123.19 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24984a09-c269-4180-b512-648e7992f443")
+		(uuid "2620eda4-d93e-465d-86d9-9537700ebe99")
 	)
 	(wire
 		(pts
@@ -1184,17 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 72.39) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37397fbe-f111-4437-8907-0fdbc2d77350")
-	)
-	(wire
-		(pts
-			(xy 176.53 82.55) (xy 176.53 87.63)
+			(xy 176.53 80.01) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 149.86 87.63)
+			(xy 149.86 80.01) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1234,16 +1048,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 133.35 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c8021c-7a1f-44e2-95fe-46520aff6771")
-	)
-	(wire
-		(pts
 			(xy 88.9 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -1254,7 +1058,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 52.07)
+			(xy 176.53 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8b6fd8-6f2a-4013-b93e-f38355f182ac")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a13d91-0675-423e-b528-994c18fc6d9e")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 96.52 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1274,23 +1098,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 36.83) (xy 176.53 36.83)
+			(xy 68.58 72.39) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f1418e1-409d-498b-96b8-df0745225977")
-	)
-	(wire
-		(pts
-			(xy 41.91 72.39) (xy 68.58 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607deeb8-160e-4642-875a-d4ff290431e8")
+		(uuid "5d3e680b-682c-4d39-954f-7c0d35e03d43")
 	)
 	(wire
 		(pts
@@ -1301,16 +1115,6 @@
 			(type default)
 		)
 		(uuid "653fff74-b90c-436d-8b97-552347feac9c")
-	)
-	(wire
-		(pts
-			(xy 96.52 72.39) (xy 123.19 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6768db32-46d3-4b6d-a4d5-c3235a57371b")
 	)
 	(wire
 		(pts
@@ -1334,23 +1138,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 46.99) (xy 41.91 52.07)
+			(xy 41.91 44.45) (xy 41.91 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7296eead-facf-4537-8860-cf70553506c5")
-	)
-	(wire
-		(pts
-			(xy 176.53 36.83) (xy 204.47 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a86352e-c35d-44be-a043-96ab39fc2721")
 	)
 	(wire
 		(pts
@@ -1364,13 +1158,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 36.83) (xy 231.14 36.83)
+			(xy 149.86 44.45) (xy 149.86 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0be1e5-c8c3-4ef4-b01c-8337aa585fa4")
+	)
+	(wire
+		(pts
+			(xy 133.35 36.83) (xy 149.86 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82ed6d7e-7725-4b25-ac19-425cb6057594")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834a5a5b-85c3-4eba-b1a1-17a1483abfbd")
 	)
 	(wire
 		(pts
@@ -1384,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 96.52 72.39)
+			(xy 41.91 72.39) (xy 68.58 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1464,23 +1278,33 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 46.99) (xy 68.58 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eb6ad89-2319-4479-ba1a-24226e319cb0")
-	)
-	(wire
-		(pts
-			(xy 123.19 46.99) (xy 123.19 52.07)
+			(xy 123.19 44.45) (xy 123.19 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f410b8f-ca6b-44f6-b463-7158b34550dc")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 96.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05ec580-7116-4682-9e1c-2aa04849289d")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10f18f2-b662-4e82-8923-d3c6a260e68e")
 	)
 	(wire
 		(pts
@@ -1491,6 +1315,16 @@
 			(type default)
 		)
 		(uuid "a67d5de6-414d-4ade-a967-257612fe2387")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a955d3db-f4c9-41f4-9493-448470c6dad7")
 	)
 	(wire
 		(pts
@@ -1544,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 82.55) (xy 96.52 87.63)
+			(xy 96.52 80.01) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1561,16 +1395,6 @@
 			(type default)
 		)
 		(uuid "bc668a47-6870-47e6-9386-af47f59483a0")
-	)
-	(wire
-		(pts
-			(xy 204.47 72.39) (xy 231.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc685d4-1371-4548-853c-953de3e74918")
 	)
 	(wire
 		(pts
@@ -1654,13 +1478,33 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 82.55) (xy 68.58 87.63)
+			(xy 149.86 36.83) (xy 176.53 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d482672f-dd7b-4cc1-8af6-8ee86a79950a")
+		(uuid "cba8d87a-c900-42f3-8257-4c7dc4bbfa7a")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfda8b9f-0609-4371-a330-63e888fae120")
+	)
+	(wire
+		(pts
+			(xy 231.14 80.01) (xy 231.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4739fa7-0465-4718-bffc-cbc7f8f25fa9")
 	)
 	(wire
 		(pts
@@ -1674,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 176.53 52.07)
+			(xy 176.53 44.45) (xy 176.53 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1684,33 +1528,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 176.53 72.39)
+			(xy 133.35 72.39) (xy 149.86 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dee4a5e2-88c8-4b43-842b-4a77dba0c72a")
-	)
-	(wire
-		(pts
-			(xy 231.14 82.55) (xy 231.14 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e324e688-20a0-4673-a3ad-258346ee57db")
-	)
-	(wire
-		(pts
-			(xy 41.91 82.55) (xy 41.91 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ae63a7-d915-419d-a611-4d94a0250cf9")
 	)
 	(wire
 		(pts
@@ -1754,33 +1578,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 149.86 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebdcc3f5-a6bb-4e69-864d-d7f9188b6850")
-	)
-	(wire
-		(pts
-			(xy 123.19 82.55) (xy 123.19 87.63)
+			(xy 123.19 80.01) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ecdbeaea-c591-4d40-86cd-20a4ae9e065c")
-	)
-	(wire
-		(pts
-			(xy 176.53 72.39) (xy 204.47 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edbec66e-806c-4e56-b995-b9cc10b7fecc")
 	)
 	(wire
 		(pts
@@ -1794,7 +1598,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 36.83) (xy 123.19 36.83)
+			(xy 231.14 36.83) (xy 232.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0adf0f7-0002-49ba-afbc-874b1260cb9e")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 68.58 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1824,17 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 72.39) (xy 133.35 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fce4c6ee-bd36-4701-9b1f-2bdc2a0d8236")
-	)
-	(wire
-		(pts
-			(xy 204.47 82.55) (xy 204.47 87.63)
+			(xy 204.47 80.01) (xy 204.47 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 99.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2403,9 +2207,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 228.6 77.47 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 176.53 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2414,9 +2217,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0767a969-89b6-48df-becc-726d6175df0e")
-		(property "Reference" "Q1223"
-			(at 234.95 76.1999 0)
+		(uuid "0582702c-ea21-42b3-a6ba-c8cbfbbfb9a4")
+		(property "Reference" "R6"
+			(at 179.07 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2426,8 +2229,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 234.95 78.7399 0)
+		(property "Value" "10kR"
+			(at 179.07 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2437,8 +2240,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.752 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2448,8 +2251,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 228.6 64.77 0)
+		(property "Datasheet" ""
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,41 +2262,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 228.6 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 228.6 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 228.6 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 228.6 62.23 0)
+		(property "Description" "Resistor"
+			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,24 +2274,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "a2d0bfb1-43d7-44fd-a347-017c2a2c8ee4")
+			(uuid "4e57bcad-19be-4167-8d56-dc084cea4017")
 		)
 		(pin "1"
-			(uuid "84193884-269d-4e4d-969f-9f5ea4a066f8")
-		)
-		(pin "3"
-			(uuid "d268957a-aef2-47ec-9a37-22cfcf1a2992")
+			(uuid "fb9a64d6-29d6-40f5-80f9-5af26d832752")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1223")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1223")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2612,131 +2379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 147.32 77.47 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "129b7d58-6ff4-4ee0-b837-5d548e94c4c0")
-		(property "Reference" "Q1211"
-			(at 153.67 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 153.67 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 147.32 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 147.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 147.32 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 147.32 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 147.32 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "74c10466-5335-4707-b6f1-099b43f1acfb")
-		)
-		(pin "1"
-			(uuid "ee075c40-26fd-4133-9966-8f28d691a6df")
-		)
-		(pin "3"
-			(uuid "a398f899-c46e-44ea-8fa7-ae288805d5d6")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1211")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 97.79 0)
 		(unit 1)
@@ -2815,6 +2457,94 @@
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "145f48bd-b10f-4e24-b9be-65f0d34a9f57")
+		(property "Reference" "R10"
+			(at 71.12 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 71.12 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.802 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "96332930-6a78-4b02-83ef-1c50c0be782f")
+		)
+		(pin "1"
+			(uuid "a7c7dbb6-d7f7-47e7-ab80-e66a03f1041f")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2905,9 +2635,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 228.6 41.91 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 68.58 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2916,9 +2645,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1c4dd118-49b4-491a-afb3-5dff6f2c7587")
-		(property "Reference" "Q1221"
-			(at 234.95 40.6399 0)
+		(uuid "1abd56fe-3dd4-495c-acd4-320ca63b0a7d")
+		(property "Reference" "R2"
+			(at 71.12 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2928,8 +2657,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 234.95 43.1799 0)
+		(property "Value" "10kR"
+			(at 71.12 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,8 +2668,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.802 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,8 +2679,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 228.6 29.21 0)
+		(property "Datasheet" ""
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,41 +2690,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 228.6 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 228.6 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 228.6 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 228.6 26.67 0)
+		(property "Description" "Resistor"
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,24 +2702,109 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d22cfe3-a2bb-4e41-851c-13a95061989a")
+			(uuid "58ec620c-b2ee-4afc-9bea-d47ad8c6baca")
 		)
 		(pin "1"
-			(uuid "c7456b70-cf3d-44de-a011-288e730cfe7b")
-		)
-		(pin "3"
-			(uuid "6635e735-8b6a-41f3-aba6-67537ed2a000")
+			(uuid "2a96b73b-d1d8-43b9-b1fe-51810bbd8f5f")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1221")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1207")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4f0698-d328-48ff-88c0-4499aec7846c")
+		(property "Reference" "R15"
+			(at 207.01 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 207.01 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 202.692 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1541f7ae-1e14-4bca-a808-fd70348bb5a4")
+		)
+		(pin "1"
+			(uuid "8954f466-2cde-45c0-9a9d-3cc0c0006359")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3063,7 +2844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 233.68 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3187,7 +2968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 44.45 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3311,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3402,9 +3183,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 93.98 77.47 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 123.19 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3413,9 +3193,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ac90d9a-d4b8-44c0-8c87-7262797e8ea1")
-		(property "Reference" "Q1203"
-			(at 100.33 76.1999 0)
+		(uuid "28d15f83-c3d6-4616-8be9-12a88ca82523")
+		(property "Reference" "R12"
+			(at 125.73 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3425,8 +3205,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 100.33 78.7399 0)
+		(property "Value" "10kR"
+			(at 125.73 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3436,8 +3216,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 99.06 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.412 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,8 +3227,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 93.98 64.77 0)
+		(property "Datasheet" ""
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3458,41 +3238,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 93.98 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 93.98 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 93.98 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 93.98 62.23 0)
+		(property "Description" "Resistor"
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,24 +3250,109 @@
 			)
 		)
 		(pin "2"
-			(uuid "306301c3-36c1-4137-8d63-638dcc748d07")
+			(uuid "47b7ab35-f9c3-4e2f-8b8f-0aab5df70ce1")
 		)
 		(pin "1"
-			(uuid "aee68d60-9bc9-46ed-8bec-1957da4dd404")
-		)
-		(pin "3"
-			(uuid "73cd7e68-6429-4e87-8ddb-e7da086a81e8")
+			(uuid "2412a2e0-054a-4582-97ba-3be479f9c781")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1203")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1213")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db15f0d-e7c5-41af-8f43-f4f020b1b06e")
+		(property "Reference" "R7"
+			(at 207.01 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 207.01 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 202.692 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b22365aa-1a28-4ff6-86ed-06d9f4b42ee4")
+		)
+		(pin "1"
+			(uuid "1a957afe-c2e4-4b08-a725-6e64b9784b5a")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3728,7 +3560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 152.4 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3852,7 +3684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3943,9 +3775,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 173.99 77.47 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 41.91 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3954,9 +3785,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ec2184e-dfac-4357-bed8-8f577e4987a4")
-		(property "Reference" "Q1215"
-			(at 180.34 76.1999 0)
+		(uuid "4197d142-9c10-4b96-a7cf-125bb20106da")
+		(property "Reference" "R9"
+			(at 44.45 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,8 +3797,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 180.34 78.7399 0)
+		(property "Value" "10kR"
+			(at 44.45 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3977,8 +3808,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.132 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,8 +3819,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 173.99 64.77 0)
+		(property "Datasheet" ""
+			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,41 +3830,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 173.99 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 173.99 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 173.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 173.99 62.23 0)
+		(property "Description" "Resistor"
+			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,24 +3842,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6b8bcab-2828-4053-b2b0-95466b137d3d")
+			(uuid "8310fc0e-f309-4f40-97c4-0a476ff4ad8a")
 		)
 		(pin "1"
-			(uuid "8af41d70-caeb-4216-84ec-b27f9840e0b1")
-		)
-		(pin "3"
-			(uuid "f564c546-0f97-4cda-ae3a-e4b93d7c3fdf")
+			(uuid "7efb19e2-6306-45d8-a588-2027041aa6b2")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1215")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1219")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4185,7 +3980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 179.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4276,381 +4071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 201.93 77.47 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "544072c7-e05e-4c0c-8879-788ba36a0084")
-		(property "Reference" "Q1219"
-			(at 208.28 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 208.28 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 201.93 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 201.93 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 201.93 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d24d43f-7b28-45ac-affa-22cca1b2d3ba")
-		)
-		(pin "1"
-			(uuid "1996950b-216f-4886-8830-42c4339c2015")
-		)
-		(pin "3"
-			(uuid "378444a1-07ce-4b78-8b9c-6565dbfa937f")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1219")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 93.98 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "584a4a9c-245a-4e36-9392-c90c9b72fb6c")
-		(property "Reference" "Q1201"
-			(at 100.33 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 100.33 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 99.06 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 93.98 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 93.98 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 93.98 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 93.98 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eae0f103-b42e-4366-b938-d95fa75532d9")
-		)
-		(pin "1"
-			(uuid "bc80fca7-1660-47d8-84af-aac7797d0888")
-		)
-		(pin "3"
-			(uuid "2a9a99c7-96d1-4c76-83ad-573ffccc92f9")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1201")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1197")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 201.93 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59410790-d8cc-4256-aa7a-492a3b59c1df")
-		(property "Reference" "Q1217"
-			(at 208.28 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 208.28 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 201.93 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 201.93 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dc56bde8-2e54-4b60-b1f3-42208369b80c")
-		)
-		(pin "1"
-			(uuid "ceb2baea-3ae8-4145-93a0-ca319b4761d6")
-		)
-		(pin "3"
-			(uuid "49d1d09f-5066-4ecf-ba17-504b33652591")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1217")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 62.23 0)
 		(unit 1)
@@ -4729,131 +4149,6 @@
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 120.65 77.47 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6198a667-146c-419d-8a33-0bc2afd29b98")
-		(property "Reference" "Q1207"
-			(at 127 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 127 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 125.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 120.65 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 120.65 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 120.65 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 120.65 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 120.65 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7f58f652-3b1f-417b-a510-3ea0d27a387c")
-		)
-		(pin "1"
-			(uuid "0d6f44ef-4c55-446f-8c97-54fa905f7f10")
-		)
-		(pin "3"
-			(uuid "a3ba0364-6ac7-4bca-919d-72d7632edba7")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1207")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1215")
 					(unit 1)
 				)
 			)
@@ -5028,9 +4323,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 66.04 77.47 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 176.53 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5039,9 +4333,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71121bb9-3424-4823-bc36-cb60a128b0f7")
-		(property "Reference" "Q1199"
-			(at 72.39 76.1999 0)
+		(uuid "752d508a-2d37-41c8-8b92-f2e64443c59b")
+		(property "Reference" "R14"
+			(at 179.07 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5051,8 +4345,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 72.39 78.7399 0)
+		(property "Value" "10kR"
+			(at 179.07 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5062,8 +4356,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 71.12 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.752 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,8 +4367,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 66.04 64.77 0)
+		(property "Datasheet" ""
+			(at 176.53 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,41 +4378,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 66.04 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 66.04 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 66.04 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 66.04 62.23 0)
+		(property "Description" "Resistor"
+			(at 176.53 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,399 +4390,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "25c33196-b1af-4474-ad99-e4e99719688e")
+			(uuid "46872d04-117d-48cd-a0ac-3a81b9c9f08c")
 		)
 		(pin "1"
-			(uuid "dafc5043-fade-41e4-a4bf-5c4c07dcf336")
-		)
-		(pin "3"
-			(uuid "39c376e3-a6ad-402d-a29e-678361f1a92a")
+			(uuid "926ed130-1343-4666-99fa-76d6d73d5cea")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1199")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 147.32 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c1e2ba0-3ae9-4ce0-8865-efc860286b03")
-		(property "Reference" "Q1209"
-			(at 153.67 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 153.67 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 147.32 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 147.32 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 147.32 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 147.32 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 147.32 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e03a7c9e-1073-4c6f-987f-645b26e96c00")
-		)
-		(pin "1"
-			(uuid "e5131396-9d33-4997-9b41-04412a37555d")
-		)
-		(pin "3"
-			(uuid "4f5f70e9-875e-46dc-8229-6ab5e9ea9ab1")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1209")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 66.04 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c93beed-80ae-4ebe-a103-974ed795690b")
-		(property "Reference" "Q1197"
-			(at 72.39 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 72.39 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 71.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 66.04 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 66.04 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 66.04 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 66.04 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7561e746-7352-4217-9f81-b1d1134f1ad5")
-		)
-		(pin "1"
-			(uuid "1f94fc41-039a-4f69-a542-00849d44f57c")
-		)
-		(pin "3"
-			(uuid "a819ea4e-5702-4ffc-b381-dcf462e0b114")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1197")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 39.37 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a4d414-1a33-4b63-9a5a-d873409bebb4")
-		(property "Reference" "Q1193"
-			(at 45.72 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 45.72 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 44.45 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 39.37 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 39.37 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 39.37 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 39.37 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 39.37 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e40a39a2-e52e-4021-8029-3271fc2e653d")
-		)
-		(pin "1"
-			(uuid "70d343ed-db2c-449e-af37-e92eadab9152")
-		)
-		(pin "3"
-			(uuid "91a95ced-5251-4a38-880b-d5fa8f74105a")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1193")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1193")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5612,6 +4495,270 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 123.19 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89751a53-efcf-4a03-b57c-1a2a66bcb4c3")
+		(property "Reference" "R4"
+			(at 125.73 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 125.73 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.412 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "304e65cd-3b36-4d1c-8537-3b9273cec149")
+		)
+		(pin "1"
+			(uuid "e2321ba3-6c26-4e5c-b2d4-1db744917521")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b29d272-c18a-47d8-89dc-007869f1a663")
+		(property "Reference" "R8"
+			(at 233.68 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 233.68 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.362 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e90025aa-f6ae-4ccf-a99b-46de3b659384")
+		)
+		(pin "1"
+			(uuid "e2551869-37e5-47e4-a9ed-5d29878817f8")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dde0de1-0800-4c46-897a-beef6e8af6da")
+		(property "Reference" "R3"
+			(at 99.06 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 99.06 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 94.742 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "645a6e0e-021d-4ecf-b32e-671eb935e61c")
+		)
+		(pin "1"
+			(uuid "ec3075de-09f0-4604-abdf-2d2191464324")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 147.32 92.71 0)
 		(unit 1)
@@ -5645,7 +4792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 152.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5769,7 +4916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5893,7 +5040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 125.73 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5984,131 +5131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 173.99 41.91 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8b0de28-f0c4-49f6-88b3-30d3ac8b504c")
-		(property "Reference" "Q1213"
-			(at 180.34 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 180.34 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 173.99 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 173.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 173.99 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 173.99 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 173.99 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7223b1cb-2a10-4295-b4eb-644353aa3a98")
-		)
-		(pin "1"
-			(uuid "b9ce7928-f922-4e42-b7a1-7f56da728ad7")
-		)
-		(pin "3"
-			(uuid "42e9e070-1000-4477-92d1-5b417e41e3ff")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1213")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 201.93 57.15 0)
 		(unit 1)
@@ -6142,7 +5164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 207.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6227,131 +5249,6 @@
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 39.37 77.47 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeff3233-c1ce-42c5-a748-5d86ed199168")
-		(property "Reference" "Q1195"
-			(at 45.72 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 45.72 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 44.45 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 39.37 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 39.37 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 39.37 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 39.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 39.37 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47c99855-4a0d-4c3f-a1ec-c3c133942c23")
-		)
-		(pin "1"
-			(uuid "c9215100-78bf-47a6-8388-33d854e97833")
-		)
-		(pin "3"
-			(uuid "ee485f20-f569-46ec-bb5e-0ef7a6ffd82c")
-		)
-		(instances
-			(project "sramBoard"
-				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1195")
-					(unit 1)
-				)
-			)
-			(project "LOGIC_TO_WL_LEVEL_SHIFT"
-				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1209")
 					(unit 1)
 				)
 			)
@@ -6475,7 +5372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 233.68 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6560,6 +5457,94 @@
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "Q1224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b371c2-c384-4ed3-b4a0-cbe8427bc40d")
+		(property "Reference" "R1"
+			(at 44.45 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 44.45 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.132 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cdef94d-4a20-49c4-9807-8fc944a6202e")
+		)
+		(pin "1"
+			(uuid "4e61f9e1-7582-4ebb-bd91-1d4cfa2c793f")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6734,6 +5719,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 149.86 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3a0838-27bb-4491-b25c-005732fd5ad6")
+		(property "Reference" "R5"
+			(at 152.4 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 152.4 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.082 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ca6f19c4-65be-4628-a4d4-36d65048dc5f")
+		)
+		(pin "1"
+			(uuid "cf334b42-2704-46eb-87e2-cc1833db9a71")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 201.93 92.71 0)
 		(unit 1)
@@ -6767,7 +5840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 207.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6942,6 +6015,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 96.52 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d36cbee3-1e62-41dd-a44a-7296d57474c2")
+		(property "Reference" "R11"
+			(at 99.06 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 99.06 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 94.742 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b2c39b8-23f3-407d-ab0d-75bab73e568f")
+		)
+		(pin "1"
+			(uuid "da7bad2b-fa41-4ad9-92bc-c8651e3fc441")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 39.37 57.15 0)
 		(unit 1)
@@ -6975,7 +6136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 44.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 71.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7274,6 +6435,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 231.14 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddbd8b16-5c42-411f-8ee7-a4b724288c4c")
+		(property "Reference" "R16"
+			(at 233.68 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 233.68 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.362 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbfdb247-60c9-4c11-820f-ba43d2014df3")
+		)
+		(pin "1"
+			(uuid "1513bbef-4e7a-4218-ac08-ce401d8f1fe2")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 231.14 97.79 0)
 		(unit 1)
@@ -7358,9 +6607,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 120.65 41.91 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 149.86 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7369,9 +6617,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea2c7706-b4e6-483b-b8b3-e6b73d9e2b8a")
-		(property "Reference" "Q1205"
-			(at 127 40.6399 0)
+		(uuid "f3f15561-3706-4296-950c-c0087966871e")
+		(property "Reference" "R13"
+			(at 152.4 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,8 +6629,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 127 43.1799 0)
+		(property "Value" "10kR"
+			(at 152.4 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7392,8 +6640,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 125.73 44.45 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.082 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,8 +6651,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 120.65 29.21 0)
+		(property "Datasheet" ""
+			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,41 +6662,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 120.65 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 120.65 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 120.65 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 120.65 26.67 0)
+		(property "Description" "Resistor"
+			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,24 +6674,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "774bf4dd-4c3b-4cdb-816b-31fe469bd743")
+			(uuid "91740483-ce75-4518-9212-2beabe1c7687")
 		)
 		(pin "1"
-			(uuid "31969e85-e61d-4166-84c4-d2c1f77d6e1d")
-		)
-		(pin "3"
-			(uuid "9ec029ba-c2bf-4716-8968-0353a6efc879")
+			(uuid "4adc9a71-c9f4-445e-842b-c4b466a1020e")
 		)
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1205")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
-					(reference "Q1199")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7516,7 +6728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 99.06 54.61 0)
 			(hide yes)
 			(show_name no)

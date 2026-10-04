@@ -1330,7 +1330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1580,7 +1580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1831,7 +1831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2081,7 +2081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3002,7 +3002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3253,7 +3253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 88.9 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3504,7 +3504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 109.22 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3754,7 +3754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 69.85 55.88 0)
 			(hide yes)
 			(show_name no)
