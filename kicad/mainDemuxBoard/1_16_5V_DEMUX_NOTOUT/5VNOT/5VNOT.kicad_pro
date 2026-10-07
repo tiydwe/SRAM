@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mainDemuxBoard.kicad_pro",
+    "filename": "5VNOT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -526,7 +526,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -623,14 +622,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -644,108 +643,15 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "mainDemuxBoard.kicad_sch",
-        "name": "Root",
-        "uuid": "f888c822-9b6b-4788-a884-52437644ebdc"
+        "filename": "5VNOT.kicad_sch",
+        "name": "5VNOT",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "J1-17,R1-16,#PWR1-108,Q1-184",
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "f888c822-9b6b-4788-a884-52437644ebdc",
-      "Root"
-    ],
-    [
-      "1a45d35c-9d3b-4677-823d-3f805a376771",
-      "1_16_5V_DEMUX_NOTOUT"
-    ],
-    [
-      "2e151ebf-7913-49eb-83f7-10f1b73fc84d",
-      "5VNOT1"
-    ],
-    [
-      "40364bbe-d9b2-4f0d-a83e-984d8754432c",
-      "5VNOT2"
-    ],
-    [
-      "afd2047a-5605-416e-9801-fddbd3089131",
-      "5VNOT3"
-    ],
-    [
-      "26f0fc5f-c7cc-4917-905b-7d5d20a490c8",
-      "5V_5NAND"
-    ],
-    [
-      "ce2ea598-e429-4d38-aa7d-4e5f8e5963e2",
-      "5V_5NAND8"
-    ],
-    [
-      "73400315-9a9b-482c-89f2-3dc05eddf230",
-      "5V_5NAND1"
-    ],
-    [
-      "d916ecc5-9d3c-47bc-9f14-309ae314b1ef",
-      "5V_5NAND9"
-    ],
-    [
-      "0cf35835-4f43-4f49-83f0-8bc61e27d2c6",
-      "5V_5NAND2"
-    ],
-    [
-      "1676bd35-adc0-4874-a7f6-b70bbd103e35",
-      "5V_5NAND10"
-    ],
-    [
-      "af6dac8e-cbf1-40c9-a8b1-d2993a8349c8",
-      "5V_5NAND3"
-    ],
-    [
-      "5670ff8e-a062-4fcb-a569-136066aead2d",
-      "5V_5NAND11"
-    ],
-    [
-      "5bcb3992-c452-4a11-8be8-1bad9b347916",
-      "5V_5NAND4"
-    ],
-    [
-      "f9e1110c-5985-48d3-9125-5456e73e29d6",
-      "5V_5NAND12"
-    ],
-    [
-      "bea89456-5e56-4436-8de4-f0968e71580c",
-      "5V_5NAND5"
-    ],
-    [
-      "8d8bddb8-7e57-4c39-9d5b-e5dc54e8ecce",
-      "5V_5NAND13"
-    ],
-    [
-      "00a5238f-a54e-4948-8b28-7676fff079b4",
-      "5V_5NAND6"
-    ],
-    [
-      "51cefb6d-daac-49d6-93d0-5f1607581d0b",
-      "5V_5NAND14"
-    ],
-    [
-      "197ed47d-8726-46d7-a907-c292257605d7",
-      "5V_5NAND7"
-    ],
-    [
-      "b152f43e-4bcf-468f-9875-026c814ffa29",
-      "5V_5NAND15"
-    ],
-    [
-      "2eaa3f80-bc8f-4d68-8197-aec1d21f5248",
-      "16_NOT"
-    ],
-    [
-      "0600d891-ccd3-4602-9849-fea3d7e045ca",
-      "5VNOT"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

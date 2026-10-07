@@ -1,0 +1,1604 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cabc387a-6207-4601-83a6-292a0d885e49")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 116.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215e6041-08a0-4d93-849e-50ae267b64ce")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6d20f1-4add-4d8b-acef-5b7a25ccc418")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65b38c5-d2e7-4992-b950-db92ba6da7a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 54.61) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62dcc61-62ca-4755-9101-bef48575f62d")
+	)
+	(hierarchical_label "Y"
+		(shape input)
+		(at 116.84 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "026d25b7-fb17-4227-b5cc-4e63f8a59fa0")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 104.14 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5588c622-cfa4-4b3d-b57a-b535d34d3955")
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 114.3 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44072478-ffc9-45e0-beca-3f7b1ca7dc52")
+		(property "Reference" "Q2"
+			(at 120.65 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 120.65 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
+			(at 119.38 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 114.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 114.3 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 114.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49308282"
+			(at 114.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f9a09f3-b9e7-4f1f-993c-f09d67220bec")
+		)
+		(pin "1"
+			(uuid "b1025f4e-8b4a-41c3-9208-1283a7efb7c3")
+		)
+		(pin "3"
+			(uuid "76654115-2b27-4d86-8eea-cd77501d2105")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q1160")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q1158")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q1154")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q1156")
+					(unit 1)
+				)
+			)
+			(project "1_16_5V_DEMUX_NOTOUT"
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+			(project "mainDemuxBoard"
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70593321-550b-45b3-acac-0732506d9aa7")
+		(property "Reference" "#PWR052"
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85c48090-72fe-4af5-968c-216c724f302d")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR0522")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR0520")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR0516")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR0518")
+					(unit 1)
+				)
+			)
+			(project "1_16_5V_DEMUX_NOTOUT"
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "mainDemuxBoard"
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 114.3 54.61 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b1769c-48dd-4f10-be22-1f6be0806d38")
+		(property "Reference" "Q1"
+			(at 120.65 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 120.65 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
+			(at 119.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 114.3 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 114.3 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 114.3 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C41384537"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e788bf09-4fbf-44e3-8243-28e8494091fb")
+		)
+		(pin "1"
+			(uuid "609c7018-19fc-4409-b1bf-2bc9ec9bf93e")
+		)
+		(pin "3"
+			(uuid "cd0b1a24-99bf-4b91-a5b5-7efe7c3762e2")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q1159")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q1157")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q1153")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q1155")
+					(unit 1)
+				)
+			)
+			(project "1_16_5V_DEMUX_NOTOUT"
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+			(project "mainDemuxBoard"
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f98ddd-4758-4f59-9f7b-9f437f7814c5")
+		(property "Reference" "#PWR053"
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4278eba0-841c-4bc6-8dd6-16e7923b1b4a")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR0523")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR0521")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR0517")
+					(unit 1)
+				)
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR0519")
+					(unit 1)
+				)
+			)
+			(project "1_16_5V_DEMUX_NOTOUT"
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/64c295c1-a690-461e-ae3b-f66cfdb6e72a/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "mainDemuxBoard"
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/0600d891-ccd3-4602-9849-fea3d7e045ca"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/40364bbe-d9b2-4f0d-a83e-984d8754432c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/f888c822-9b6b-4788-a884-52437644ebdc/1a45d35c-9d3b-4677-823d-3f805a376771/afd2047a-5605-416e-9801-fddbd3089131"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

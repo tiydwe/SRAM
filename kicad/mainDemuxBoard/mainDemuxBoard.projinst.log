@@ -1,0 +1,206 @@
+Plugin v0.0.1 running on KiCad 10.0.6 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Valid Board found for C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\mainDemuxBoard.kicad_sch
+2 sheet instances entries in C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\mainDemuxBoard.kicad_sch
+Valid Board found for C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\1_16_5V_DEMUX_NOTOUT\1_16_5V_DEMUX_NOTOUT.kicad_sch
+Valid Board found for C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\16_NOT\16_NOT.kicad_sch
+Anchor changed to Q104
+Anchor changed to Q1222
+Enabled leaf: 1a45d35c-9d3b-4677-823d-3f805a376771
+Enabled leaf: 2eaa3f80-bc8f-4d68-8197-aec1d21f5248
+Root item: <wx._dataview.TreeListItem object at 0x00000225E57744C0>
+Valid board for 1a45d35c-9d3b-4677-823d-3f805a376771
+Valid child board for 
+Instance is a branch: Root
+Valid board for 1a45d35c-9d3b-4677-823d-3f805a376771
+Instance is a leaf: /1a45d35c-9d3b-4677-823d-3f805a376771
+Valid board for 2eaa3f80-bc8f-4d68-8197-aec1d21f5248
+Instance is a leaf: /2eaa3f80-bc8f-4d68-8197-aec1d21f5248
+Saving info for 1a45d35c-9d3b-4677-823d-3f805a376771
+Saving info for 2eaa3f80-bc8f-4d68-8197-aec1d21f5248
+Saving anchor Q104 for C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\1_16_5V_DEMUX_NOTOUT\1_16_5V_DEMUX_NOTOUT.kicad_sch
+Saving anchor Q1222 for C:\Users\1068036\hackclubprojects\SRAM\kicad\mainDemuxBoard\16_NOT\16_NOT.kicad_sch
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Number of footprint fields dont match
+Saved.

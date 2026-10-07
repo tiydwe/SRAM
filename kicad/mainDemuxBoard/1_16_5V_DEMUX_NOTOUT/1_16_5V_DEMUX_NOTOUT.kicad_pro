@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mainDemuxBoard.kicad_pro",
+    "filename": "1_16_5V_DEMUX_NOTOUT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -526,7 +526,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -623,14 +622,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -644,22 +643,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "mainDemuxBoard.kicad_sch",
-        "name": "Root",
-        "uuid": "f888c822-9b6b-4788-a884-52437644ebdc"
+        "filename": "1_16_5V_DEMUX_NOTOUT.kicad_sch",
+        "name": "1_16_5V_DEMUX_NOTOUT",
+        "uuid": "64c295c1-a690-461e-ae3b-f66cfdb6e72a"
       }
     ],
-    "used_designators": "J1-17,R1-16,#PWR1-108,Q1-184",
+    "used_designators": "#PWR1-40,Q1-168",
     "variants": []
   },
   "sheets": [
     [
-      "f888c822-9b6b-4788-a884-52437644ebdc",
-      "Root"
+      "64c295c1-a690-461e-ae3b-f66cfdb6e72a",
+      "1_16_5V_DEMUX_NOTOUT"
     ],
     [
-      "1a45d35c-9d3b-4677-823d-3f805a376771",
-      "1_16_5V_DEMUX_NOTOUT"
+      "0600d891-ccd3-4602-9849-fea3d7e045ca",
+      "5VNOT"
     ],
     [
       "2e151ebf-7913-49eb-83f7-10f1b73fc84d",
@@ -736,14 +735,6 @@
     [
       "b152f43e-4bcf-468f-9875-026c814ffa29",
       "5V_5NAND15"
-    ],
-    [
-      "2eaa3f80-bc8f-4d68-8197-aec1d21f5248",
-      "16_NOT"
-    ],
-    [
-      "0600d891-ccd3-4602-9849-fea3d7e045ca",
-      "5VNOT"
     ]
   ],
   "text_variables": {},
