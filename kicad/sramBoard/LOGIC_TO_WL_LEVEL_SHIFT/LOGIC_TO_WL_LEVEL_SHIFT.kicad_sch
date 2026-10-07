@@ -2010,7 +2010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d8a0c8-5e9b-4433-ad3a-d1ba8eeb5bb5")
-		(property "Reference" "Q1198"
+		(property "Reference" "Q1326"
 			(at 100.33 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2098,6 +2098,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 93.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d1525187-e9e5-4e17-89b6-f9b394a73855")
 		)
@@ -2110,7 +2121,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1198")
+					(reference "Q1326")
 					(unit 1)
 				)
 			)
@@ -2134,7 +2145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031a2a58-70fc-407f-ab9f-a2464a0f610f")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0558"
 			(at 68.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2194,7 +2205,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0302")
+					(reference "#PWR0558")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0582702c-ea21-42b3-a6ba-c8cbfbbfb9a4")
-		(property "Reference" "R139"
+		(property "Reference" "R267"
 			(at 179.07 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,6 +2284,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 176.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e57bcad-19be-4167-8d56-dc084cea4017")
 		)
@@ -2282,7 +2304,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R139")
+					(reference "R267")
 					(unit 1)
 				)
 			)
@@ -2306,7 +2328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f57e4c-caba-4139-b17d-294b0a13c29f")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0570"
 			(at 204.47 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2366,7 +2388,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0314")
+					(reference "#PWR0570")
 					(unit 1)
 				)
 			)
@@ -2390,7 +2412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d1eb8a-9cf0-45c6-91c7-2da014fd07e2")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0568"
 			(at 176.53 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2450,7 +2472,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0312")
+					(reference "#PWR0568")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145f48bd-b10f-4e24-b9be-65f0d34a9f57")
-		(property "Reference" "R132"
+		(property "Reference" "R260"
 			(at 71.12 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2529,6 +2551,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 68.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96332930-6a78-4b02-83ef-1c50c0be782f")
 		)
@@ -2538,7 +2571,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R132")
+					(reference "R260")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1791f967-c4c7-425e-be55-a25ecff89beb")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0564"
 			(at 133.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2622,7 +2655,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0308")
+					(reference "#PWR0564")
 					(unit 1)
 				)
 			)
@@ -2646,7 +2679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1abd56fe-3dd4-495c-acd4-320ca63b0a7d")
-		(property "Reference" "R131"
+		(property "Reference" "R259"
 			(at 71.12 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,6 +2734,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 68.58 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58ec620c-b2ee-4afc-9bea-d47ad8c6baca")
 		)
@@ -2710,7 +2754,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R131")
+					(reference "R259")
 					(unit 1)
 				)
 			)
@@ -2734,7 +2778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4f0698-d328-48ff-88c0-4499aec7846c")
-		(property "Reference" "R142"
+		(property "Reference" "R270"
 			(at 207.01 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,6 +2833,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 204.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1541f7ae-1e14-4bca-a808-fd70348bb5a4")
 		)
@@ -2798,7 +2853,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R142")
+					(reference "R270")
 					(unit 1)
 				)
 			)
@@ -2822,7 +2877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d2bfd47-96d2-4f1d-aed1-f20a1167344e")
-		(property "Reference" "Q1207"
+		(property "Reference" "Q1335"
 			(at 234.95 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,6 +2965,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 228.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ef5d2c6d-8e87-4e42-8412-896395938592")
 		)
@@ -2922,7 +2988,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1207")
+					(reference "Q1335")
 					(unit 1)
 				)
 			)
@@ -2946,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd29b43-f26e-4e1c-b908-27a49fa2d26e")
-		(property "Reference" "Q1194"
+		(property "Reference" "Q1322"
 			(at 45.72 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,6 +3100,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 39.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ce05c42-da5e-48a3-b10b-c91ac6126a0f")
 		)
@@ -3046,7 +3123,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1194")
+					(reference "Q1322")
 					(unit 1)
 				)
 			)
@@ -3070,7 +3147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1768d5-d209-41cd-9b4d-cc1d50d96d94")
-		(property "Reference" "Q1204"
+		(property "Reference" "Q1332"
 			(at 180.34 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3158,6 +3235,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 173.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4b7493b2-e81c-4490-8f8f-54cdff4f7fd5")
 		)
@@ -3170,7 +3258,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1204")
+					(reference "Q1332")
 					(unit 1)
 				)
 			)
@@ -3194,7 +3282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d15f83-c3d6-4616-8be9-12a88ca82523")
-		(property "Reference" "R136"
+		(property "Reference" "R264"
 			(at 125.73 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,6 +3337,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 123.19 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47b7ab35-f9c3-4e2f-8b8f-0aab5df70ce1")
 		)
@@ -3258,7 +3357,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R136")
+					(reference "R264")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db15f0d-e7c5-41af-8f43-f4f020b1b06e")
-		(property "Reference" "R141"
+		(property "Reference" "R269"
 			(at 207.01 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,6 +3436,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b22365aa-1a28-4ff6-86ed-06d9f4b42ee4")
 		)
@@ -3346,7 +3456,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R141")
+					(reference "R269")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a9ef23-0c25-4607-8abb-6335a552faa3")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0569"
 			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3430,7 +3540,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0313")
+					(reference "#PWR0569")
 					(unit 1)
 				)
 			)
@@ -3454,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32af1d82-d94b-4ef4-9011-efc85ddab89f")
-		(property "Reference" "#PWR0300"
+		(property "Reference" "#PWR0556"
 			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3514,7 +3624,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0300")
+					(reference "#PWR0556")
 					(unit 1)
 				)
 			)
@@ -3538,7 +3648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fe56ba-afe6-43bd-88d4-8cf8c3036163")
-		(property "Reference" "Q1201"
+		(property "Reference" "Q1329"
 			(at 153.67 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,6 +3736,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3449856c-c623-48be-8452-5a5547711b0e")
 		)
@@ -3638,7 +3759,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1201")
+					(reference "Q1329")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc22d8a-5042-4916-a879-29e07ea14de1")
-		(property "Reference" "Q1200"
+		(property "Reference" "Q1328"
 			(at 127 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,6 +3871,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d193fc0a-832a-490b-a840-752fcb8f23c8")
 		)
@@ -3762,7 +3894,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1200")
+					(reference "Q1328")
 					(unit 1)
 				)
 			)
@@ -3786,7 +3918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4197d142-9c10-4b96-a7cf-125bb20106da")
-		(property "Reference" "R130"
+		(property "Reference" "R258"
 			(at 44.45 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,6 +3973,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 41.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8310fc0e-f309-4f40-97c4-0a476ff4ad8a")
 		)
@@ -3850,7 +3993,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R130")
+					(reference "R258")
 					(unit 1)
 				)
 			)
@@ -3874,7 +4017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c505d3a-2349-4946-bb4f-b9aec82fb523")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0567"
 			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3934,7 +4077,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0311")
+					(reference "#PWR0567")
 					(unit 1)
 				)
 			)
@@ -3958,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d7be443-ee79-4541-82d6-815dace5c44a")
-		(property "Reference" "Q1203"
+		(property "Reference" "Q1331"
 			(at 180.34 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,6 +4189,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 173.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14ff5310-fbfa-43ab-a4cc-62bdb41e4e36")
 		)
@@ -4058,7 +4212,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1203")
+					(reference "Q1331")
 					(unit 1)
 				)
 			)
@@ -4082,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eafd817-4567-4ac1-b450-8f20f07642e3")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0560"
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4142,7 +4296,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0304")
+					(reference "#PWR0560")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fcb603-2797-4710-a74a-108a253034f9")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0565"
 			(at 149.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4226,7 +4380,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0309")
+					(reference "#PWR0565")
 					(unit 1)
 				)
 			)
@@ -4250,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63892bdb-9c60-42f7-8845-01f5f7e4ebad")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0561"
 			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4310,7 +4464,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0305")
+					(reference "#PWR0561")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "752d508a-2d37-41c8-8b92-f2e64443c59b")
-		(property "Reference" "R140"
+		(property "Reference" "R268"
 			(at 179.07 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,6 +4543,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 176.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46872d04-117d-48cd-a0ac-3a81b9c9f08c")
 		)
@@ -4398,7 +4563,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R140")
+					(reference "R268")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8845ce2b-5f51-434f-b549-710759f91898")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0559"
 			(at 68.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4482,7 +4647,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0303")
+					(reference "#PWR0559")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89751a53-efcf-4a03-b57c-1a2a66bcb4c3")
-		(property "Reference" "R135"
+		(property "Reference" "R263"
 			(at 125.73 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,6 +4726,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "304e65cd-3b36-4d1c-8537-3b9273cec149")
 		)
@@ -4570,7 +4746,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R135")
+					(reference "R263")
 					(unit 1)
 				)
 			)
@@ -4594,7 +4770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b29d272-c18a-47d8-89dc-007869f1a663")
-		(property "Reference" "R143"
+		(property "Reference" "R271"
 			(at 233.68 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,6 +4825,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 231.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e90025aa-f6ae-4ccf-a99b-46de3b659384")
 		)
@@ -4658,7 +4845,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R143")
+					(reference "R271")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dde0de1-0800-4c46-897a-beef6e8af6da")
-		(property "Reference" "R133"
+		(property "Reference" "R261"
 			(at 99.06 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,6 +4924,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 96.52 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "645a6e0e-021d-4ecf-b32e-671eb935e61c")
 		)
@@ -4746,7 +4944,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R133")
+					(reference "R261")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91599517-4389-4db0-ba68-b0d906f08905")
-		(property "Reference" "Q1202"
+		(property "Reference" "Q1330"
 			(at 153.67 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,6 +5056,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 147.32 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a2be6cc-a836-4bcc-98fe-68ab12f891fa")
 		)
@@ -4870,7 +5079,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1202")
+					(reference "Q1330")
 					(unit 1)
 				)
 			)
@@ -4894,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e209232-ced3-4cc5-9c7c-94bbc48780d9")
-		(property "Reference" "Q1195"
+		(property "Reference" "Q1323"
 			(at 72.39 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,6 +5191,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6922bb8d-b745-49e3-ba0f-e5da29781c26")
 		)
@@ -4994,7 +5214,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1195")
+					(reference "Q1323")
 					(unit 1)
 				)
 			)
@@ -5018,7 +5238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dc389d-b31f-4e90-95cf-a37c1df63c06")
-		(property "Reference" "Q1199"
+		(property "Reference" "Q1327"
 			(at 127 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,6 +5326,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "21b3a69b-f5a3-4280-b23d-798b33ca04b1")
 		)
@@ -5118,7 +5349,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1199")
+					(reference "Q1327")
 					(unit 1)
 				)
 			)
@@ -5142,7 +5373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9326f4f-fddb-4e2f-9368-b545bec6af6b")
-		(property "Reference" "Q1205"
+		(property "Reference" "Q1333"
 			(at 208.28 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,6 +5461,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 201.93 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da57198f-43d8-4d4a-8726-1f2783440638")
 		)
@@ -5242,7 +5484,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1205")
+					(reference "Q1333")
 					(unit 1)
 				)
 			)
@@ -5266,7 +5508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0db5360-2bd0-4fa5-9d76-494ff33a34c8")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0562"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5326,7 +5568,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0306")
+					(reference "#PWR0562")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4c5effa-8774-4d2c-a42a-d031dbd292dd")
-		(property "Reference" "Q1208"
+		(property "Reference" "Q1336"
 			(at 234.95 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,6 +5680,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 228.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c77aeb8-9be0-4ebe-a50e-e6b8b5987e44")
 		)
@@ -5450,7 +5703,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1208")
+					(reference "Q1336")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8b371c2-c384-4ed3-b4a0-cbe8427bc40d")
-		(property "Reference" "R129"
+		(property "Reference" "R257"
 			(at 44.45 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,6 +5782,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 41.91 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7cdef94d-4a20-49c4-9807-8fc944a6202e")
 		)
@@ -5538,7 +5802,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R129")
+					(reference "R257")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc730e9b-05b4-4d38-be14-efcbf8a0c75c")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0571"
 			(at 231.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5886,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0315")
+					(reference "#PWR0571")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc5ca3d-08e2-4d8d-af02-d4495592d931")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0566"
 			(at 149.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5706,7 +5970,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0310")
+					(reference "#PWR0566")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf3a0838-27bb-4491-b25c-005732fd5ad6")
-		(property "Reference" "R137"
+		(property "Reference" "R265"
 			(at 152.4 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,6 +6049,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 149.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ca6f19c4-65be-4628-a4d4-36d65048dc5f")
 		)
@@ -5794,7 +6069,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R137")
+					(reference "R265")
 					(unit 1)
 				)
 			)
@@ -5818,7 +6093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc170ff6-1674-4972-86f6-3af8f13d8e32")
-		(property "Reference" "Q1206"
+		(property "Reference" "Q1334"
 			(at 208.28 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,6 +6181,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 201.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "684a4594-2f3d-44a0-b206-9955b4399acb")
 		)
@@ -5918,7 +6204,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1206")
+					(reference "Q1334")
 					(unit 1)
 				)
 			)
@@ -5942,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce865ae7-c1a0-4815-a0af-b8b36c69e029")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0557"
 			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6002,7 +6288,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0301")
+					(reference "#PWR0557")
 					(unit 1)
 				)
 			)
@@ -6026,7 +6312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36cbee3-1e62-41dd-a44a-7296d57474c2")
-		(property "Reference" "R134"
+		(property "Reference" "R262"
 			(at 99.06 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,6 +6367,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 96.52 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b2c39b8-23f3-407d-ab0d-75bab73e568f")
 		)
@@ -6090,7 +6387,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R134")
+					(reference "R262")
 					(unit 1)
 				)
 			)
@@ -6114,7 +6411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8a1ae76-1f22-45cc-b452-6d54edbbc624")
-		(property "Reference" "Q1193"
+		(property "Reference" "Q1321"
 			(at 45.72 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,6 +6499,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 39.37 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ef2aefa-6270-4eec-8a91-8737b1bf10cf")
 		)
@@ -6214,7 +6522,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1193")
+					(reference "Q1321")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc81b02b-3ed8-4422-8465-9b7284d53852")
-		(property "Reference" "Q1196"
+		(property "Reference" "Q1324"
 			(at 72.39 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,6 +6634,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 66.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e76d36d5-7317-4cfd-aed6-1d3ab65e0cc4")
 		)
@@ -6338,7 +6657,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1196")
+					(reference "Q1324")
 					(unit 1)
 				)
 			)
@@ -6362,7 +6681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd17544b-e3c7-4474-9821-bd960deb5520")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0563"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6741,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0307")
+					(reference "#PWR0563")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddbd8b16-5c42-411f-8ee7-a4b724288c4c")
-		(property "Reference" "R144"
+		(property "Reference" "R272"
 			(at 233.68 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,6 +6820,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbfdb247-60c9-4c11-820f-ba43d2014df3")
 		)
@@ -6510,7 +6840,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R144")
+					(reference "R272")
 					(unit 1)
 				)
 			)
@@ -6534,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def70122-855f-4000-9c4e-fe9ad1d44693")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0572"
 			(at 231.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6594,7 +6924,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0316")
+					(reference "#PWR0572")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f15561-3706-4296-950c-c0087966871e")
-		(property "Reference" "R138"
+		(property "Reference" "R266"
 			(at 152.4 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,6 +7003,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54920960"
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91740483-ce75-4518-9212-2beabe1c7687")
 		)
@@ -6682,7 +7023,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "R138")
+					(reference "R266")
 					(unit 1)
 				)
 			)
@@ -6706,7 +7047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d80d69-9c6b-47a2-8c0f-2720ef9154c0")
-		(property "Reference" "Q1197"
+		(property "Reference" "Q1325"
 			(at 100.33 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,6 +7135,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 93.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91210918-ecdb-41f5-bfc1-45df0adac4a3")
 		)
@@ -6806,7 +7158,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "Q1197")
+					(reference "Q1325")
 					(unit 1)
 				)
 			)

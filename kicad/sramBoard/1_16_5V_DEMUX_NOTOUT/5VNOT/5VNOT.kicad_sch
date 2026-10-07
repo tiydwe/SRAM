@@ -1006,7 +1006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44072478-ffc9-45e0-beca-3f7b1ca7dc52")
-		(property "Reference" "Q1026"
+		(property "Reference" "Q1154"
 			(at 120.65 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,6 +1094,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C49308282"
+			(at 114.3 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f9a09f3-b9e7-4f1f-993c-f09d67220bec")
 		)
@@ -1106,19 +1117,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "Q1032")
+					(reference "Q1160")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "Q1030")
+					(reference "Q1158")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "Q1026")
+					(reference "Q1154")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "Q1028")
+					(reference "Q1156")
 					(unit 1)
 				)
 			)
@@ -1154,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70593321-550b-45b3-acac-0732506d9aa7")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0516"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1214,19 +1225,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "#PWR0266")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "#PWR0264")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "#PWR0260")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "#PWR0262")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b1769c-48dd-4f10-be22-1f6be0806d38")
-		(property "Reference" "Q1025"
+		(property "Reference" "Q1153"
 			(at 120.65 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1351,6 +1362,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C41384537"
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e788bf09-4fbf-44e3-8243-28e8494091fb")
 		)
@@ -1363,19 +1385,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "Q1031")
+					(reference "Q1159")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "Q1029")
+					(reference "Q1157")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "Q1025")
+					(reference "Q1153")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "Q1027")
+					(reference "Q1155")
 					(unit 1)
 				)
 			)
@@ -1411,7 +1433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ddd-4758-4f59-9f7b-9f437f7814c5")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0517"
 			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1471,19 +1493,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "#PWR0267")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "#PWR0265")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "#PWR0261")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "#PWR0263")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)

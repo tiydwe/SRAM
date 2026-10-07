@@ -42,6 +42,11 @@ M24 N012 N015 0 0 JTD2302B
 M25 N012 N015 0 0 JTD2302B
 M26 N012 N015 0 0 JTD2302B
 R3 N001 N014 47R
+M27 N001 N016 P003 P003 JTD2302B
+R7 P003 P004 220R
+D1 P004 0 D
+.model D D
+.lib C:\Users\jayde\AppData\Local\LTspice\lib\cmp\standard.dio
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\jayde\AppData\Local\LTspice\lib\cmp\standard.mos

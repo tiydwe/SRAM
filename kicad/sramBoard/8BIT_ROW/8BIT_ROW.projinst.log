@@ -11,7 +11,7 @@ Enabled leaf: ab807c65-b438-4e6c-9c9d-48e201d929f5
 Enabled leaf: dd73a9e8-4d37-4ad4-b8db-0474c8401732
 Enabled leaf: e211a87a-d1a4-448e-80a6-f4606708627d
 Enabled leaf: e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
-Root item: <wx._dataview.TreeListItem object at 0x00000142C1B7B910>
+Root item: <wx._dataview.TreeListItem object at 0x0000025ECA3C0790>
 Valid board for 060f00d6-f3a9-4a2c-99b5-870ee4ec36af
 Valid child board for 
 Instance is a branch: Root
@@ -40,4 +40,28 @@ Saving info for dd73a9e8-4d37-4ad4-b8db-0474c8401732
 Saving info for e211a87a-d1a4-448e-80a6-f4606708627d
 Saving info for e9b4e183-cbff-4c12-9d79-11e4c3ff4fd6
 Saving anchor Q1 for C:\Users\jayde\hackclubprojects\SRAM\kicad\sramBoard\8BIT_ROW\1BIT_CELL\1BIT_CELL.kicad_sch
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
+Number of footprint fields dont match
+Field not found by name
+Number of footprint fields dont match
 Saved.
