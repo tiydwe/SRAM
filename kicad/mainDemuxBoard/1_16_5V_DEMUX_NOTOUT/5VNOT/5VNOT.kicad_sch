@@ -1006,7 +1006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44072478-ffc9-45e0-beca-3f7b1ca7dc52")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 120.65 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1183,7 +1183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70593321-550b-45b3-acac-0732506d9aa7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1310,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b1769c-48dd-4f10-be22-1f6be0806d38")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 120.65 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1487,7 +1487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ddd-4758-4f59-9f7b-9f437f7814c5")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)

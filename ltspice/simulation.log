@@ -1,7 +1,7 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net
-Start Time: Tue Oct  6 17:15:05 2026
-C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net(53): Ignoring unknown model parameter. This may or may not be a problem.
+Start Time: Tue Oct  6 19:13:52 2026
+C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net(52): Ignoring unknown model parameter. This may or may not be a problem.
 .model JTD2302B NMOS(Level=1 Vto=0.65 Kp=22.8 Lambda=0.01 Rs=15m Rd=20m Cgso=120p Cgdo=80p Cbd=120p Vact=20 Is=1n)
                                                                                                     ^^^^^^^^
 solver = Normal
@@ -13,7 +13,7 @@ WARNING: Node n015 is floating.
 WARNING: Node n013 is floating.
 
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.182 seconds.
+Total elapsed time: 0.184 seconds.
 
 Files loaded:
 C:\Users\jayde\hackclubprojects\SRAM\ltspice\simulation.net
