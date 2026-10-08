@@ -1,0 +1,8 @@
+Clock rising edge: take input, put into RAM array
+Clock falling edge: output
+
+BL, ~BL always pulled up with 10k
+
+Addr_in, command, and data is processed into bit line commands which goes into d latch. d latch st gets a pulse from a rising clock edge detector which pulls the current input and outputs it to the ram module.
+
+A rc delay circuit delays the rising edge clock detector pulse for a few 10s of ms after the d latch pulse and outputs that onto the write line.
