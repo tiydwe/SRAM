@@ -1526,7 +1526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d5a282-f275-4d8a-adc6-ae8784ee6f9a")
-		(property "Reference" "Q12"
+		(property "Reference" "Q26"
 			(at 140.97 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34dfb3f3-5090-4791-ace2-c0767be3baf3")
-		(property "Reference" "Q6"
+		(property "Reference" "Q20"
 			(at 124.46 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +1888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6b4ff7-0c49-4edb-b045-eebfc4edff96")
-		(property "Reference" "Q7"
+		(property "Reference" "Q21"
 			(at 128.27 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +2068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c38494-1de3-4dcc-8487-13c1f8ebca96")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR010"
 			(at 82.55 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700074b7-ce14-4bc3-ae68-398c23506438")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -2348,7 +2348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766a2a85-7f87-4e41-8a60-0f3f80e590ad")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2488,7 +2488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ad17f6-76a4-4f93-b74e-8f0c32bb522a")
-		(property "Reference" "Q8"
+		(property "Reference" "Q22"
 			(at 128.27 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f15ca85-9aeb-4506-973c-b07547a44328")
-		(property "Reference" "Q11"
+		(property "Reference" "Q25"
 			(at 140.97 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "900578c4-fc8f-491b-a135-79756a597f94")
-		(property "Reference" "Q9"
+		(property "Reference" "Q23"
 			(at 128.27 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c4211ac-2671-4757-ba29-4e345a96bc69")
-		(property "Reference" "Q5"
+		(property "Reference" "Q19"
 			(at 111.76 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3210,7 +3210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21c4387-d7fc-4578-b733-863f27417885")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3350,7 +3350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c187e9-9c55-4ad5-8c91-68c9140769d8")
-		(property "Reference" "Q2"
+		(property "Reference" "Q16"
 			(at 86.36 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf3640d-b9ba-4ba5-8645-c2aa3b12b0f7")
-		(property "Reference" "Q13"
+		(property "Reference" "Q27"
 			(at 140.97 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +3710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77a4490-cef7-44d3-853e-9b2d3703aecb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3851,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f32b5d00-750a-4e0f-ba01-25a594724811")
-		(property "Reference" "Q1"
+		(property "Reference" "Q15"
 			(at 86.36 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd12faac-67c3-426e-8f64-d4d1f76cc124")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)

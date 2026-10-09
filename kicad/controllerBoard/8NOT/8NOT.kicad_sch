@@ -1464,7 +1464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10334e5c-bf74-43e4-b711-0f73e9f8bba0")
-		(property "Reference" "Q"
+		(property "Reference" "Q70"
 			(at 93.98 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1567,6 +1567,10 @@
 					(reference "Q70")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q70")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1583,7 +1587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104c8ab3-2b16-455a-a5e2-4f668aab3d3d")
-		(property "Reference" "Q"
+		(property "Reference" "Q80"
 			(at 129.54 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,6 +1690,10 @@
 					(reference "Q80")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q80")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1702,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cfe1fa-d21e-4b67-b219-c1e991dc0047")
-		(property "Reference" "Q"
+		(property "Reference" "Q94"
 			(at 165.1 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,6 +1813,10 @@
 					(reference "Q94")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q94")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1820,7 +1832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c35d241-9455-4c06-b463-ac099c4853e9")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR052"
 			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1883,6 +1895,10 @@
 					(reference "#PWR052")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "#PWR052")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1899,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4074af4e-7a4d-4327-9f39-7b7016f20afe")
-		(property "Reference" "Q"
+		(property "Reference" "Q101"
 			(at 182.88 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,6 +2018,10 @@
 					(reference "Q101")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q101")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2018,7 +2038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48539f8a-b46b-4d8c-9bae-3f44761cd4e9")
-		(property "Reference" "Q"
+		(property "Reference" "Q59"
 			(at 76.2 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,6 +2141,10 @@
 					(reference "Q59")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q59")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2136,7 +2160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554774f8-b23a-4602-ad1b-44111e53e60e")
-		(property "Reference" "Q"
+		(property "Reference" "Q98"
 			(at 165.1 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2239,6 +2263,10 @@
 					(reference "Q98")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q98")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2254,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8251d1-dc2b-479f-8c78-e20694425cd3")
-		(property "Reference" "Q"
+		(property "Reference" "Q60"
 			(at 76.2 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2357,6 +2385,10 @@
 					(reference "Q60")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q60")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2373,7 +2405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8bc0fc-1bb5-4c59-9fe4-f8531d0c2f60")
-		(property "Reference" "Q"
+		(property "Reference" "Q108"
 			(at 200.66 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,6 +2508,10 @@
 					(reference "Q108")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q108")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2491,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f812bd2-1c47-4fcb-8152-b0d0c2f38567")
-		(property "Reference" "Q"
+		(property "Reference" "Q102"
 			(at 182.88 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,6 +2630,10 @@
 					(reference "Q102")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q102")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2609,7 +2649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c8c8c1-544e-4751-96b0-de12053bb4f9")
-		(property "Reference" "Q"
+		(property "Reference" "Q112"
 			(at 200.66 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,6 +2752,10 @@
 					(reference "Q112")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q112")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2727,7 +2771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf186fd-6b37-4398-8d36-ec237d73852a")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR053"
 			(at 133.35 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2790,6 +2834,10 @@
 					(reference "#PWR053")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "#PWR053")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2805,7 +2853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f9244b-feb1-43ea-8258-908ffaecc685")
-		(property "Reference" "Q"
+		(property "Reference" "Q74"
 			(at 111.76 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,6 +2956,10 @@
 					(reference "Q74")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q74")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2924,7 +2976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c852c386-9867-4ea0-8fc9-a401a6581baa")
-		(property "Reference" "Q"
+		(property "Reference" "Q73"
 			(at 111.76 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,6 +3079,10 @@
 					(reference "Q73")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q73")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3043,7 +3099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbbf2462-0c27-4759-9a76-1900c7a8a619")
-		(property "Reference" "Q"
+		(property "Reference" "Q66"
 			(at 93.98 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,6 +3202,10 @@
 					(reference "Q66")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q66")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3161,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ece15c31-98d4-461f-b40e-3b3f1f2c627c")
-		(property "Reference" "Q"
+		(property "Reference" "Q88"
 			(at 147.32 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,6 +3324,10 @@
 					(reference "Q88")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q88")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3279,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c7ed5e-6f12-44f2-a788-637902b07b37")
-		(property "Reference" "Q"
+		(property "Reference" "Q84"
 			(at 129.54 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,6 +3446,10 @@
 					(reference "Q84")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
+					(reference "Q84")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3398,7 +3466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc43adc-c15f-4abc-96bb-8e5e6a7e14ea")
-		(property "Reference" "Q"
+		(property "Reference" "Q87"
 			(at 147.32 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,6 +3566,10 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/4d7a1886-fab4-478f-9237-fb2bf1fb5a44"
+					(reference "Q87")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/c2b4eaa1-1e50-43e7-b958-b128cd60509e"
 					(reference "Q87")
 					(unit 1)
 				)
