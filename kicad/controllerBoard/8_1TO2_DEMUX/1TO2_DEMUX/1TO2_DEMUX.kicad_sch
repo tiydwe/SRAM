@@ -932,20 +932,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Addr: select which output\nD: Data to multiplex\n~{EN}: If LOW, always output HIGH on both outputs.\n"
+		(exclude_from_sim no)
+		(at 40.132 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38dbfe64-555c-43f5-a079-eceb955d0f1a")
+	)
 	(junction
-		(at 124.46 100.33)
+		(at 86.36 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133633e9-d118-42d2-8bf9-032286842c7c")
+	)
+	(junction
+		(at 120.65 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1998d5b7-625f-4172-9bcd-564d6a522fe5")
+	)
+	(junction
+		(at 137.16 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e800757-2e29-4844-87f2-4e3e1b8a6de3")
 	)
 	(junction
-		(at 116.84 104.14)
+		(at 129.54 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34b0b15c-78c3-4f05-8b28-59d05851341a")
 	)
 	(junction
-		(at 100.33 114.3)
+		(at 99.06 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e181f70-1b56-4d1a-9759-3ad3cc76c934")
+	)
+	(junction
+		(at 107.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f543b7d-30cc-4da7-8709-73456014b2d8")
+	)
+	(junction
+		(at 113.03 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b53df99-22e2-4a5f-9a6e-1cdafca8e95b")
@@ -957,16 +991,10 @@
 		(uuid "85e43a59-f362-4599-9f96-98435705aa4a")
 	)
 	(junction
-		(at 116.84 90.17)
+		(at 129.54 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "942af952-3310-4df0-a496-c75841df7b9e")
-	)
-	(junction
-		(at 69.85 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "972c38f1-2343-452a-b8b5-a8ec6ea4a6f6")
 	)
 	(junction
 		(at 82.55 90.17)
@@ -975,31 +1003,49 @@
 		(uuid "b33a4aee-7729-4f19-8703-f513fbc66294")
 	)
 	(junction
-		(at 116.84 63.5)
+		(at 69.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60875d7-7010-46b2-bc8f-84e1c454944b")
+	)
+	(junction
+		(at 116.84 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7246abd-dba4-4abc-88b3-c064967c0f78")
 	)
 	(junction
-		(at 124.46 58.42)
+		(at 124.46 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc0d8390-234d-460f-a8f5-121ce7ba7139")
 	)
 	(junction
+		(at 120.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4786e6-ca36-48bd-ad90-146cf19eecbc")
+	)
+	(junction
+		(at 107.95 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a3c248-8d81-49fd-8969-88104aa8cd54")
+	)
+	(junction
 		(at 74.93 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3d1357a-fd2b-45ff-8941-7de65a49e942")
+		(uuid "d666bc40-1d77-4e5b-a7a7-9060d3f01b76")
 	)
 	(junction
-		(at 116.84 48.26)
+		(at 116.84 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df39772f-f776-47e6-8c4e-cbe2c3db556d")
 	)
 	(junction
-		(at 100.33 69.85)
+		(at 100.33 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbdffc50-997d-495a-b321-7a4e68c1faa8")
@@ -1016,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 48.26) (xy 116.84 48.26)
+			(xy 107.95 26.67) (xy 116.84 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1026,13 +1072,33 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 116.84 90.17)
+			(xy 120.65 92.71) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "173a97ca-5bd2-436c-9289-98d512f357f2")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b308371-c370-49b9-9b92-9e007bd72e71")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d840fa-dce1-4ae9-a37c-39c870f1b3c5")
 	)
 	(wire
 		(pts
@@ -1046,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 124.46 90.17)
+			(xy 129.54 92.71) (xy 137.16 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 100.33) (xy 124.46 100.33)
+			(xy 120.65 102.87) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 116.84 67.31)
+			(xy 116.84 41.91) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 58.42) (xy 124.46 62.23)
+			(xy 124.46 36.83) (xy 124.46 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 92.71 104.14)
+			(xy 92.71 90.17) (xy 92.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1096,13 +1162,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 116.84 104.14)
+			(xy 129.54 97.79) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5da2a167-bea3-45d2-b4b5-eb1ad7419d60")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c3a42e-916b-435d-8f75-830c915363f2")
 	)
 	(wire
 		(pts
@@ -1116,7 +1192,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 100.33 114.3)
+			(xy 129.54 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7250ee91-2e4f-44ef-8765-babe9ee6738c")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce7c861-fd03-41a5-bae7-0b4ca94b647c")
+	)
+	(wire
+		(pts
+			(xy 113.03 97.79) (xy 113.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 100.33 119.38)
+			(xy 113.03 116.84) (xy 113.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 116.84 63.5)
+			(xy 74.93 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 69.85 69.85)
+			(xy 69.85 116.84) (xy 69.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 124.46 104.14)
+			(xy 137.16 102.87) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1262,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 116.84 109.22)
+			(xy 106.68 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab63742a-21bc-426f-9032-67fefbdfed1a")
+	)
+	(wire
+		(pts
+			(xy 93.98 26.67) (xy 107.95 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8291d1-b1c7-4957-99f0-ca0519a841ae")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 69.85 114.3)
+			(xy 113.03 116.84) (xy 69.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 100.33 119.38)
+			(xy 129.54 121.92) (xy 113.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1322,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 124.46 58.42)
+			(xy 99.06 66.04) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c388600d-7624-4707-8df5-347c3aa8a67b")
+	)
+	(wire
+		(pts
+			(xy 107.95 36.83) (xy 124.46 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1342,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 124.46 48.26)
+			(xy 93.98 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c466e628-7e71-493e-8d4d-0cd8e1643914")
+	)
+	(wire
+		(pts
+			(xy 116.84 26.67) (xy 124.46 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1362,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 104.14) (xy 116.84 104.14)
+			(xy 63.5 58.42) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5b3291-b40c-47bf-8414-6e805a8e3557")
+	)
+	(wire
+		(pts
+			(xy 92.71 106.68) (xy 129.54 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 100.33 77.47)
+			(xy 116.84 55.88) (xy 100.33 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1402,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 53.34) (xy 100.33 69.85)
+			(xy 99.06 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2348386-9686-4c68-a140-ebcf96c45b70")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1422,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 69.85) (xy 100.33 69.85)
+			(xy 86.36 66.04) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ececa6ed-cadc-4d76-9191-75a7a38c5f0e")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 100.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1442,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 100.33 77.47)
+			(xy 100.33 48.26) (xy 100.33 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1452,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 116.84 63.5)
+			(xy 86.36 58.42) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78bc14e-abc4-4c15-bb07-a41ab8b47137")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1472,7 @@
 	)
 	(hierarchical_label "~{Y_{0}}"
 		(shape input)
-		(at 124.46 101.6 0)
+		(at 137.16 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1318,7 +1494,7 @@
 	)
 	(hierarchical_label "~{Y_{1}}"
 		(shape input)
-		(at 124.46 59.69 0)
+		(at 124.46 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1340,7 +1516,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 121.92 109.22 0)
+		(at 134.62 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1350,8 +1526,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d5a282-f275-4d8a-adc6-ae8784ee6f9a")
-		(property "Reference" "Q7"
-			(at 128.27 107.9499 0)
+		(property "Reference" "Q12"
+			(at 140.97 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1362,7 +1538,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 128.27 110.4899 0)
+			(at 140.97 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1373,7 +1549,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
-			(at 127 106.68 0)
+			(at 139.7 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1384,7 +1560,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 121.92 0)
+			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1571,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 121.92 109.22 0)
+			(at 134.62 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +1582,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 121.92 126.365 0)
+			(at 134.62 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1593,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 121.92 128.27 0)
+			(at 134.62 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1604,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 124.46 0)
+			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1439,96 +1615,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "3725cc98-d2b4-476d-985d-be46b56c5b06")
+			(uuid "3a1b4229-403e-4384-9aae-e790979815bd")
 		)
 		(pin "2"
-			(uuid "a735e041-03fd-44d7-b9e0-35fbed317e53")
+			(uuid "46a0a353-e9b5-406e-adb5-8ecf83d8e233")
 		)
 		(pin "1"
-			(uuid "cb6f1515-67ff-40fe-a9d8-fe70667eafe0")
+			(uuid "d13194c0-272c-4d1d-b1a6-098dd6d6e792")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q7")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q96")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q40")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q54")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q110")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q82")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q68")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13267a99-2b20-452c-9bbe-aa23a8fd3695")
-		(property "Reference" "#PWR01"
-			(at 124.46 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q69")
+					(unit 1)
 				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q29")
+					(unit 1)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q39")
+					(unit 1)
 				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q19")
+					(unit 1)
 				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q9")
+					(unit 1)
 				)
-			)
-		)
-		(pin "1"
-			(uuid "20718fee-81ce-4c4e-9237-258c6ab8ec3d")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "#PWR01")
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q79")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q59")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q49")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1696,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 105.41 95.25 0)
+		(at 118.11 97.79 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1547,8 +1707,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34dfb3f3-5090-4791-ace2-c0767be3baf3")
-		(property "Reference" "Q5"
-			(at 111.76 93.9799 0)
+		(property "Reference" "Q6"
+			(at 124.46 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1559,7 +1719,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 111.76 96.5199 0)
+			(at 124.46 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1570,7 +1730,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
-			(at 110.49 97.79 0)
+			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1581,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 105.41 82.55 0)
+			(at 118.11 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1592,7 +1752,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 105.41 95.25 0)
+			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1603,7 +1763,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 105.41 78.105 0)
+			(at 118.11 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +1774,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 105.41 76.2 0)
+			(at 118.11 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,7 +1785,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 105.41 80.01 0)
+			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,18 +1796,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "89977342-3fd1-48ef-a4d5-581025a38618")
+			(uuid "65c74e17-da0d-416c-92e1-31341d706dc9")
 		)
 		(pin "1"
-			(uuid "3f218b80-556b-4e63-8637-ed7210af3548")
+			(uuid "9e180586-5bf2-44b1-9b0b-3b165a277600")
 		)
 		(pin "2"
-			(uuid "748f7c30-69b4-4b46-a8ae-e47232e6e8b2")
+			(uuid "fded3f95-569c-4b57-a004-297200198a82")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q5")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q90")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q34")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q48")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q20")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q104")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q76")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q62")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q64")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q34")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q74")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q54")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q44")
 					(unit 1)
 				)
 			)
@@ -1655,7 +1877,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 121.92 53.34 0)
+		(at 121.92 31.75 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1666,8 +1888,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6b4ff7-0c49-4edb-b045-eebfc4edff96")
-		(property "Reference" "Q1"
-			(at 128.27 52.0699 0)
+		(property "Reference" "Q7"
+			(at 128.27 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1678,7 +1900,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 128.27 54.6099 0)
+			(at 128.27 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1689,7 +1911,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
-			(at 127 55.88 0)
+			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +1922,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 40.64 0)
+			(at 121.92 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +1933,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 121.92 53.34 0)
+			(at 121.92 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +1944,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 121.92 36.195 0)
+			(at 121.92 14.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1733,7 +1955,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 121.92 34.29 0)
+			(at 121.92 12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1744,7 +1966,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 38.1 0)
+			(at 121.92 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,18 +1977,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "0dfdca94-49b3-4c4b-8435-4b2b23703f0a")
+			(uuid "44c76376-d429-4f51-ae63-bea13b79a8fc")
 		)
 		(pin "1"
-			(uuid "22753b14-b7e2-42a9-9155-255575e38233")
+			(uuid "5b2942d7-404f-4fe5-a727-7d6d38537c6d")
 		)
 		(pin "2"
-			(uuid "4071e910-af71-4f72-886b-f661540cb504")
+			(uuid "f4aa0def-914e-4b57-9b8d-e935fe4ff1a3")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q1")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q91")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q35")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q49")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q105")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q77")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q63")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q65")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q35")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q75")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q55")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q45")
 					(unit 1)
 				)
 			)
@@ -1784,7 +2068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c38494-1de3-4dcc-8487-13c1f8ebca96")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 82.55 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1839,139 +2123,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "125361ff-c8d5-4298-9f22-7fbf4da3ec79")
+			(uuid "76c73ac7-8158-4153-a9ac-bf676e44872d")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
 					(reference "#PWR05")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 121.92 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77ad17f6-76a4-4f93-b74e-8f0c32bb522a")
-		(property "Reference" "Q3"
-			(at 128.27 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR043")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 128.27 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR031")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
-			(at 127 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 121.92 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 121.92 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 121.92 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3d400d2e-e02c-4444-b4a1-895cf3ed6deb")
-		)
-		(pin "2"
-			(uuid "677e3bf0-2e38-4ae4-b357-8a274843ae9b")
-		)
-		(pin "1"
-			(uuid "8c7e14c3-0526-4e6d-93d2-3a88abb3142b")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q3")
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 121.92 95.25 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 137.16 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1980,31 +2207,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f15ca85-9aeb-4506-973c-b07547a44328")
-		(property "Reference" "Q6"
-			(at 128.27 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 128.27 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
-			(at 127 97.79 0)
+		(uuid "700074b7-ce14-4bc3-ae68-398c23506438")
+		(property "Reference" "#PWR09"
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,341 +2219,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 121.92 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 121.92 78.105 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "acacfbef-2356-4b4f-8657-0b1cdfc6984e")
-		)
-		(pin "1"
-			(uuid "cbf8af03-700b-44ef-a024-c2950a2447e9")
-		)
-		(pin "2"
-			(uuid "2a90872b-05a8-4fc7-9e8a-24569660966c")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "900578c4-fc8f-491b-a135-79756a597f94")
-		(property "Reference" "Q4"
-			(at 128.27 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 128.27 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
-			(at 127 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 121.92 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 121.92 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 121.92 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8e79729d-f53d-47d8-a4ea-14c23089d56b")
-		)
-		(pin "2"
-			(uuid "742a833c-3e62-499a-9e9b-37d58b705bc4")
-		)
-		(pin "1"
-			(uuid "9f83325c-c97b-4ac1-bc99-50d80663abad")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 105.41 53.34 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c4211ac-2671-4757-ba29-4e345a96bc69")
-		(property "Reference" "Q2"
-			(at 111.76 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 111.76 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
-			(at 110.49 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 105.41 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 105.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 105.41 36.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 105.41 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 105.41 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "96308420-32e7-4041-ac66-8096d1183137")
-		)
-		(pin "1"
-			(uuid "c0f65787-e702-4132-8934-59b29f821682")
-		)
-		(pin "2"
-			(uuid "56cf7f20-e7d6-464f-9599-b9a61cffab59")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 116.84 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a21c4387-d7fc-4578-b733-863f27417885")
-		(property "Reference" "#PWR03"
-			(at 116.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 85.09 0)
+		(property "Value" "GND"
+			(at 137.16 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2358,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,8 +2251,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,12 +2263,1076 @@
 			)
 		)
 		(pin "1"
-			(uuid "b556e946-3b1b-40a9-9e2c-4ba6384b7f81")
+			(uuid "2e075025-f9d6-4d2b-8576-abc34a7f70f6")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "766a2a85-7f87-4e41-8a60-0f3f80e590ad")
+		(property "Reference" "#PWR07"
+			(at 124.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25f10cac-5db7-4c49-9806-8beea83a0b2f")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 121.92 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ad17f6-76a4-4f93-b74e-8f0c32bb522a")
+		(property "Reference" "Q8"
+			(at 128.27 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 128.27 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 121.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 121.92 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 121.92 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 121.92 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3383eb76-bc86-4952-8ec8-083c8cd173ae")
+		)
+		(pin "2"
+			(uuid "b665b03a-0f0f-401d-9937-a0e7328abac3")
+		)
+		(pin "1"
+			(uuid "687f4dc3-d027-4c43-ad8a-af5cdb064964")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q92")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q36")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q50")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q106")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q78")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q64")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q66")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q36")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q76")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q56")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 134.62 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f15ca85-9aeb-4506-973c-b07547a44328")
+		(property "Reference" "Q11"
+			(at 140.97 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 140.97 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 134.62 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 134.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 134.62 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 134.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 134.62 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b6199789-86c3-43c5-ad56-0bf5a3b0c4e0")
+		)
+		(pin "1"
+			(uuid "aea98e3e-412c-4ed2-a776-ef4bbcd37bc4")
+		)
+		(pin "2"
+			(uuid "63262d2f-54fc-4989-8185-6691f8dbd13c")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q95")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q39")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q53")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q109")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q81")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q67")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q68")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q38")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q18")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q78")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q58")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 121.92 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900578c4-fc8f-491b-a135-79756a597f94")
+		(property "Reference" "Q9"
+			(at 128.27 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 128.27 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 121.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 121.92 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 121.92 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 121.92 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 121.92 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "143a142e-80ec-475e-850c-523afbcff5f5")
+		)
+		(pin "2"
+			(uuid "1457450b-dd7d-4906-b953-df8659e0964b")
+		)
+		(pin "1"
+			(uuid "a81e0962-40dc-482b-b38c-c6cfbee020aa")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q93")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q37")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q51")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q107")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q79")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q65")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q67")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q37")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q77")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q57")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 105.41 31.75 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c4211ac-2671-4757-ba29-4e345a96bc69")
+		(property "Reference" "Q5"
+			(at 111.76 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 111.76 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-P"
+			(at 110.49 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 105.41 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 105.41 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 105.41 14.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 105.41 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 105.41 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bb7f0413-19fb-4be8-8606-e288378214a7")
+		)
+		(pin "1"
+			(uuid "6e73e9bf-8572-427d-a104-b6951ce83812")
+		)
+		(pin "2"
+			(uuid "6a51cdc9-f75c-4e20-a815-c51651e7fd19")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q89")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q47")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q19")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q103")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q75")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q61")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q63")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q73")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q53")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21c4387-d7fc-4578-b733-863f27417885")
+		(property "Reference" "#PWR08"
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f12ac974-dbcd-4ee1-b941-8999c5f96657")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2414,7 +3350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c187e9-9c55-4ad5-8c91-68c9140769d8")
-		(property "Reference" "Q10"
+		(property "Reference" "Q2"
 			(at 86.36 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,96 +3439,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "b03f3bf1-2837-4646-a4db-9ee8485f813b")
+			(uuid "419d54f5-f5a8-4725-8b46-56592d5c5bc9")
 		)
 		(pin "2"
-			(uuid "84ef4b1d-d25c-49e8-9274-5a45d385ad44")
+			(uuid "c397b609-03a3-49a8-a805-3bbe32fac09f")
 		)
 		(pin "1"
-			(uuid "52c8c8c7-9bac-4fc1-8cfb-50600324eac6")
+			(uuid "96026d02-3263-476e-8443-e51c1e628a62")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q10")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q86")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q44")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q100")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q72")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q58")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca0fad14-ac74-4bf4-b4d7-5606f3c2e82f")
-		(property "Reference" "#PWR04"
-			(at 124.46 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q62")
+					(unit 1)
 				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q22")
+					(unit 1)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q32")
+					(unit 1)
 				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q12")
+					(unit 1)
 				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q2")
+					(unit 1)
 				)
-			)
-		)
-		(pin "1"
-			(uuid "1ead0f9d-d38f-4c29-b456-f8d1c95e0cec")
-		)
-		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "#PWR04")
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q72")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q52")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q42")
 					(unit 1)
 				)
 			)
@@ -2600,7 +3520,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 121.92 119.38 0)
+		(at 134.62 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2610,8 +3530,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf3640d-b9ba-4ba5-8645-c2aa3b12b0f7")
-		(property "Reference" "Q8"
-			(at 128.27 118.1099 0)
+		(property "Reference" "Q13"
+			(at 140.97 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2622,7 +3542,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 128.27 120.6499 0)
+			(at 140.97 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2633,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-N"
-			(at 127 116.84 0)
+			(at 139.7 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 121.92 132.08 0)
+			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +3575,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 121.92 119.38 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2666,7 +3586,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 121.92 136.525 0)
+			(at 134.62 139.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +3597,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 121.92 138.43 0)
+			(at 134.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +3608,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 121.92 134.62 0)
+			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,18 +3619,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "7b7d5d66-33ea-4558-af0e-b6e74704e1b5")
+			(uuid "f1e2e419-7fdb-483e-b097-8be3acd36ffd")
 		)
 		(pin "2"
-			(uuid "38dccc6b-e2f3-4d45-a830-f5959f5a3be7")
+			(uuid "7f94af75-0119-4012-84fc-e94a5b686013")
 		)
 		(pin "1"
-			(uuid "890aad8c-af7d-4138-8a95-ba0f8d781203")
+			(uuid "2d5293b0-34ce-473c-b4af-17d54cddad86")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q8")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q97")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q41")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q55")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q111")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q83")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q69")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q70")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q40")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q20")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q80")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q60")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q50")
 					(unit 1)
 				)
 			)
@@ -2718,7 +3700,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 48.26 0)
+		(at 116.84 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2728,8 +3710,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77a4490-cef7-44d3-853e-9b2d3703aecb")
-		(property "Reference" "#PWR02"
-			(at 116.84 52.07 0)
+		(property "Reference" "#PWR06"
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2740,7 +3722,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 43.18 0)
+			(at 116.84 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2750,7 +3732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 48.26 0)
+			(at 116.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,7 +3743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 48.26 0)
+			(at 116.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +3754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 48.26 0)
+			(at 116.84 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,12 +3765,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "3846192e-0592-4893-9402-c07f976011f6")
+			(uuid "c800a1df-77d5-41f7-9a8f-a58c4d3b7518")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2807,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f32b5d00-750a-4e0f-ba01-25a594724811")
-		(property "Reference" "Q9"
+		(property "Reference" "Q1"
 			(at 86.36 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,18 +3940,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "960dde91-7d46-40ea-ba1c-e5afd896871f")
+			(uuid "c6d238d5-9627-4e05-882d-2c0573c205da")
 		)
 		(pin "1"
-			(uuid "5a2d59f2-97f9-4107-bdd6-e230f912cd00")
+			(uuid "ff1774e7-2eb3-4d77-bbc3-791db9aba30a")
 		)
 		(pin "2"
-			(uuid "e0df5eab-c1a3-48be-b963-3875ab14d646")
+			(uuid "99c31b0d-51c9-4c75-88d5-1eced65b3bf8")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
-					(reference "Q9")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q85")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q43")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q99")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q71")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q57")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "Q61")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "Q31")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "Q71")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "Q51")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "Q41")
 					(unit 1)
 				)
 			)
@@ -2925,7 +4031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd12faac-67c3-426e-8f64-d4d1f76cc124")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2980,21 +4086,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8802198-973d-4995-8357-4eeb167e3ab0")
+			(uuid "b1671bee-6ed6-4c55-997e-14c07e0bca2e")
 		)
 		(instances
-			(project "1TO2_DEMUX"
-				(path "/a9fbb7ce-5c19-4e4e-9434-494a3bc76b0f"
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/a49b3ffe-7277-4c51-b425-e9126b0269df"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8a491917-4253-4ca5-a31e-fc7dcc04a377/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "8_1TO2_DEMUX"
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/070613f7-cad7-4c93-89cf-54a08696deb9"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/5e55a23d-5e90-4357-bd9b-8b76f2836e2d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/83c963e5-bf22-440c-89a1-27b31721f944"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/9c6253dc-cf7d-4c17-8d5d-0eb890cecb65"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/a49b3ffe-7277-4c51-b425-e9126b0269df"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/c68801ac-e378-4d54-81d1-730c03564526"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/ce215dc3-4b3f-4036-8616-0f6847e4cd08"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/bb4ef1a0-7d11-42d0-80f2-541f93a64f3e/e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

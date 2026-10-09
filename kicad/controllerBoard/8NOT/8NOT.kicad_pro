@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "8_1TO2_DEMUX.kicad_pro",
+    "filename": "8NOT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -294,7 +294,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -358,18 +357,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -424,49 +411,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "8_1TO2_DEMUX.kicad_sch",
+        "filename": "8NOT.kicad_sch",
         "name": "Root",
-        "uuid": "bb4ef1a0-7d11-42d0-80f2-541f93a64f3e"
+        "uuid": "14128147-f14f-486f-9b79-b3c9d1046bb8"
       }
     ],
-    "used_designators": "Q1-80,#PWR7-48",
+    "used_designators": "Q1-16,#PWR1-2",
     "variants": []
   },
   "sheets": [
     [
-      "a49b3ffe-7277-4c51-b425-e9126b0269df",
-      "1TO2_DEMUX"
-    ],
-    [
-      "9c6253dc-cf7d-4c17-8d5d-0eb890cecb65",
-      "1TO2_DEMUX1"
-    ],
-    [
-      "5e55a23d-5e90-4357-bd9b-8b76f2836e2d",
-      "1TO2_DEMUX2"
-    ],
-    [
-      "83c963e5-bf22-440c-89a1-27b31721f944",
-      "1TO2_DEMUX3"
-    ],
-    [
-      "e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8",
-      "1TO2_DEMUX4"
-    ],
-    [
-      "ce215dc3-4b3f-4036-8616-0f6847e4cd08",
-      "1TO2_DEMUX5"
-    ],
-    [
-      "070613f7-cad7-4c93-89cf-54a08696deb9",
-      "1TO2_DEMUX6"
-    ],
-    [
-      "c68801ac-e378-4d54-81d1-730c03564526",
-      "1TO2_DEMUX7"
-    ],
-    [
-      "bb4ef1a0-7d11-42d0-80f2-541f93a64f3e",
+      "14128147-f14f-486f-9b79-b3c9d1046bb8",
       "Root"
     ]
   ],
