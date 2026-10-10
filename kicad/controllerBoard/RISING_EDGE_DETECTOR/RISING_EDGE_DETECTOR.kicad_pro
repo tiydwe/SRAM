@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "controllerBoard.kicad_pro",
+    "filename": "RISING_EDGE_DETECTOR.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -294,7 +294,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -358,18 +357,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -417,14 +404,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -432,182 +411,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "controllerBoard.kicad_sch",
-        "name": "Root",
-        "uuid": "93a9a1ca-4ee5-40da-ab67-92836146c003"
+        "filename": "RISING_EDGE_DETECTOR.kicad_sch",
+        "name": "RISING_EDGE_DETECTOR",
+        "uuid": "aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
       }
     ],
-    "used_designators": "R1-25,J1-2,#PWR1-95,Q1-408,C1",
+    "used_designators": "Q1-12,R1-9,C1,#PWR1,#PWR4-7",
     "variants": []
   },
   "sheets": [
     [
-      "93a9a1ca-4ee5-40da-ab67-92836146c003",
-      "Root"
-    ],
-    [
-      "8a491917-4253-4ca5-a31e-fc7dcc04a377",
-      "8_1TO2_DEMUX"
-    ],
-    [
-      "9c6253dc-cf7d-4c17-8d5d-0eb890cecb65",
-      "1TO2_DEMUX1"
-    ],
-    [
-      "5e55a23d-5e90-4357-bd9b-8b76f2836e2d",
-      "1TO2_DEMUX2"
-    ],
-    [
-      "83c963e5-bf22-440c-89a1-27b31721f944",
-      "1TO2_DEMUX3"
-    ],
-    [
-      "e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8",
-      "1TO2_DEMUX4"
-    ],
-    [
-      "ce215dc3-4b3f-4036-8616-0f6847e4cd08",
-      "1TO2_DEMUX5"
-    ],
-    [
-      "070613f7-cad7-4c93-89cf-54a08696deb9",
-      "1TO2_DEMUX6"
-    ],
-    [
-      "c68801ac-e378-4d54-81d1-730c03564526",
-      "1TO2_DEMUX7"
-    ],
-    [
-      "0caaf583-102a-42ea-8c9f-aeb1b7245756",
-      "8DLATCH2"
-    ],
-    [
-      "8224d64b-d04b-4ee1-b731-c44a309bb8aa",
-      "dlatch4"
-    ],
-    [
-      "a49b3ffe-7277-4c51-b425-e9126b0269df",
-      "1TO2_DEMUX"
-    ],
-    [
-      "78511a9c-9f0e-4d86-9426-f2f4315fb398",
-      "8DLATCH"
-    ],
-    [
-      "156fc5f9-33fe-4486-90ac-703537f74684",
-      "8DLATCH1"
-    ],
-    [
-      "8224d64b-d04b-4ee1-b731-c44a309bb8aa",
-      "dlatch4"
-    ],
-    [
-      "d6420527-303b-4fc1-82fc-9d16c2f1bee1",
-      "dlatch3"
-    ],
-    [
-      "70d169c9-5e57-4047-b10d-0e40d9dec267",
-      "dlatch1"
-    ],
-    [
-      "751b952a-0577-41f3-b8b8-3e1d64141b16",
-      "dlatch2"
-    ],
-    [
-      "9bca9f3d-9132-4862-8bc5-874f79d530ed",
-      "dlatch"
-    ],
-    [
-      "101c101a-f536-4b6f-954e-e924fe69ae85",
-      "dlatch7"
-    ],
-    [
-      "44031237-7874-4f03-9456-582bd9f8eb41",
-      "dlatch6"
-    ],
-    [
-      "9bca9f3d-9132-4862-8bc5-874f79d530ed",
-      "dlatch"
-    ],
-    [
-      "70d169c9-5e57-4047-b10d-0e40d9dec267",
-      "dlatch1"
-    ],
-    [
-      "751b952a-0577-41f3-b8b8-3e1d64141b16",
-      "dlatch2"
-    ],
-    [
-      "d6420527-303b-4fc1-82fc-9d16c2f1bee1",
-      "dlatch3"
-    ],
-    [
-      "8224d64b-d04b-4ee1-b731-c44a309bb8aa",
-      "dlatch4"
-    ],
-    [
-      "08982da7-147a-48be-97b4-86225933a7bb",
-      "dlatch5"
-    ],
-    [
-      "44031237-7874-4f03-9456-582bd9f8eb41",
-      "dlatch6"
-    ],
-    [
-      "101c101a-f536-4b6f-954e-e924fe69ae85",
-      "dlatch7"
-    ],
-    [
-      "08982da7-147a-48be-97b4-86225933a7bb",
-      "dlatch5"
-    ],
-    [
-      "d6420527-303b-4fc1-82fc-9d16c2f1bee1",
-      "dlatch3"
-    ],
-    [
-      "70d169c9-5e57-4047-b10d-0e40d9dec267",
-      "dlatch1"
-    ],
-    [
-      "751b952a-0577-41f3-b8b8-3e1d64141b16",
-      "dlatch2"
-    ],
-    [
-      "9bca9f3d-9132-4862-8bc5-874f79d530ed",
-      "dlatch"
-    ],
-    [
-      "101c101a-f536-4b6f-954e-e924fe69ae85",
-      "dlatch7"
-    ],
-    [
-      "44031237-7874-4f03-9456-582bd9f8eb41",
-      "dlatch6"
-    ],
-    [
-      "08982da7-147a-48be-97b4-86225933a7bb",
-      "dlatch5"
-    ],
-    [
-      "1568dcfe-2912-484d-9b09-635225cb9b4e",
-      "8_BL_CTRLR"
-    ],
-    [
-      "ba3cdfe8-f437-4525-8f86-a4f1390c4f4d",
-      "8_BL_CTRLR1"
-    ],
-    [
-      "96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c",
+      "aa2cadd3-fea5-4489-81d0-08c5a28f9dde",
       "RISING_EDGE_DETECTOR"
     ],
     [
       "c4446fb2-af0a-45d5-a693-fa4b1c9906b6",
       "SCHMITT_TRIGGER"
-    ],
-    [
-      "b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7",
-      "dlatch"
     ]
   ],
   "text_variables": {},

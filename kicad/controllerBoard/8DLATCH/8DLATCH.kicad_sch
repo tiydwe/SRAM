@@ -962,7 +962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 103.4546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1064,7 +1064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1166,7 +1166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,7 +1268,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 57.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1472,7 +1472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1574,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "8DLATCH/dlatch/dlatch.kicad_sch"
+		(property "Sheetfile" "dlatch/dlatch.kicad_sch"
 			(at 50.8 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
