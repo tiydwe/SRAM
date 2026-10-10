@@ -437,7 +437,7 @@
         "uuid": "93a9a1ca-4ee5-40da-ab67-92836146c003"
       }
     ],
-    "used_designators": "R1-25,J1-2,#PWR1-95,Q1-408,C1",
+    "used_designators": "J1-2,R1-32,#PWR1-96,D1-2,Q1-416,C1-4",
     "variants": []
   },
   "sheets": [
@@ -608,6 +608,10 @@
     [
       "b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7",
       "dlatch"
+    ],
+    [
+      "8b3cd8c5-d66b-460c-b4ee-229e25c1238a",
+      "WL_PULSE_GEN"
     ]
   ],
   "text_variables": {},

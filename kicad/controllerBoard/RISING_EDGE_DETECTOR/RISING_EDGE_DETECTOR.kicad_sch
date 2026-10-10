@@ -300,6 +300,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -1238,72 +1425,78 @@
 		(uuid "4f4c6f5e-6abf-44cb-9220-9ce1d4a7db94")
 	)
 	(junction
+		(at 120.65 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00125bf4-ed95-415f-a2c7-09711bb3f2ee")
+	)
+	(junction
 		(at 81.28 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a6fc23a-54c0-48cf-aba6-5f9fed341e57")
+		(uuid "127847d4-8eef-4f48-a78e-ad8cdc397649")
 	)
 	(junction
-		(at 130.81 66.04)
+		(at 129.54 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b716e40-3bef-4994-8653-665e498cca49")
+		(uuid "21181a71-8499-4114-8c63-17d21d8d51fc")
 	)
 	(junction
-		(at 96.52 66.04)
+		(at 137.16 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b96acc4-b414-49f2-822f-c6739b06b4b6")
-	)
-	(junction
-		(at 110.49 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "435e6270-96aa-45a2-81b8-0059408ff2d8")
-	)
-	(junction
-		(at 102.87 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "838e90f9-3e8a-4c31-a9dd-0558bf30476b")
-	)
-	(junction
-		(at 88.9 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3aec7f4-2ec4-4c3a-abf5-e592236b0a35")
-	)
-	(junction
-		(at 110.49 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f86882dd-f486-4d35-b3be-0421723ea037")
-	)
-	(junction
-		(at 123.19 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faac83ea-34ab-4909-aa28-c033d2a90641")
+		(uuid "50daceb3-3d2e-4106-95ff-da33e5d730da")
 	)
 	(junction
 		(at 99.06 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff31c10b-e4d8-4534-9d90-be16704f9ff0")
+		(uuid "51665b0a-82c2-4298-8d83-f1214487c7d4")
+	)
+	(junction
+		(at 157.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8686925-da4d-4f3e-aa35-54ec9b22ef6a")
+	)
+	(junction
+		(at 111.76 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7627677-b2e7-432f-a29d-cecfd7f8ddac")
+	)
+	(junction
+		(at 137.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52b7777-a853-4187-9924-764395e18e9a")
+	)
+	(junction
+		(at 88.9 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa796025-fc8a-4478-b74c-c1d6585c9961")
+	)
+	(junction
+		(at 149.86 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faac83ea-34ab-4909-aa28-c033d2a90641")
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 123.19 71.12)
+			(xy 120.65 66.04) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0592b9d4-814a-487e-ac20-1b64de9bb065")
+		(uuid "07d674be-eb14-4411-9969-bb72693d111b")
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 102.87 66.04)
+			(xy 129.54 53.34) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 66.04) (xy 81.28 66.04)
+			(xy 59.69 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1516,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 66.04) (xy 102.87 71.12)
+			(xy 137.16 48.26) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1bfd19-914e-43b5-8d38-99106dd643a3")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 66.04) (xy 139.7 66.04)
+			(xy 157.48 66.04) (xy 166.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1343,43 +1546,33 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 102.87 66.04)
+			(xy 81.28 66.04) (xy 81.28 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d9081eb-3fcf-4f81-b0dd-8e2265f38599")
+		(uuid "72208c4f-4573-4f14-be69-a8a22400aadc")
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 88.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cae460e-ec70-45c5-a7b4-8e246e6f3bad")
-	)
-	(wire
-		(pts
-			(xy 99.06 48.26) (xy 110.49 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9703b9-ebde-48c9-adc7-6727ed057d84")
-	)
-	(wire
-		(pts
-			(xy 110.49 66.04) (xy 123.19 66.04)
+			(xy 137.16 66.04) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97d269ae-3200-4b2c-9508-521f3e9c2175")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c32c15c-246c-4a88-abe6-50e5d08c03f4")
 	)
 	(wire
 		(pts
@@ -1393,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 130.81 48.26)
+			(xy 99.06 48.26) (xy 137.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1403,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 67.31 66.04)
+			(xy 39.37 66.04) (xy 46.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1413,7 +1606,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 60.96) (xy 81.28 71.12)
+			(xy 104.14 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fb1c33-7554-44ee-9195-191ee4e9e595")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1421,9 +1624,19 @@
 		)
 		(uuid "db0f1327-2142-457c-a564-08ec0ab7a9f8")
 	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e439e893-4765-49f7-ad17-4492029b0364")
+	)
 	(hierarchical_label "V_{in}"
 		(shape input)
-		(at 59.69 66.04 180)
+		(at 39.37 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1434,7 +1647,7 @@
 	)
 	(hierarchical_label "~{V_{pulse}}"
 		(shape input)
-		(at 120.65 66.04 90)
+		(at 147.32 66.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1445,7 +1658,7 @@
 	)
 	(hierarchical_label "V_{pulse}"
 		(shape input)
-		(at 139.7 66.04 0)
+		(at 166.37 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,9 +1668,8 @@
 		(uuid "f64fee6f-12bf-4148-98be-cdf402865c74")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 86.36 60.96 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 120.65 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1465,31 +1677,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "009d4f28-1798-408a-90d6-d64652e479c5")
-		(property "Reference" "Q385"
-			(at 92.71 62.2301 0)
+		(fields_autoplaced yes)
+		(uuid "013cfd56-149a-4811-a161-3a4751031d9b")
+		(property "Reference" "#PWR096"
+			(at 120.65 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 92.71 59.6901 0)
+		(property "Value" "GND"
+			(at 120.65 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 63.5 0)
+			(at 120.65 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1499,8 +1711,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 86.36 48.26 0)
+		(property "Datasheet" ""
+			(at 120.65 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,41 +1722,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 86.36 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 86.36 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 86.36 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 86.36 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1555,24 +1734,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8d36579-7049-41c2-b7c9-72ecbcc620d9")
-		)
-		(pin "3"
-			(uuid "1f1f59e4-246a-4486-bde8-ff150aa54c96")
-		)
-		(pin "2"
-			(uuid "9c4eaa8d-8ec8-4400-bbe9-206211f2027a")
+			(uuid "5bb2cd9c-359e-4aaf-9068-bd280ad0558a")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(reference "Q385")
-					(unit 1)
-				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q11")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1580,7 +1747,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 128.27 71.12 0)
+		(at 154.94 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1591,7 +1758,7 @@
 		(fields_autoplaced yes)
 		(uuid "16614c40-595b-4038-ad57-cb0bbb56c6a4")
 		(property "Reference" "Q394"
-			(at 134.62 69.8499 0)
+			(at 161.29 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1602,7 +1769,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 134.62 72.3899 0)
+			(at 161.29 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1613,7 +1780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 68.58 0)
+			(at 160.02 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +1791,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 128.27 83.82 0)
+			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,7 +1802,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 128.27 71.12 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1646,7 +1813,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 128.27 88.265 0)
+			(at 154.94 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1657,7 +1824,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 128.27 90.17 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1668,7 +1835,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 128.27 86.36 0)
+			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,6 +1864,206 @@
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 134.62 53.34 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19fb3c9e-98fa-43c1-9804-20376aded5c7")
+		(property "Reference" "Q391"
+			(at 140.97 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 140.97 52.0701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 134.62 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 134.62 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 134.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be8a38d1-0e9e-4115-b98c-5f1fd2445d42")
+		)
+		(pin "3"
+			(uuid "38f1d6e7-324d-4abb-8805-5c56559210fa")
+		)
+		(pin "2"
+			(uuid "8400b232-737b-48b2-8af1-5a3128984736")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "Q391")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3f0dba-9d04-472c-87d1-e1281181a68f")
+		(property "Reference" "R22"
+			(at 91.44 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47R"
+			(at 91.44 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.122 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8886252b-cd1c-4974-bc59-021c70e740e7")
+		)
+		(pin "1"
+			(uuid "e09d8d0b-1486-4e3b-b9db-0d21c62176e2")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1788,7 +2155,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 76.2 0)
+		(at 157.48 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1799,7 +2166,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d9cbe6a-07b1-409a-a99a-8edb919d5ce5")
 		(property "Reference" "#PWR090"
-			(at 130.81 82.55 0)
+			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,7 +2177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 81.28 0)
+			(at 157.48 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1820,7 +2187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 76.2 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1831,7 +2198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 76.2 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1842,7 +2209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 76.2 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +2239,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 66.04 90)
+		(at 107.95 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1883,7 +2250,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a0871f2-fee0-4c24-958b-e056f738c26e")
 		(property "Reference" "C1"
-			(at 92.71 58.42 90)
+			(at 107.95 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1893,7 +2260,7 @@
 			)
 		)
 		(property "Value" "100nC"
-			(at 92.71 60.96 90)
+			(at 107.95 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1903,7 +2270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 65.0748 0)
+			(at 111.76 65.0748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 66.04 0)
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +2292,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 92.71 66.04 0)
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,8 +2324,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 120.65 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3b6400-628c-4416-adb7-d2385b1cf329")
+		(property "Reference" "D1"
+			(at 123.19 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 123.19 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddeb8449-873a-495f-858a-a07dbbcbbf68")
+		)
+		(pin "2"
+			(uuid "b51636d2-4741-430f-be9f-5b0f6feeac3a")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 107.95 71.12 0)
+		(at 134.62 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1969,7 +2440,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a412a07-b597-4831-ac5d-8520a548dfe0")
 		(property "Reference" "Q392"
-			(at 114.3 69.8499 0)
+			(at 140.97 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1980,7 +2451,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 114.3 72.3899 0)
+			(at 140.97 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1991,7 +2462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 68.58 0)
+			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,7 +2473,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 107.95 83.82 0)
+			(at 134.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,7 +2484,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 107.95 71.12 0)
+			(at 134.62 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +2495,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 107.95 88.265 0)
+			(at 134.62 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +2506,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 107.95 90.17 0)
+			(at 134.62 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,7 +2517,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 107.95 86.36 0)
+			(at 134.62 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2081,8 +2552,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 52.07 0)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 154.94 53.34 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2090,10 +2562,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64e31e9a-e709-446b-bf53-6c01b7d2f35f")
-		(property "Reference" "R25"
-			(at 133.35 50.7999 0)
+		(uuid "6b66bc17-e7f0-40c4-bb48-a5c6d6f62795")
+		(property "Reference" "Q393"
+			(at 161.29 54.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2103,8 +2574,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
-			(at 133.35 53.3399 0)
+		(property "Value" "PMOS"
+			(at 161.29 52.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2115,7 +2586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.032 52.07 90)
+			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,8 +2596,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 130.81 52.07 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 154.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,8 +2607,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 130.81 52.07 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,22 +2618,52 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "2ced5156-d01e-43c0-9e77-79e672ca65c0")
+		(property "Sim.Device" "PMOS"
+			(at 154.94 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 154.94 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 154.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "154a8b50-010e-4987-b1c5-6554347864dc")
+			(uuid "b5ae94b3-fde1-49c9-83dc-f39ca0183b26")
+		)
+		(pin "3"
+			(uuid "d2450fc4-f2c9-491d-82e5-1673ad235f04")
+		)
+		(pin "2"
+			(uuid "afcbea9c-1a5b-422a-9ea4-e1fb3fc4732e")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R9")
+					(reference "Q393")
 					(unit 1)
 				)
 			)
@@ -2253,256 +2754,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 128.27 60.96 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72e2b174-47df-4d19-991f-fa9b49b0c4bb")
-		(property "Reference" "Q393"
-			(at 134.62 62.2301 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 134.62 59.6901 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 128.27 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 128.27 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 128.27 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 128.27 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 128.27 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4828371-46e1-474a-bc06-0344f8f5b898")
-		)
-		(pin "3"
-			(uuid "52c0ad04-6467-47e0-bd2c-0201d82c193e")
-		)
-		(pin "2"
-			(uuid "3b2ec4f1-27af-4dd4-a2ae-4afd9041cd3a")
-		)
-		(instances
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(reference "Q393")
-					(unit 1)
-				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 107.95 60.96 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cbfb230-3380-4ae2-90e8-5ea87ffd81a2")
-		(property "Reference" "Q391"
-			(at 114.3 62.2301 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 114.3 59.6901 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 107.95 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 107.95 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 107.95 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 107.95 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75cf01a9-a282-434f-8db5-6cbfa87e5b2c")
-		)
-		(pin "3"
-			(uuid "2c8d57e2-6db5-4570-9964-318e10248513")
-		)
-		(pin "2"
-			(uuid "35745808-accf-4e73-8305-c6c0c45d009f")
-		)
-		(instances
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(reference "Q391")
-					(unit 1)
-				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 110.49 52.07 0)
+		(at 157.48 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2511,9 +2764,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7c99a11-29a5-45a4-8f2f-0b8847c90c4d")
-		(property "Reference" "R22"
-			(at 113.03 50.7999 0)
+		(uuid "a8d36c71-b8e4-4bc8-b694-ed53bf3eed5b")
+		(property "Reference" "R26"
+			(at 160.02 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2523,8 +2776,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47R"
-			(at 113.03 53.3399 0)
+		(property "Value" "1R"
+			(at 160.02 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,7 +2788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.712 52.07 90)
+			(at 155.702 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 52.07 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2810,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 52.07 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,21 +2821,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "288c80b3-1f84-4774-8a6c-3f22dede5de2")
+			(uuid "39a224c3-bec1-4ac1-9caf-e60502f6fe61")
 		)
 		(pin "1"
-			(uuid "890403b5-323f-4e49-b653-5bbb87a8b6db")
+			(uuid "f0e78804-f5ad-4555-868f-ea1f337149d7")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R8")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2837,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 69.85 0)
+		(at 111.76 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2601,7 +2848,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac365cfd-f0c7-485a-ab93-31fada9e230e")
 		(property "Reference" "R17"
-			(at 99.06 68.5799 0)
+			(at 114.3 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2612,7 +2859,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 99.06 71.1199 0)
+			(at 114.3 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2623,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.742 69.85 90)
+			(at 109.982 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +2881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,8 +2924,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 73.66 0)
+		(lib_id "Device:R")
+		(at 137.16 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2687,30 +2934,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be24f2cd-a17f-4315-a330-79cb3707e218")
-		(property "Reference" "#PWR085"
-			(at 96.52 80.01 0)
-			(hide yes)
+		(uuid "b59ff710-a5f0-40af-b32a-7380f267795f")
+		(property "Reference" "R25"
+			(at 139.7 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 96.52 78.74 0)
+		(property "Value" "47R"
+			(at 139.7 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 73.66 0)
+			(at 135.382 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,7 +2969,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 73.66 0)
+			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74eb8c79-42e5-44d4-9825-a8fd9964f2b4")
+		)
+		(pin "1"
+			(uuid "5b257407-6667-4b1a-9542-abe8d6504b15")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be24f2cd-a17f-4315-a330-79cb3707e218")
+		(property "Reference" "#PWR085"
+			(at 111.76 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 73.66 0)
+			(at 111.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,8 +3090,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 86.36 53.34 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c988bb34-df61-4e66-933d-155a3ab8a2c6")
+		(property "Reference" "Q385"
+			(at 92.71 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 92.71 52.0701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 86.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 86.36 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 86.36 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "777857c7-b8c0-4691-bab8-62f47a318740")
+		)
+		(pin "3"
+			(uuid "c161a246-823b-4878-9f4e-5b939b536fcb")
+		)
+		(pin "2"
+			(uuid "cd4e5903-c2fd-43d4-8f14-5e9e68fde324")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "Q385")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 110.49 76.2 0)
+		(at 137.16 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2773,7 +3220,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfdf323f-f0ed-4dbf-bf2d-9eac285849b2")
 		(property "Reference" "#PWR089"
-			(at 110.49 82.55 0)
+			(at 137.16 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +3231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 81.28 0)
+			(at 137.16 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2794,7 +3241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 76.2 0)
+			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +3252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 76.2 0)
+			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +3263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 76.2 0)
+			(at 137.16 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +3416,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 63.5)
+		(at 46.99 63.5)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2985,7 +3432,7 @@
 		)
 		(uuid "c4446fb2-af0a-45d5-a693-fa4b1c9906b6")
 		(property "Sheetname" "SCHMITT_TRIGGER"
-			(at 67.31 62.7884 0)
+			(at 46.99 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2996,7 +3443,7 @@
 			)
 		)
 		(property "Sheetfile" "SCHMITT_TRIGGER/SCHMITT_TRIGGER.kicad_sch"
-			(at 67.31 69.1646 0)
+			(at 46.99 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3007,7 +3454,7 @@
 			)
 		)
 		(pin "V_{in}" input
-			(at 67.31 66.04 180)
+			(at 46.99 66.04 180)
 			(uuid "a4233701-fda4-4349-925d-0b664a2e655f")
 			(effects
 				(font
@@ -3017,7 +3464,7 @@
 			)
 		)
 		(pin "V_{out}" input
-			(at 80.01 66.04 0)
+			(at 59.69 66.04 0)
 			(uuid "448cdd9b-38f2-4fff-bde5-31d7a501fdb3")
 			(effects
 				(font

@@ -1660,6 +1660,18 @@
 		)
 	)
 	(rectangle
+		(start 13.97 85.09)
+		(end 104.14 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "14e452e8-8bb0-4823-ba43-bc946c9c67f3")
+	)
+	(rectangle
 		(start 91.44 12.7)
 		(end 284.48 85.09)
 		(stroke
@@ -1690,6 +1702,16 @@
 			)
 		)
 		(uuid "d3ddc9d7-dadc-4cf8-a73e-392e8fd5f43c")
+	)
+	(text "RAM STAGE\n"
+		(exclude_from_sim no)
+		(at 29.718 88.9 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "f3743234-d767-4d1f-9485-fbe31f777f08")
 	)
 	(junction
 		(at 38.1 76.2)
@@ -2959,6 +2981,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 102.87) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9fa192-e959-4296-9a18-abdbfd117be4")
+	)
+	(wire
+		(pts
 			(xy 81.28 64.77) (xy 81.28 62.23)
 		)
 		(stroke
@@ -3086,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "9cf5c281-b334-4422-95bb-ee36917b9413")
+	)
+	(wire
+		(pts
+			(xy 36.83 102.87) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1e03c4-8944-440a-adb1-834b8526a6fd")
 	)
 	(wire
 		(pts
@@ -3787,6 +3829,16 @@
 		)
 		(uuid "07afdfa5-c6b3-4e3a-b0bb-250fa4e6d2d1")
 	)
+	(label "WL_PULSE"
+		(at 74.93 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0877b31c-cc87-4769-a380-0a4ecc87ede0")
+	)
 	(label "~{BL}_{nctrl ncl 4}"
 		(at 170.18 72.39 0)
 		(effects
@@ -4097,16 +4149,6 @@
 		)
 		(uuid "355e2c25-df8f-407b-9bbf-9d09e28aff97")
 	)
-	(label "D"
-		(at 26.67 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "396f4660-97d0-4738-b2e1-8eae2076b7c2")
-	)
 	(label "~{BL}_{nctrl ncl 5}"
 		(at 170.18 74.93 0)
 		(effects
@@ -4387,6 +4429,16 @@
 		)
 		(uuid "69bb748d-b98f-405f-98c5-6844e5f7dce2")
 	)
+	(label "~{EN_{input}}"
+		(at 36.83 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a232033-13a6-4324-9dbf-9a2b14afbbd5")
+	)
 	(label "Addr_{in}_{1}"
 		(at 64.77 26.67 0)
 		(effects
@@ -4636,6 +4688,16 @@
 			(justify left bottom)
 		)
 		(uuid "a013e876-6baf-4811-84c3-8871052702e0")
+	)
+	(label "WL_PULSE"
+		(at 26.67 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a7d0a2-c58d-4c36-8388-2925515980f9")
 	)
 	(label "Addr_{in}_{4}"
 		(at 95.25 69.85 0)
@@ -7279,6 +7341,72 @@
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 100.33)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b3cd8c5-d66b-460c-b4ee-229e25c1238a")
+		(property "Sheetname" "WL_PULSE_GEN"
+			(at 45.72 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WL_PULSE_GEN\\WL_PULSE_GEN.kicad_sch"
+			(at 45.72 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WL_PULSE" input
+			(at 68.58 102.87 0)
+			(uuid "38a9076c-1e9c-46fe-a633-577162df669c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CLK_{rising}}" input
+			(at 45.72 102.87 180)
+			(uuid "1e031f10-22fa-480b-8c6f-52b6533ee9bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
+					(page "42")
 				)
 			)
 		)
