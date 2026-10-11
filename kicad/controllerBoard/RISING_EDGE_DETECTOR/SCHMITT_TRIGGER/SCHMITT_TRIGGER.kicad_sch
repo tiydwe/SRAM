@@ -1395,30 +1395,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "69b132c2-cad5-4490-a97e-9fdfaa9d1307")
+			(uuid "5ffa729d-694e-445d-99a3-b7669c18d962")
 		)
 		(pin "1"
-			(uuid "03a374cd-9ddf-46c1-96d2-54cb6218d511")
+			(uuid "e13505ae-4156-4827-b3cf-061284f16cda")
 		)
 		(pin "3"
-			(uuid "7d0395dd-41e2-400b-9317-96031df96d3d")
+			(uuid "d3cc32bf-b62e-4e16-97e9-e12fec4affd1")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q396")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q6")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q634")
 					(unit 1)
 				)
 			)
@@ -1526,30 +1518,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "0bdd0f03-a623-4d64-ab97-32603dfdd11d")
+			(uuid "27925581-9004-4414-b4a3-90afdf1d7bf5")
 		)
 		(pin "3"
-			(uuid "231b280c-5ffb-4baa-ad60-21cedd437fad")
+			(uuid "34f5cfde-6443-4ff6-bd95-5ffa343eef01")
 		)
 		(pin "1"
-			(uuid "5349fa9a-7571-40d6-9a91-d63ef24d745b")
+			(uuid "1b3d5847-cb50-4558-97e7-96249c1bf208")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q388")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q3")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q630")
 					(unit 1)
 				)
 			)
@@ -1622,24 +1606,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "84595253-3af6-4ea2-8c94-8a6f0f064ef8")
+			(uuid "e6e769fc-696c-4075-934b-2285dfa829c6")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR092")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR03")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -1712,24 +1688,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "51ca9b2f-cc7f-45a4-a722-05e11c78df15")
+			(uuid "253f6b47-8c10-4041-9b50-490ba70353af")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR088")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR02")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1802,24 +1770,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "27699319-8d10-44f5-aff5-abf590a1e1b6")
+			(uuid "797bd012-3903-4f5b-b5c6-2ab2c076fae5")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR087")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR04")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -1927,30 +1887,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ddb6419-949a-4b63-9954-7b865f3da8a9")
+			(uuid "d3969131-36a4-4653-8276-53c7862f78e3")
 		)
 		(pin "3"
-			(uuid "42c617e0-50df-4254-a705-e80d28a8cfb5")
+			(uuid "96165360-26c5-459d-865b-176cc7c15b6a")
 		)
 		(pin "1"
-			(uuid "6f399147-1a92-4739-aff1-8796c92c20d3")
+			(uuid "9927c016-de57-4cf6-bec4-27a74d5205ea")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q387")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q1")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q629")
 					(unit 1)
 				)
 			)
@@ -2024,27 +1976,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdbb23c8-6d3b-4d89-814e-e0b65f9ebaca")
+			(uuid "a9f145ce-a7d3-47a7-8848-29e600298d5a")
 		)
 		(pin "2"
-			(uuid "47fede6b-1439-472f-9080-0ca3dc972aa3")
+			(uuid "7ce2fe28-4e61-4b94-8370-a6f74c69007b")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R18")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R1")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2150,30 +2094,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "ececcaba-fb02-4870-b5f9-c52579732abf")
+			(uuid "d1f5c803-6c1b-499e-ba7f-a17bb2b041c0")
 		)
 		(pin "3"
-			(uuid "4e0ac33e-08f6-4ade-9d51-cae42c5149e3")
+			(uuid "b33ea012-2ba8-4dcf-b165-ddf1e0e1811e")
 		)
 		(pin "1"
-			(uuid "5fda34b6-17d2-422f-ac01-c831a28da7ca")
+			(uuid "4c476f5a-f24b-42c3-8699-94be089d1a4e")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q395")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q4")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q633")
 					(unit 1)
 				)
 			)
@@ -2247,27 +2183,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "69a18ded-38ed-43dd-a115-a813fd3baedf")
+			(uuid "db5d5736-bc99-4307-9e06-b76ac42f8ddd")
 		)
 		(pin "2"
-			(uuid "d3913457-1cfd-4aac-9247-029bdc23d569")
+			(uuid "5c13f796-3d19-4a92-9c56-e63e595e20b8")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R20")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R4")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2339,27 +2267,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "82f401fd-4f05-4796-b772-63f813dc6c66")
+			(uuid "3a35a7a8-4336-441a-bf16-ba2230dcebbc")
 		)
 		(pin "2"
-			(uuid "347fffcc-d862-4145-8951-fc8ed9b1acdf")
+			(uuid "0cf3525b-9d48-4efb-bf79-9ce25cb1336a")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R23")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R3")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2432,24 +2352,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "60efc28a-ef69-403b-adef-8d58a15e69e9")
+			(uuid "9d36274a-b962-4169-ba50-334931e65794")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR091")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR01")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2521,27 +2433,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "03269162-b145-4e95-925b-20b18f84c224")
+			(uuid "03f04870-16ac-43ac-9212-8e41a4dd807d")
 		)
 		(pin "2"
-			(uuid "812c1de1-70b0-41d7-9b53-a64a1ac1eadc")
+			(uuid "0e299145-d533-4936-aecf-766945957eff")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R24")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R6")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2648,30 +2552,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "88098d45-22cd-4bf3-9e58-367c830112d8")
+			(uuid "f0b75732-c897-4efb-9f60-a696eb0e1a00")
 		)
 		(pin "1"
-			(uuid "9c61ee35-00b0-4ab8-95de-99c165eab3f2")
+			(uuid "26ba6e88-834e-46e5-98f3-c29cd86f3d3c")
 		)
 		(pin "3"
-			(uuid "d6c0b2f8-25fc-4ff4-8f9d-7335931cb169")
+			(uuid "043b55f1-b9ea-42fd-91bc-04b3e3e0c2ee")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q390")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q5")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q632")
 					(unit 1)
 				)
 			)
@@ -2745,27 +2641,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "76bc9da6-50fe-48b2-98ce-eb1e0074a7b1")
+			(uuid "ccce2058-ea28-4eb0-96e6-bbaf7f269430")
 		)
 		(pin "2"
-			(uuid "6bdb1d5c-cd98-4e0f-963d-84bb64e42695")
+			(uuid "1b1a2de2-2846-43bb-9fcd-2100220565b4")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R5")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R21")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R5")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2872,30 +2760,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ff26535-14a6-4f49-9e1e-45fb915d5269")
+			(uuid "636581f2-7fe7-48be-a419-ca562b8777a1")
 		)
 		(pin "1"
-			(uuid "0ea2ada1-8563-4aa2-abbd-521f266f6c0e")
+			(uuid "21084ea9-0b23-4378-be84-ab774f0725ee")
 		)
 		(pin "3"
-			(uuid "8627e34c-4113-431e-93f3-95d83977ccee")
+			(uuid "f6780b4b-326b-4fe3-be77-f6c2bb4529b1")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q389")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q2")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q631")
 					(unit 1)
 				)
 			)
@@ -2969,35 +2849,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e195b15-781b-4fa7-bdc7-e3798d2ddbab")
+			(uuid "f9f7d1e1-2fc3-4519-b4bb-01c1700d8ea1")
 		)
 		(pin "2"
-			(uuid "0ef4bb8c-16db-45ed-85b1-f724e88f1eaf")
+			(uuid "bbe7f31d-70b0-49aa-b9ca-e6e79b83e12e")
 		)
 		(instances
-			(project "SCHMITT_TRIGGER"
-				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R19")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R2")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R44")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

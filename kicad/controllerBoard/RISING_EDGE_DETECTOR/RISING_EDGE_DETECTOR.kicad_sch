@@ -1455,6 +1455,12 @@
 		(uuid "51665b0a-82c2-4298-8d83-f1214487c7d4")
 	)
 	(junction
+		(at 166.37 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a55b8a7b-d848-4553-b3d8-3938709447c8")
+	)
+	(junction
 		(at 157.48 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1484,6 +1490,12 @@
 		(color 0 0 0 0)
 		(uuid "faac83ea-34ab-4909-aa28-c033d2a90641")
 	)
+	(junction
+		(at 157.48 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb0a815e-2f13-4822-ba69-8c3af63a05fe")
+	)
 	(wire
 		(pts
 			(xy 120.65 66.04) (xy 129.54 66.04)
@@ -1493,6 +1505,16 @@
 			(type default)
 		)
 		(uuid "07d674be-eb14-4411-9969-bb72693d111b")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbb983b-a759-4769-bb49-113a5f623eb1")
 	)
 	(wire
 		(pts
@@ -1606,6 +1628,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 57.15) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff3ca28-986b-4598-9592-ff239fcac9d5")
+	)
+	(wire
+		(pts
 			(xy 104.14 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -1634,6 +1666,36 @@
 		)
 		(uuid "e439e893-4765-49f7-ad17-4492029b0364")
 	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb38895-9165-4203-9dd5-e9c167740f31")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6977c1-b978-44f4-afb6-29b3ccfd8141")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f447dc73-754d-4ec1-b441-fd23fefd0262")
+	)
 	(hierarchical_label "V_{in}"
 		(shape input)
 		(at 39.37 66.04 180)
@@ -1647,14 +1709,14 @@
 	)
 	(hierarchical_label "~{V_{pulse}}"
 		(shape input)
-		(at 147.32 66.04 90)
+		(at 173.99 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9a28517f-5064-464b-827e-3b4385c235d4")
+		(uuid "b13b9816-5c38-47ad-b8bf-ff2198cc9863")
 	)
 	(hierarchical_label "V_{pulse}"
 		(shape input)
@@ -1734,12 +1796,98 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bb2cd9c-359e-4aaf-9068-bd280ad0558a")
+			(uuid "63a2266c-d5d2-436a-b91b-131af21184ab")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b1a890-16b3-4a1f-bbcd-e055215fc23c")
+		(property "Reference" "#PWR097"
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85519e12-08b9-4ec4-a676-28f23aeba25f")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -1846,13 +1994,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "93388b11-ca2b-479c-8a00-70980422be92")
+			(uuid "b999f95f-60d3-41d8-91dc-65d4dfb2ac84")
 		)
 		(pin "3"
-			(uuid "af29bc86-eff6-4532-b858-7edda42c978b")
+			(uuid "8b20ac75-76a4-48ea-be8d-0d27a568b751")
 		)
 		(pin "2"
-			(uuid "d8309416-d117-4ac7-aa23-f40aa67598e0")
+			(uuid "0cf841f8-6d94-47a0-ba02-46aec0af48a7")
 		)
 		(instances
 			(project "controllerBoard"
@@ -1860,10 +2008,8 @@
 					(reference "Q394")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q10")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q626")
 					(unit 1)
 				)
 			)
@@ -1970,18 +2116,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "be8a38d1-0e9e-4115-b98c-5f1fd2445d42")
+			(uuid "37cf0c5c-710b-4446-b10f-8c42e5ad3591")
 		)
 		(pin "3"
-			(uuid "38f1d6e7-324d-4abb-8805-5c56559210fa")
+			(uuid "4f84c902-6494-4750-a28c-d258e5c3bcae")
 		)
 		(pin "2"
-			(uuid "8400b232-737b-48b2-8af1-5a3128984736")
+			(uuid "11c3a690-9c87-4d81-8b2e-6c6471a1d81b")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "Q391")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q623")
 					(unit 1)
 				)
 			)
@@ -2055,15 +2205,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "8886252b-cd1c-4974-bc59-021c70e740e7")
+			(uuid "ba4e81e4-2715-4729-8b7d-f5a54e612f13")
 		)
 		(pin "1"
-			(uuid "e09d8d0b-1486-4e3b-b9db-0d21c62176e2")
+			(uuid "6287f299-fc49-443d-90ea-41c7f87935c0")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "R22")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2136,7 +2290,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "98e3d575-a474-4c14-b965-760228d09927")
+			(uuid "ba5eeb6e-404e-4f39-9d23-6a4a202e5b59")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2144,10 +2298,8 @@
 					(reference "#PWR086")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR01")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2220,7 +2372,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1733f37f-93fc-408e-8108-971da193c3f0")
+			(uuid "81e56234-11a8-4ddb-8425-22c204f70c36")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2228,10 +2380,8 @@
 					(reference "#PWR090")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR06")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2303,10 +2453,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d801c79b-8a44-4366-a5aa-2cbcd53a32d6")
+			(uuid "c5b99ea2-937a-4a1c-9017-fa41d36dfe60")
 		)
 		(pin "2"
-			(uuid "194cdbad-5e16-4bc5-bab7-f2431abf9f05")
+			(uuid "e291766d-b660-4c56-9a99-ce69e55c5132")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2314,10 +2464,130 @@
 					(reference "C1")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "C8")
+					(unit 1)
+				)
 			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "C1")
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 171.45 57.15 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52dab36d-5b64-4786-801f-fdda562b1239")
+		(property "Reference" "Q425"
+			(at 177.8 58.4201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 177.8 55.8801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 171.45 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 171.45 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 171.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 171.45 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "789e0f93-af4f-49ce-a348-79619dddf8e4")
+		)
+		(pin "3"
+			(uuid "70c2e052-180b-4a89-a11f-ac54551988f9")
+		)
+		(pin "2"
+			(uuid "6c571472-071b-4156-baa2-8c35b2ebdf63")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "Q425")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q627")
 					(unit 1)
 				)
 			)
@@ -2413,15 +2683,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddeb8449-873a-495f-858a-a07dbbcbbf68")
+			(uuid "92f04e3b-16c7-4810-aeeb-51ffe9ac6bf4")
 		)
 		(pin "2"
-			(uuid "b51636d2-4741-430f-be9f-5b0f6feeac3a")
+			(uuid "2bdc1041-fb1c-4282-80af-23d6ab045de8")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "D1")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2528,13 +2802,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ea0d17b-ef15-4093-8aff-857ea82b60b4")
+			(uuid "2f0aeda1-3c10-452e-bc98-56685cc76010")
 		)
 		(pin "3"
-			(uuid "2441c0ec-2788-49da-b515-3a9cf9814bdc")
+			(uuid "17761a74-a2b0-4efd-89b3-64c5c03adb5f")
 		)
 		(pin "2"
-			(uuid "6f910b12-4219-4f38-a13b-2520ba356b6c")
+			(uuid "5da5e0f4-7b61-4f58-84f3-91446895fcc1")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2542,10 +2816,8 @@
 					(reference "Q392")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q7")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q624")
 					(unit 1)
 				)
 			)
@@ -2652,18 +2924,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5ae94b3-fde1-49c9-83dc-f39ca0183b26")
+			(uuid "e71dc3b0-5780-4f53-8f72-4ede706b1ee1")
 		)
 		(pin "3"
-			(uuid "d2450fc4-f2c9-491d-82e5-1673ad235f04")
+			(uuid "8ce807d1-0c97-4ba1-913f-b1682b4f419b")
 		)
 		(pin "2"
-			(uuid "afcbea9c-1a5b-422a-9ea4-e1fb3fc4732e")
+			(uuid "53ef6d11-c27a-4f1d-93dc-5a26a2d8e282")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "Q393")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q625")
 					(unit 1)
 				)
 			)
@@ -2736,7 +3012,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91f12df6-b898-4ed2-9fee-2b619e08153f")
+			(uuid "7b93b4c9-3412-4ba8-81a6-f0668a87a16b")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2744,10 +3020,130 @@
 					(reference "#PWR084")
 					(unit 1)
 				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0100")
+					(unit 1)
+				)
 			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR07")
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829aed01-8d40-4cf3-b5de-cac5d13023d7")
+		(property "Reference" "Q426"
+			(at 177.8 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 177.8 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 171.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 171.45 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 171.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45db5775-de16-4536-8113-bfe81f698bc2")
+		)
+		(pin "3"
+			(uuid "b2c3fbc6-0135-4392-adcb-71be877b67bc")
+		)
+		(pin "2"
+			(uuid "d3675507-3e82-48c7-ae92-f155d50225b7")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "Q426")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q628")
 					(unit 1)
 				)
 			)
@@ -2821,15 +3217,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "39a224c3-bec1-4ac1-9caf-e60502f6fe61")
+			(uuid "4dbd1808-0aa7-4e05-92ee-a0fb12029de4")
 		)
 		(pin "1"
-			(uuid "f0e78804-f5ad-4555-868f-ea1f337149d7")
+			(uuid "fa96b37a-b3b3-47a4-bcf0-1e7f6b07785d")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "R26")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2903,10 +3303,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d518ddc-e55b-45de-aa4d-2659cbde6822")
+			(uuid "0ef364dc-b1fd-44c1-80b5-24f7db51c02c")
 		)
 		(pin "1"
-			(uuid "0111ec4e-6455-48a4-a279-9bf28759d0c7")
+			(uuid "f7e3b4d6-420f-40fa-a705-783db5b97861")
 		)
 		(instances
 			(project "controllerBoard"
@@ -2914,10 +3314,8 @@
 					(reference "R17")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R7")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2991,15 +3389,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "74eb8c79-42e5-44d4-9825-a8fd9964f2b4")
+			(uuid "99a0008a-86c8-45c9-a0e1-7c597c59e6a0")
 		)
 		(pin "1"
-			(uuid "5b257407-6667-4b1a-9542-abe8d6504b15")
+			(uuid "726dd57d-9fa4-44db-9ffa-5c9da9fc41dc")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "R25")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3072,7 +3474,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffef0ac7-1c14-4a49-bd23-c71e0fdfaffa")
+			(uuid "3d31e817-1dfc-414d-a862-508c28564774")
 		)
 		(instances
 			(project "controllerBoard"
@@ -3080,10 +3482,8 @@
 					(reference "#PWR085")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR04")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3190,18 +3590,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "777857c7-b8c0-4691-bab8-62f47a318740")
+			(uuid "1dc13cf4-10d4-4ec2-8a41-1feb06cd48ca")
 		)
 		(pin "3"
-			(uuid "c161a246-823b-4878-9f4e-5b939b536fcb")
+			(uuid "e5b1bd50-855d-4af8-8ae8-3390cc959631")
 		)
 		(pin "2"
-			(uuid "cd4e5903-c2fd-43d4-8f14-5e9e68fde324")
+			(uuid "6c5fc16f-cd36-454d-afaa-acf529394b2a")
 		)
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(reference "Q385")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q621")
 					(unit 1)
 				)
 			)
@@ -3274,7 +3678,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c43924d0-31df-4dca-b134-541345f6a35f")
+			(uuid "dbb8e64d-c561-49db-9758-ff30bdd2d840")
 		)
 		(instances
 			(project "controllerBoard"
@@ -3282,10 +3686,8 @@
 					(reference "#PWR089")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR05")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3392,13 +3794,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2a6d978-cea6-4dda-93f7-4f47c1b274a2")
+			(uuid "7fbcf930-54d3-4abe-bd35-f8209adddbda")
 		)
 		(pin "3"
-			(uuid "7a9d4d2d-9ed5-41e0-a7ce-72cb423770e3")
+			(uuid "9a5f594f-1bc5-4cb5-947d-b9af239e7b7a")
 		)
 		(pin "2"
-			(uuid "bbaf7036-3507-4a1e-8508-adce3cc976a3")
+			(uuid "ecb5efcc-43f2-4be8-ae71-0add0d20d29b")
 		)
 		(instances
 			(project "controllerBoard"
@@ -3406,10 +3808,8 @@
 					(reference "Q386")
 					(unit 1)
 				)
-			)
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q12")
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "Q622")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3855,7 @@
 		)
 		(pin "V_{in}" input
 			(at 46.99 66.04 180)
-			(uuid "a4233701-fda4-4349-925d-0b664a2e655f")
+			(uuid "3b55c977-a768-4c23-b4c8-4f4050730378")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3865,7 @@
 		)
 		(pin "V_{out}" input
 			(at 59.69 66.04 0)
-			(uuid "448cdd9b-38f2-4fff-bde5-31d7a501fdb3")
+			(uuid "e2470ed9-a266-4d11-a825-892d6c3c202d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,19 +3874,12 @@
 			)
 		)
 		(instances
-			(project "RISING_EDGE_DETECTOR"
-				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(page "2")
-				)
-			)
-			(project ""
-				(path "/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
-					(page "#")
-				)
-			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
 					(page "40")
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(page "63")
 				)
 			)
 		)

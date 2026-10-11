@@ -437,7 +437,7 @@
         "uuid": "93a9a1ca-4ee5-40da-ab67-92836146c003"
       }
     ],
-    "used_designators": "J1-2,R1-32,#PWR1-96,D1-2,Q1-416,C1-4",
+    "used_designators": "J1-2,R1-54,L1,#PWR1-112,D1-6,Q1-635,C1-14,U1",
     "variants": []
   },
   "sheets": [
@@ -612,6 +612,90 @@
     [
       "8b3cd8c5-d66b-460c-b4ee-229e25c1238a",
       "WL_PULSE_GEN"
+    ],
+    [
+      "bd8eda89-0d1e-4854-ab6f-a575635da338",
+      "READ_LINE_PULSE_GEN"
+    ],
+    [
+      "602ef35d-15f8-4ed8-aa30-f853ef082047",
+      "8DLATCH3"
+    ],
+    [
+      "8224d64b-d04b-4ee1-b731-c44a309bb8aa",
+      "dlatch4"
+    ],
+    [
+      "d6420527-303b-4fc1-82fc-9d16c2f1bee1",
+      "dlatch3"
+    ],
+    [
+      "70d169c9-5e57-4047-b10d-0e40d9dec267",
+      "dlatch1"
+    ],
+    [
+      "751b952a-0577-41f3-b8b8-3e1d64141b16",
+      "dlatch2"
+    ],
+    [
+      "9bca9f3d-9132-4862-8bc5-874f79d530ed",
+      "dlatch"
+    ],
+    [
+      "101c101a-f536-4b6f-954e-e924fe69ae85",
+      "dlatch7"
+    ],
+    [
+      "44031237-7874-4f03-9456-582bd9f8eb41",
+      "dlatch6"
+    ],
+    [
+      "08982da7-147a-48be-97b4-86225933a7bb",
+      "dlatch5"
+    ],
+    [
+      "bac368b4-3632-4a54-8f7e-0865a964629f",
+      "8DLATCH4"
+    ],
+    [
+      "8224d64b-d04b-4ee1-b731-c44a309bb8aa",
+      "dlatch4"
+    ],
+    [
+      "d6420527-303b-4fc1-82fc-9d16c2f1bee1",
+      "dlatch3"
+    ],
+    [
+      "70d169c9-5e57-4047-b10d-0e40d9dec267",
+      "dlatch1"
+    ],
+    [
+      "751b952a-0577-41f3-b8b8-3e1d64141b16",
+      "dlatch2"
+    ],
+    [
+      "9bca9f3d-9132-4862-8bc5-874f79d530ed",
+      "dlatch"
+    ],
+    [
+      "101c101a-f536-4b6f-954e-e924fe69ae85",
+      "dlatch7"
+    ],
+    [
+      "44031237-7874-4f03-9456-582bd9f8eb41",
+      "dlatch6"
+    ],
+    [
+      "08982da7-147a-48be-97b4-86225933a7bb",
+      "dlatch5"
+    ],
+    [
+      "def1fdf8-7002-45c6-87e0-28926b899265",
+      "RISING_EDGE_DETECTOR1"
+    ],
+    [
+      "c4446fb2-af0a-45d5-a693-fa4b1c9906b6",
+      "SCHMITT_TRIGGER"
     ]
   ],
   "text_variables": {},
