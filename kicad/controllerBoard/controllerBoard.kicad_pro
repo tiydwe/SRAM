@@ -437,7 +437,7 @@
         "uuid": "93a9a1ca-4ee5-40da-ab67-92836146c003"
       }
     ],
-    "used_designators": "J1-2,R1-56,L1,#PWR1-133,D1-6,Q1-635,C1-14,U1",
+    "used_designators": "R1-6,R57,J1-2,D1-2,D7-12,#PWR1-57,#PWR134-136,Q1-384,Q636-648,C1-6,C15-17",
     "variants": []
   },
   "sheets": [
@@ -602,10 +602,6 @@
       "RISING_EDGE_DETECTOR"
     ],
     [
-      "c4446fb2-af0a-45d5-a693-fa4b1c9906b6",
-      "SCHMITT_TRIGGER"
-    ],
-    [
       "b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7",
       "dlatch"
     ],
@@ -696,6 +692,14 @@
     [
       "c4446fb2-af0a-45d5-a693-fa4b1c9906b6",
       "SCHMITT_TRIGGER"
+    ],
+    [
+      "c4446fb2-af0a-45d5-a693-fa4b1c9906b6",
+      "SCHMITT_TRIGGER"
+    ],
+    [
+      "ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2",
+      "5V_TO_10V"
     ]
   ],
   "text_variables": {},
