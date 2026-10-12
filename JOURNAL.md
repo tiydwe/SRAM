@@ -5,6 +5,35 @@ description: "256 bytes of SRAM from scratch! No ICs at all. Made from over 20 0
 created_at: "2026-10-01"
 ---
 
+# 2026-10-11: Finished the main schematic and power management
+
+**Total time spent: 2.5 hours**
+
+![image.png](images/2026-10-11_finished-schematic.png)
+The finished schematic
+![image.png](images/2026-10-11_power-management.png)
+Power management
+![image.png](images/2026-10-11_pulse-simulation.png)
+Simulation of the pulses. Blue is the input stage pulse, green is the WL pulse, and red is the pulse for reading.
+
+# What I did
+I spent a ton of time on LTspice trying to figure out how in the world to delay and elongate a pulse using RC circuits. Here's what I came up with:
+- First, the pulse from the edge detector is used to enable the dlatch input.
+- The circuit then takes the NOT of the pulse and uses another rising edge detector to detect the falling edge of the dlatch input. This rising edge detector is tuned so the pulse takes a while.
+- The circuit then uses an inverter to convert that into a cleaner wave and a capacitor to get rid of some high frequency ringing.
+- Then the output of that is connected to yet another inverter with a resistor on the pmos to limit the speed which a capacitor can charge, creating a delay.
+- Then, this signal is inverted twice more to make a nice clean signal.
+
+I used this strategy twice to create the two signals for the WL and reading.
+
+I also used a LM3478 to get the 10v supply. Although I originally planned to use a simple charge pump, I found that for one, that won't provide very much current, and two, no ICs only applies to the logic part of this in my opinion.
+
+I still need to do the PCB which has a ton of stuff because there are like 30 sub schematics to layout and stuff.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/-xv_CujW-8NQ
+https://lapse.hackclub.com/timelapse/67BOb2_xgU9D
+
 # 2026-10-09: Finished the input stage schematic
 
 **Total time spent: 1.5 hours**

@@ -1443,6 +1443,12 @@
 		(uuid "21181a71-8499-4114-8c63-17d21d8d51fc")
 	)
 	(junction
+		(at 166.37 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd44a18-1a67-49d6-ba3e-c3e8ec21846d")
+	)
+	(junction
 		(at 137.16 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1453,12 +1459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51665b0a-82c2-4298-8d83-f1214487c7d4")
-	)
-	(junction
-		(at 166.37 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a55b8a7b-d848-4553-b3d8-3938709447c8")
 	)
 	(junction
 		(at 157.48 66.04)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 57.15) (xy 166.37 66.04)
+			(xy 166.37 53.34) (xy 166.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1645,6 +1645,16 @@
 			(type default)
 		)
 		(uuid "d7fb1c33-7554-44ee-9195-191ee4e9e595")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6c0d6c-4fe7-4ae0-875d-efd714e84bf0")
 	)
 	(wire
 		(pts
@@ -1675,26 +1685,6 @@
 			(type default)
 		)
 		(uuid "ecb38895-9165-4203-9dd5-e9c167740f31")
-	)
-	(wire
-		(pts
-			(xy 173.99 52.07) (xy 173.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6977c1-b978-44f4-afb6-29b3ccfd8141")
-	)
-	(wire
-		(pts
-			(xy 173.99 62.23) (xy 173.99 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f447dc73-754d-4ec1-b441-fd23fefd0262")
 	)
 	(hierarchical_label "V_{in}"
 		(shape input)
@@ -2473,7 +2463,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 171.45 57.15 0)
+		(at 171.45 53.34 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2484,7 +2474,7 @@
 		(dnp no)
 		(uuid "52dab36d-5b64-4786-801f-fdda562b1239")
 		(property "Reference" "Q425"
-			(at 177.8 58.4201 0)
+			(at 177.8 54.6101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2495,7 +2485,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 177.8 55.8801 0)
+			(at 177.8 52.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2506,7 +2496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 59.69 0)
+			(at 176.53 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 171.45 44.45 0)
+			(at 171.45 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,7 +2518,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 171.45 57.15 0)
+			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2529,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 171.45 40.005 0)
+			(at 171.45 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +2540,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 171.45 38.1 0)
+			(at 171.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +2551,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 171.45 41.91 0)
+			(at 171.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,6 +3596,92 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
 					(reference "Q621")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3eb0f3-fb2b-4072-89d8-7af96d1ef280")
+		(property "Reference" "R55"
+			(at 176.53 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47R"
+			(at 176.53 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.212 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6ad531e6-cc60-410f-8b93-6a463ea011c3")
+		)
+		(pin "1"
+			(uuid "018a8ca7-99eb-4d58-8cd1-180d2b77498e")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "R56")
 					(unit 1)
 				)
 			)
