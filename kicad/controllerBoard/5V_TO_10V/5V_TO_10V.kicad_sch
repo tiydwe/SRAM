@@ -1422,18 +1422,6 @@
 		(uuid "0b8a465a-34b9-4492-8830-09a27ddc3fb8")
 	)
 	(junction
-		(at 242.57 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ea5376b-feae-4d79-b1af-ad695316fd59")
-	)
-	(junction
-		(at 219.71 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "143cfb44-1509-4559-a982-352d263f34fc")
-	)
-	(junction
 		(at 161.29 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1444,12 +1432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f3efe4-49f9-419b-b128-27463faf493f")
-	)
-	(junction
-		(at 227.33 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21311cb3-7740-481c-b1b1-0601b2212206")
 	)
 	(junction
 		(at 107.95 41.91)
@@ -1494,10 +1476,22 @@
 		(uuid "4f0d6e06-46c5-4b94-8fc6-0b811f51bebf")
 	)
 	(junction
+		(at 227.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c7b264-0c27-4384-a2cd-c575a303c70b")
+	)
+	(junction
 		(at 85.09 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "559b12de-d57e-46cc-ade3-4b08c40cde48")
+	)
+	(junction
+		(at 262.89 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e74b99f-2d01-4c76-bfc6-1b4113a1ee81")
 	)
 	(junction
 		(at 187.96 54.61)
@@ -1536,12 +1530,6 @@
 		(uuid "8f6b7ab5-a012-413b-ae74-2c9f43656e5b")
 	)
 	(junction
-		(at 248.92 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f817ff0-a7ee-46bb-9703-33e84cd12ac1")
-	)
-	(junction
 		(at 74.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1563,7 +1551,7 @@
 		(at 219.71 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1736756-3c6e-4ec2-9aba-5b0f71d12ea0")
+		(uuid "b0f4e4c9-a37b-4d2b-b330-f7098a766394")
 	)
 	(junction
 		(at 86.36 41.91)
@@ -1590,6 +1578,12 @@
 		(uuid "dc3be2a4-4753-4b81-a0e0-62c6b9edb150")
 	)
 	(junction
+		(at 257.81 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df1a7842-6289-48f8-ac67-721916db9875")
+	)
+	(junction
 		(at 212.09 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1612,12 +1606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd6a30e-6444-41d4-8d9b-cf6e9aa07b7d")
-	)
-	(junction
-		(at 227.33 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3fd23d8-f2aa-46b2-95a8-fb90859a329d")
 	)
 	(junction
 		(at 74.93 95.25)
@@ -1647,16 +1635,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 43.18) (xy 242.57 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ccad88c-0371-4b5f-bec2-7a455f10c37c")
-	)
-	(wire
-		(pts
 			(xy 107.95 95.25) (xy 107.95 41.91)
 		)
 		(stroke
@@ -1674,16 +1652,6 @@
 			(type default)
 		)
 		(uuid "0fc4dd87-dc96-4b2e-ae64-303b0285f6ea")
-	)
-	(wire
-		(pts
-			(xy 248.92 43.18) (xy 265.43 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1041bb71-dfe2-43f2-ab54-53f59ca4ff6b")
 	)
 	(wire
 		(pts
@@ -1724,6 +1692,16 @@
 			(type default)
 		)
 		(uuid "196e60e6-d142-4a4d-b864-ea7ab39ad1b7")
+	)
+	(wire
+		(pts
+			(xy 257.81 43.18) (xy 262.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5d2194-5e44-4f27-a7c2-6ddb55023d4d")
 	)
 	(wire
 		(pts
@@ -2147,16 +2125,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 43.18) (xy 248.92 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e1bc9ea-ea7f-4e9e-870f-655a568fa958")
-	)
-	(wire
-		(pts
 			(xy 187.96 54.61) (xy 219.71 54.61)
 		)
 		(stroke
@@ -2257,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 43.18) (xy 257.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a8ee34-cf6f-44fb-a41d-6b66e000e999")
+	)
+	(wire
+		(pts
 			(xy 86.36 41.91) (xy 107.95 41.91)
 		)
 		(stroke
@@ -2314,6 +2292,16 @@
 			(type default)
 		)
 		(uuid "deb9d238-1413-46c4-acbe-40c0af78a848")
+	)
+	(wire
+		(pts
+			(xy 262.89 43.18) (xy 265.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddb15bc-8976-4821-b809-e3b7282455ee")
 	)
 	(wire
 		(pts
@@ -2378,7 +2366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "017a7b56-1c2e-45b9-bfc0-0f9b7773012c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0132"
 			(at 85.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2444,7 +2432,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR01")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -2586,7 +2574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09dc8b35-0b0a-4359-b6a3-f4421c627168")
-		(property "Reference" "R6"
+		(property "Reference" "R56"
 			(at 85.09 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +2642,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R6")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -2785,6 +2773,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 237.49 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c4ce7b-1df7-44da-9978-afa5a483dff7")
+		(property "Reference" "D11"
+			(at 237.49 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 237.49 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfa63cc5-b46a-41d2-bde6-441a7a1b84e3")
+		)
+		(pin "2"
+			(uuid "81f5d874-59cd-4db1-a8a8-db0ba4953d20")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 238.76 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185ab9e2-bcda-41b1-8ce1-57387ed9f8e3")
+		(property "Reference" "D12"
+			(at 238.76 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 238.76 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68b1e230-e583-4536-8adb-aa0cb21ac4c3")
+		)
+		(pin "2"
+			(uuid "0c9c4a39-b502-46d4-b193-b33f415fbaed")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 72.39 64.77 0)
 		(mirror x)
@@ -2904,114 +3096,6 @@
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "Q636")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 223.52 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18dbc690-c8dd-42a4-b829-766a6495dfaa")
-		(property "Reference" "D7"
-			(at 223.52 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 223.52 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a78cbb7-0790-4258-9742-063540136306")
-		)
-		(pin "2"
-			(uuid "2bd3ac86-fa92-4771-b929-6995c0d31c9b")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2348fce6-a2fa-4a70-b5f7-04e4769e23db")
-		(property "Reference" "C1"
+		(property "Reference" "C11"
 			(at 123.19 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,7 +3307,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C1")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d1e2c4-ffd6-4ba5-a4e9-2ef54ef87491")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0138"
 			(at 195.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3391,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR07")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -3450,7 +3534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ca65ecb-1d1a-4ca0-aa5c-45f1a8a5dd92")
-		(property "Reference" "R1"
+		(property "Reference" "R51"
 			(at 77.47 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +3604,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R1")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -3539,7 +3623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305e551c-2080-416c-9042-33cbe97acf9d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q635"
 			(at 78.74 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,116 +3729,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 238.76 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30d0a52a-23ec-4d24-b8e5-7f54ab9ae6aa")
-		(property "Reference" "D12"
-			(at 238.76 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 238.76 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 238.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 238.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 238.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b00d7a31-e50b-4e58-8032-8b025118943c")
-		)
-		(pin "2"
-			(uuid "cd38afbc-a237-404f-9cf2-3dc2db558050")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D12")
+					(reference "Q635")
 					(unit 1)
 				)
 			)
@@ -3883,114 +3858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 231.14 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39c1d250-c2c2-4c3d-b425-ca8ee80cfbbe")
-		(property "Reference" "D9"
-			(at 231.14 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 231.14 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 231.14 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 231.14 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 231.14 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 231.14 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55d5ad2c-b353-44fd-8ac6-3b8509da3504")
-		)
-		(pin "2"
-			(uuid "0c840d9e-341e-4930-95ab-959aadbf7486")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 76.2 0)
 		(unit 1)
@@ -4002,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5440882f-a15d-4741-9ac3-ce2c83c3f664")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0136"
 			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4068,7 +3935,109 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR05")
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 254 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b9251ac-7f9b-471b-80b2-3fcbf97bec22")
+		(property "Reference" "D16"
+			(at 254 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 254 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 254 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 254 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 254 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3013caa1-dfdd-40d8-a41e-bb3433635e3a")
+		)
+		(pin "2"
+			(uuid "e05a0d9d-f7ee-44ea-b82c-166ef90195e5")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63386c28-a63f-4a46-9305-9c3cfb6d60ab")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 215.9 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,7 +4065,7 @@
 				)
 			)
 		)
-		(property "Value" "MUR1560F"
+		(property "Value" "MUR1560FAC"
 			(at 215.9 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4145,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6910353e-7c9e-4cb0-ad86-bf5efcdfdead")
-		(property "Reference" "R5"
+		(property "Reference" "R55"
 			(at 85.09 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +4231,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R5")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4281,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb355e1-2a0c-47ac-83c4-1c1a20bde195")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 231.14 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4320,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C5")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70516fbd-81db-4057-9c8f-0ae547b3fa29")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0135"
 			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4529,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR04")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -4568,8 +4537,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 231.14 69.85 0)
-		(mirror y)
+		(at 229.87 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4578,9 +4546,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "787bf195-9cbf-47de-a8b4-5734db786ff5")
-		(property "Reference" "D10"
-			(at 231.14 76.2 0)
+		(uuid "75431699-1e68-47d2-bf66-7d23cd1c724f")
+		(property "Reference" "D9"
+			(at 229.87 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4589,8 +4557,8 @@
 				)
 			)
 		)
-		(property "Value" "MUR1560F"
-			(at 231.14 73.66 0)
+		(property "Value" "MUR1560FAC"
+			(at 229.87 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4600,7 +4568,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 231.14 69.85 0)
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 69.85 0)
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4590,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 231.14 69.85 0)
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4601,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 231.14 69.85 0)
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4644,7 +4612,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 231.14 69.85 0)
+			(at 229.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4655,21 +4623,117 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cd87b7a-c686-4e6d-b14e-108d8ace1812")
+			(uuid "606065e3-9a43-4e6e-ac2a-9203a21ffa2b")
 		)
 		(pin "2"
-			(uuid "41edd55e-f2bd-4129-871c-9a0a43148c21")
+			(uuid "aa6a0c9c-55d9-489f-92c7-5ab98359cb32")
 		)
 		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D7")
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D9")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 223.52 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77952e93-282e-4909-89e3-af77ad198f9d")
+		(property "Reference" "D8"
+			(at 223.52 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 223.52 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b943559-b6d6-4c1e-a175-b0f0db975c83")
+		)
+		(pin "2"
+			(uuid "8e2bc1f1-1d2a-41f5-879a-9c8420509517")
+		)
+		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4802,7 +4866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 50.8 0)
+		(at 262.89 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4812,8 +4876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b795d9-7b48-47ff-b14e-2c11aec385b4")
-		(property "Reference" "#PWR08"
-			(at 248.92 57.15 0)
+		(property "Reference" "#PWR0139"
+			(at 262.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +4888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 55.88 0)
+			(at 262.89 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4834,7 +4898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 50.8 0)
+			(at 262.89 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4845,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 50.8 0)
+			(at 262.89 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4856,7 +4920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 50.8 0)
+			(at 262.89 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4878,7 +4942,109 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR08")
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 246.38 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851993b0-e731-42d4-9781-a3315365840d")
+		(property "Reference" "D14"
+			(at 246.38 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 246.38 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0dfdc0d-9711-4e22-be1b-f932f7f99522")
+		)
+		(pin "2"
+			(uuid "f574f026-44f9-459f-a4f0-f5930e1a6cb5")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9309155a-9cdb-48c4-8ba3-44a0d43d4e98")
-		(property "Reference" "C3"
+		(property "Reference" "C13"
 			(at 223.52 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5257,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9394826e-4e7b-4db1-b822-36d2fa26608a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0133"
 			(at 86.36 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5341,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR02")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -5297,223 +5463,6 @@
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "Q640")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 238.76 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff44c62-a732-48bf-bc92-aa411380eb98")
-		(property "Reference" "D11"
-			(at 238.76 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 238.76 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ea33c7d-e899-4dbc-9218-ebac961fd36f")
-		)
-		(pin "2"
-			(uuid "83f7158f-f10f-4e37-9d47-091db4beab4b")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 223.52 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a007796f-c4e3-40bb-9cb4-12d6b60062c0")
-		(property "Reference" "D8"
-			(at 223.52 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 223.52 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 223.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 223.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 223.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b102486a-3932-4838-accd-b6fe49491844")
-		)
-		(pin "2"
-			(uuid "a6c6f14b-a51c-4d45-9956-888fc69c3e7c")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5656,7 +5605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67fee7c-81aa-4f6b-a923-8c0921782f0f")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 231.14 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,7 +5675,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5744,7 +5693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6fdc87-bd67-4572-9068-59e596fe2376")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0137"
 			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5810,7 +5759,313 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR06")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf4a4bfb-61b0-4b5b-84ca-7ffe83566e3e")
+		(property "Reference" "D5"
+			(at 214.63 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 214.63 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2110f101-87d1-4694-a8ce-f7c861caf631")
+		)
+		(pin "2"
+			(uuid "6537fda1-40e5-4d1e-85bd-a087244c5125")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2a7b058-f76f-4508-947b-c24887176cbe")
+		(property "Reference" "D13"
+			(at 245.11 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 245.11 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f3c3602-dec4-4839-ab1c-31740f29d768")
+		)
+		(pin "2"
+			(uuid "8d1ca5b2-5609-46b2-9efb-212e86491cd1")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 252.73 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2fcdaba-5ba6-4db2-9cfb-5f4af80e0857")
+		(property "Reference" "D15"
+			(at 252.73 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 252.73 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7feb3ac6-5a72-456d-8e6a-55908ad74e94")
+		)
+		(pin "2"
+			(uuid "0f333cd2-3b1d-4aae-885a-3b05b2c9142a")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5828,7 +6083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f8eadd-f471-46e0-a0bc-7facc39d27ad")
-		(property "Reference" "R3"
+		(property "Reference" "R53"
 			(at 77.47 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,116 +6153,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 215.9 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4c5f828-17b0-4ab0-bda6-0f71b9da7580")
-		(property "Reference" "D2"
-			(at 215.9 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MUR1560F"
-			(at 215.9 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 215.9 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 215.9 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 215.9 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45934398-d044-488c-bd1b-7030fd470cae")
-		)
-		(pin "2"
-			(uuid "14e866e7-655c-4099-a895-1fad1233b460")
-		)
-		(instances
-			(project "5V_TO_10V"
-				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project "controllerBoard"
-				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "D2")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0939f43-f41f-44f5-a5c7-aafa2ff45f33")
-		(property "Reference" "R2"
+		(property "Reference" "R52"
 			(at 77.47 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6241,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R2")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6312,6 +6458,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 222.25 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e81e7010-fffb-439b-827a-f157ce67b39c")
+		(property "Reference" "D7"
+			(at 222.25 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 222.25 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60534801-7cd9-4aa0-95d3-5f91fd3263ba")
+		)
+		(pin "2"
+			(uuid "cca8d76f-547e-412a-8027-b7dc3dc2d5a5")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 231.14 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaf03857-df74-42dc-9ea4-d042af2b11c8")
+		(property "Reference" "D10"
+			(at 231.14 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUR1560FAC"
+			(at 231.14 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f026e4a9-1d1d-438d-8a6b-4beb64bb8005")
+		)
+		(pin "2"
+			(uuid "8634b686-4d9b-48b7-a7cc-d6d874f84694")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 72.39 107.95 0)
 		(unit 1)
@@ -6447,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed2bc1e-c83f-49a6-aa28-7529926eebdd")
-		(property "Reference" "C2"
+		(property "Reference" "C12"
 			(at 223.52 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6867,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C2")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6535,7 +6885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff7571c-ef00-45c8-beda-bc532016285e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0134"
 			(at 119.38 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6601,7 +6951,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "#PWR03")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 46.99 0)
+		(at 262.89 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6619,8 +6969,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f377c96f-ab17-4f02-a131-7d9bf7efacb5")
-		(property "Reference" "C6"
-			(at 252.73 45.7199 0)
+		(property "Reference" "C16"
+			(at 266.7 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,8 +6980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10mC"
-			(at 252.73 48.2599 0)
+		(property "Value" "1mC"
+			(at 266.7 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6642,7 +6992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 249.8852 50.8 0)
+			(at 263.8552 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +7003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 46.99 0)
+			(at 262.89 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,7 +7014,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 248.92 46.99 0)
+			(at 262.89 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6689,7 +7039,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6707,7 +7057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d8819a-7d49-4de6-89ff-0c446eb160fb")
-		(property "Reference" "R4"
+		(property "Reference" "R54"
 			(at 77.47 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +7127,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
-					(reference "R4")
+					(reference "R54")
 					(unit 1)
 				)
 			)

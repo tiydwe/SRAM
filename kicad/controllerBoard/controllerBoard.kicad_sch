@@ -1852,7 +1852,7 @@
 	)
 	(rectangle
 		(start 16.51 133.35)
-		(end 142.24 194.31)
+		(end 95.25 176.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -5742,7 +5742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de511b9-d59f-44af-ae67-2fef3526c97a")
-		(property "Reference" "C16"
+		(property "Reference" "C2"
 			(at 43.18 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5806,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
-					(reference "C16")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5902,7 +5902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c48ade4-be56-4048-9b0b-6eacc47cb21a")
-		(property "Reference" "C15"
+		(property "Reference" "C1"
 			(at 25.4 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +5966,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
-					(reference "C15")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6256,7 +6256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaef4f14-ad92-45a9-b4e6-d3dedcca5953")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR06"
 			(at 77.47 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6316,7 +6316,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
-					(reference "#PWR0134")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6528,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d658f521-fbd0-4a59-8e24-7e769317d01a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR03"
 			(at 30.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6588,7 +6588,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
-					(reference "#PWR0135")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6684,7 +6684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cd45d2-35e5-447f-8fee-1de44a6ed1d3")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR04"
 			(at 30.48 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6744,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003"
-					(reference "#PWR0136")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8947,7 +8947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5V_TO_10V\\5V_TO_10V.kicad_sch"
+		(property "Sheetfile" "5V_TO_10V/5V_TO_10V.kicad_sch"
 			(at 54.61 168.2246 0)
 			(show_name no)
 			(do_not_autoplace no)
