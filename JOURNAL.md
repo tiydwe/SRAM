@@ -5,6 +5,35 @@ description: "256 bytes of SRAM from scratch! No ICs at all. Made from over 20 0
 created_at: "2026-10-01"
 ---
 
+
+# 2026-10-14: Did more simulation and wrote the (current) BOM
+
+**Total time spent: 2 hours**
+
+![image.png](images/2026-10-14_bom.png)
+The BOM I made
+![image.png](images/2026-10-14_demux-sim.png)
+Simulation of a 1 to 2 demux. Green is output 0, blue is output 1, and red is the select signal
+# What I did
+I simulated the 1 to 2 demux in LTspice and it seems to work fine. I'm kind of procrastinating to making the PCB so I just wrote up the BOM so I don't have to search up the components every time. That's basically all I did today.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/A2O3CRLZz1La
+
+# 2026-10-13: Changed back to a charge pump!
+
+**Total time spent: 1.5 hours**
+
+![image.png](images/2026-10-13_charge-pump-sim.png)
+Simulation of oscillator and charge pump. Green is the output voltage (under 2A of load), red is the oscillator output, and blue is the voltage across one capacitor in the charge pump.
+
+# What I did
+I decided to not use a IC actually and use a charge pump instead. The charge pump runs at around 50kHz and uses a signal generated from an inverting Schmitt trigger fed back into itself with a rc circuit. I had to spend a good amount of time trying to figure out how to get the oscillation stable and to work. The signal is fed into two inverters to drive two parallel charge pumps. I tested the charge pumps in LTspice and it can drive around 2A without sagging too much. It outputs slightly above 10v, so I'll probably end up using some sort of zener diode to bring it down to 10v or 9v or just a bunch of diodes.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/0Xzy1dWXinuu
+
+
 # 2026-10-11: Finished the main schematic and power management
 
 **Total time spent: 2.5 hours**
