@@ -5,6 +5,161 @@
 	(uuid "48659937-bd5e-4036-aa2a-bfad3599e7ad")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -145,12 +300,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -158,7 +311,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -168,8 +321,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -190,18 +343,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -212,40 +354,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,7 +365,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -400,7 +520,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -423,11 +543,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -442,10 +562,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -461,9 +581,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -743,6 +863,12 @@
 		(uuid "06d8d8bf-45a8-4ff9-8f51-025c2865e9e7")
 	)
 	(junction
+		(at 266.7 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8d3d54-33b7-43d7-add4-4aabe5588910")
+	)
+	(junction
 		(at 133.35 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -755,6 +881,18 @@
 		(uuid "3acadfa8-3d73-46fa-8ef5-2f6c7c705aaf")
 	)
 	(junction
+		(at 256.54 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e1a056-221e-4166-90f6-3cf397bf38f1")
+	)
+	(junction
+		(at 266.7 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549fd332-968a-4437-9412-e034c15086ec")
+	)
+	(junction
 		(at 176.53 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -765,6 +903,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f82b717-adb7-4628-b838-b3aeef6d3857")
+	)
+	(junction
+		(at 246.38 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f938a3-15d4-404d-90a4-37f995f57ea8")
 	)
 	(junction
 		(at 231.14 36.83)
@@ -797,6 +941,12 @@
 		(uuid "987eebba-0f86-4179-bd5c-9eb714d15b35")
 	)
 	(junction
+		(at 256.54 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35f26d3-c72e-49a4-b4ba-f5495ff4e047")
+	)
+	(junction
 		(at 68.58 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -819,6 +969,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed606f6a-e1fe-4ffb-80bf-fd7bcd2e9a3c")
+	)
+	(junction
+		(at 262.89 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee406a84-9a21-4a4c-834b-9a1dcb84a878")
 	)
 	(junction
 		(at 123.19 72.39)
@@ -1038,6 +1194,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 44.45) (xy 266.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a9fb64-7a94-4cb2-b139-88ae2ebb03ff")
+	)
+	(wire
+		(pts
 			(xy 55.88 57.15) (xy 60.96 57.15)
 		)
 		(stroke
@@ -1065,6 +1231,16 @@
 			(type default)
 		)
 		(uuid "4f8b6fd8-6f2a-4013-b93e-f38355f182ac")
+	)
+	(wire
+		(pts
+			(xy 266.7 44.45) (xy 276.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a0c9b8-c07b-4bd8-b63a-53644579315b")
 	)
 	(wire
 		(pts
@@ -1218,6 +1394,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 36.83) (xy 266.7 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8daf51bb-e2d5-4033-9c01-4307ee3a8f92")
+	)
+	(wire
+		(pts
 			(xy 223.52 77.47) (xy 218.44 77.47)
 		)
 		(stroke
@@ -1338,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 44.45) (xy 262.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab37f670-7d9a-461b-bab6-5dfc6102dab4")
+	)
+	(wire
+		(pts
 			(xy 83.82 41.91) (xy 83.82 57.15)
 		)
 		(stroke
@@ -1365,6 +1561,16 @@
 			(type default)
 		)
 		(uuid "b2955dce-ad61-4bc3-8d75-99c0de73b736")
+	)
+	(wire
+		(pts
+			(xy 246.38 36.83) (xy 256.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c85d74-c363-41a9-b383-08dd0eb4a826")
 	)
 	(wire
 		(pts
@@ -1538,6 +1744,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 44.45) (xy 256.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcf33a0-8e51-4626-ba27-4f9b2cfff3d8")
+	)
+	(wire
+		(pts
 			(xy 196.85 41.91) (xy 191.77 41.91)
 		)
 		(stroke
@@ -1598,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 36.83) (xy 232.41 36.83)
+			(xy 231.14 36.83) (xy 246.38 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1645,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "fd341fa1-ece7-406b-8012-25c3852ba629")
+	)
+	(wire
+		(pts
+			(xy 266.7 36.83) (xy 276.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff585fd7-2af2-4cd1-8bbd-a20a31757106")
 	)
 	(hierarchical_label "A_{10}"
 		(shape input)
@@ -1999,7 +2225,7 @@
 		(uuid "fc9b6f1b-c79b-40b1-bee6-7fc159c69807")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 93.98 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -2021,7 +2247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 100.33 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,6 +2360,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 246.38 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02e6bd41-1f99-4268-af47-2ea2eb4df632")
+		(property "Reference" "C133"
+			(at 250.19 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 250.19 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 247.3452 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "796129a4-0c92-413c-b33f-08913093ee8b")
+		)
+		(pin "2"
+			(uuid "c36de0dd-7ab7-4715-89d8-f4b0cf32403d")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "C133")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 62.23 0)
 		(unit 1)
@@ -2145,7 +2459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031a2a58-70fc-407f-ab9f-a2464a0f610f")
-		(property "Reference" "#PWR0558"
+		(property "Reference" "#PWR0690"
 			(at 68.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2205,7 +2519,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0558")
+					(reference "#PWR0690")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f57e4c-caba-4139-b17d-294b0a13c29f")
-		(property "Reference" "#PWR0570"
+		(property "Reference" "#PWR0702"
 			(at 204.47 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2388,7 +2702,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0570")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d1eb8a-9cf0-45c6-91c7-2da014fd07e2")
-		(property "Reference" "#PWR0568"
+		(property "Reference" "#PWR0700"
 			(at 176.53 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2472,7 +2786,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0568")
+					(reference "#PWR0700")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1791f967-c4c7-425e-be55-a25ecff89beb")
-		(property "Reference" "#PWR0564"
+		(property "Reference" "#PWR0696"
 			(at 133.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2655,7 +2969,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0564")
+					(reference "#PWR0696")
 					(unit 1)
 				)
 			)
@@ -2866,7 +3180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 228.6 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -2888,7 +3202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 234.95 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 39.37 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -3023,7 +3337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 45.72 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,7 +3450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 173.99 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -3158,7 +3472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 180.34 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,6 +3684,90 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a923afa-8d59-4fee-b0ad-e88fe11a966a")
+		(property "Reference" "#PWR0705"
+			(at 262.89 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8363f816-6939-4a2c-9635-64311a23ccf9")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 40.64 0)
 		(unit 1)
@@ -3480,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a9ef23-0c25-4607-8abb-6335a552faa3")
-		(property "Reference" "#PWR0569"
+		(property "Reference" "#PWR0701"
 			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3540,7 +3938,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0569")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32af1d82-d94b-4ef4-9011-efc85ddab89f")
-		(property "Reference" "#PWR0556"
+		(property "Reference" "#PWR0688"
 			(at 41.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3624,7 +4022,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0556")
+					(reference "#PWR0688")
 					(unit 1)
 				)
 			)
@@ -3637,7 +4035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 147.32 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3659,7 +4057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 153.67 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +4170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 120.65 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -3794,7 +4192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 127 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,7 +4415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c505d3a-2349-4946-bb4f-b9aec82fb523")
-		(property "Reference" "#PWR0567"
+		(property "Reference" "#PWR0699"
 			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4077,7 +4475,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0567")
+					(reference "#PWR0699")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 173.99 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -4112,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 180.34 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eafd817-4567-4ac1-b450-8f20f07642e3")
-		(property "Reference" "#PWR0560"
+		(property "Reference" "#PWR0692"
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4296,7 +4694,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0560")
+					(reference "#PWR0692")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fcb603-2797-4710-a74a-108a253034f9")
-		(property "Reference" "#PWR0565"
+		(property "Reference" "#PWR0697"
 			(at 149.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4380,7 +4778,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0565")
+					(reference "#PWR0697")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63892bdb-9c60-42f7-8845-01f5f7e4ebad")
-		(property "Reference" "#PWR0561"
+		(property "Reference" "#PWR0693"
 			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4464,13 +4862,101 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0561")
+					(reference "#PWR0693")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 276.86 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68fc2096-6b52-44eb-a81c-7e407e0f93e7")
+		(property "Reference" "C136"
+			(at 280.67 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 280.67 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 277.8252 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 276.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3320c7a-8151-467a-a20f-622019c84979")
+		)
+		(pin "2"
+			(uuid "7a657aca-99da-4b04-b5d3-82d617a76148")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "C136")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4587,7 +5073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8845ce2b-5f51-434f-b549-710759f91898")
-		(property "Reference" "#PWR0559"
+		(property "Reference" "#PWR0691"
 			(at 68.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4647,7 +5133,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0559")
+					(reference "#PWR0691")
 					(unit 1)
 				)
 			)
@@ -4957,7 +5443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 147.32 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -4979,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 153.67 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5092,7 +5578,95 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Device:C")
+		(at 256.54 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9524d078-b23f-405e-a854-54d3d4831416")
+		(property "Reference" "C134"
+			(at 260.35 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 260.35 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 257.5052 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c180845-26ba-4f28-bc24-22d1de6fc3c2")
+		)
+		(pin "2"
+			(uuid "ba52c36c-c55f-48d4-89fb-99432c9bb59a")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "C134")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 66.04 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -5114,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 72.39 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,7 +5801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 120.65 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -5249,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 127 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 201.93 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -5384,7 +5958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 208.28 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +6082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0db5360-2bd0-4fa5-9d76-494ff33a34c8")
-		(property "Reference" "#PWR0562"
+		(property "Reference" "#PWR0694"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +6142,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0562")
+					(reference "#PWR0694")
 					(unit 1)
 				)
 			)
@@ -5581,7 +6155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 228.6 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -5603,7 +6177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 234.95 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +6400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc730e9b-05b4-4d38-be14-efcbf8a0c75c")
-		(property "Reference" "#PWR0571"
+		(property "Reference" "#PWR0703"
 			(at 231.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5886,7 +6460,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0571")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -5910,7 +6484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc5ca3d-08e2-4d8d-af02-d4495592d931")
-		(property "Reference" "#PWR0566"
+		(property "Reference" "#PWR0698"
 			(at 149.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +6544,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0566")
+					(reference "#PWR0698")
 					(unit 1)
 				)
 			)
@@ -6082,7 +6656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 201.93 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -6104,7 +6678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 208.28 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +6802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce865ae7-c1a0-4815-a0af-b8b36c69e029")
-		(property "Reference" "#PWR0557"
+		(property "Reference" "#PWR0689"
 			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6862,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0557")
+					(reference "#PWR0689")
 					(unit 1)
 				)
 			)
@@ -6400,7 +6974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 39.37 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -6422,7 +6996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 45.72 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,7 +7109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 66.04 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -6557,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 72.39 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,7 +7255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd17544b-e3c7-4474-9821-bd960deb5520")
-		(property "Reference" "#PWR0563"
+		(property "Reference" "#PWR0695"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6741,7 +7315,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0563")
+					(reference "#PWR0695")
 					(unit 1)
 				)
 			)
@@ -6864,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def70122-855f-4000-9c4e-fe9ad1d44693")
-		(property "Reference" "#PWR0572"
+		(property "Reference" "#PWR0704"
 			(at 231.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6924,13 +7498,101 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
-					(reference "#PWR0572")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
 			(project "LOGIC_TO_WL_LEVEL_SHIFT"
 				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
 					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec57a5ff-50ba-4aad-953b-4b95dcc367ee")
+		(property "Reference" "C135"
+			(at 270.51 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 270.51 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 267.6652 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26840180-13df-4d96-beb4-a70b9d437ec6")
+		)
+		(pin "2"
+			(uuid "110af5dd-d46a-4bfc-a6e9-850589e1526f")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d/143dd1b0-df8d-49ab-b4e7-0788fbdc66b0"
+					(reference "C135")
+					(unit 1)
+				)
+			)
+			(project "LOGIC_TO_WL_LEVEL_SHIFT"
+				(path "/48659937-bd5e-4036-aa2a-bfad3599e7ad"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 93.98 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -7058,7 +7720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 100.33 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)

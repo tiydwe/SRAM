@@ -5,12 +5,10 @@
 	(uuid "e37ca90f-3b62-485e-a7db-e8f4bf6b0689")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -18,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -28,8 +26,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -50,18 +48,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,40 +59,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +70,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -260,7 +225,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -283,25 +248,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -312,7 +259,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,6 +277,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -341,12 +306,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -354,7 +317,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -364,8 +327,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -386,18 +349,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -408,40 +360,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -452,7 +371,18 @@
 					)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -596,7 +526,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -619,11 +549,11 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -638,10 +568,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -657,9 +587,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1297,7 +1227,7 @@
 		(uuid "f4b01c91-3c91-4763-8096-0ea756317862")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -1319,7 +1249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -1580,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1819,7 +1749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 44.45 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -1842,7 +1772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 50.8 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2081,7 +2011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -2103,7 +2033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748eb10b-809c-417a-8986-e01ece85f336")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0657"
 			(at 127 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2413,67 +2343,67 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/00a5238f-a54e-4948-8b28-7676fff079b4"
-					(reference "#PWR0543")
+					(reference "#PWR0675")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0cf35835-4f43-4f49-83f0-8bc61e27d2c6"
-					(reference "#PWR0547")
+					(reference "#PWR0679")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/1676bd35-adc0-4874-a7f6-b70bbd103e35"
-					(reference "#PWR0533")
+					(reference "#PWR0665")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/197ed47d-8726-46d7-a907-c292257605d7"
-					(reference "#PWR0541")
+					(reference "#PWR0673")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/26f0fc5f-c7cc-4917-905b-7d5d20a490c8"
-					(reference "#PWR0527")
+					(reference "#PWR0659")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/51cefb6d-daac-49d6-93d0-5f1607581d0b"
-					(reference "#PWR0555")
+					(reference "#PWR0687")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/5670ff8e-a062-4fcb-a569-136066aead2d"
-					(reference "#PWR0535")
+					(reference "#PWR0667")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/5bcb3992-c452-4a11-8be8-1bad9b347916"
-					(reference "#PWR0537")
+					(reference "#PWR0669")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/73400315-9a9b-482c-89f2-3dc05eddf230"
-					(reference "#PWR0525")
+					(reference "#PWR0657")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/8d8bddb8-7e57-4c39-9d5b-e5dc54e8ecce"
-					(reference "#PWR0551")
+					(reference "#PWR0683")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/af6dac8e-cbf1-40c9-a8b1-d2993a8349c8"
-					(reference "#PWR0545")
+					(reference "#PWR0677")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/b152f43e-4bcf-468f-9875-026c814ffa29"
-					(reference "#PWR0553")
+					(reference "#PWR0685")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/bea89456-5e56-4436-8de4-f0968e71580c"
-					(reference "#PWR0539")
+					(reference "#PWR0671")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/ce2ea598-e429-4d38-aa7d-4e5f8e5963e2"
-					(reference "#PWR0529")
+					(reference "#PWR0661")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/d916ecc5-9d3c-47bc-9f14-309ae314b1ef"
-					(reference "#PWR0531")
+					(reference "#PWR0663")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/f9e1110c-5985-48d3-9125-5456e73e29d6"
-					(reference "#PWR0549")
+					(reference "#PWR0681")
 					(unit 1)
 				)
 			)
@@ -2563,7 +2493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e64d1d-f8ec-4ccd-aebc-9eab57901ed5")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0656"
 			(at 127 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2623,67 +2553,67 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/00a5238f-a54e-4948-8b28-7676fff079b4"
-					(reference "#PWR0542")
+					(reference "#PWR0674")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0cf35835-4f43-4f49-83f0-8bc61e27d2c6"
-					(reference "#PWR0546")
+					(reference "#PWR0678")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/1676bd35-adc0-4874-a7f6-b70bbd103e35"
-					(reference "#PWR0532")
+					(reference "#PWR0664")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/197ed47d-8726-46d7-a907-c292257605d7"
-					(reference "#PWR0540")
+					(reference "#PWR0672")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/26f0fc5f-c7cc-4917-905b-7d5d20a490c8"
-					(reference "#PWR0526")
+					(reference "#PWR0658")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/51cefb6d-daac-49d6-93d0-5f1607581d0b"
-					(reference "#PWR0554")
+					(reference "#PWR0686")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/5670ff8e-a062-4fcb-a569-136066aead2d"
-					(reference "#PWR0534")
+					(reference "#PWR0666")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/5bcb3992-c452-4a11-8be8-1bad9b347916"
-					(reference "#PWR0536")
+					(reference "#PWR0668")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/73400315-9a9b-482c-89f2-3dc05eddf230"
-					(reference "#PWR0524")
+					(reference "#PWR0656")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/8d8bddb8-7e57-4c39-9d5b-e5dc54e8ecce"
-					(reference "#PWR0550")
+					(reference "#PWR0682")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/af6dac8e-cbf1-40c9-a8b1-d2993a8349c8"
-					(reference "#PWR0544")
+					(reference "#PWR0676")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/b152f43e-4bcf-468f-9875-026c814ffa29"
-					(reference "#PWR0552")
+					(reference "#PWR0684")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/bea89456-5e56-4436-8de4-f0968e71580c"
-					(reference "#PWR0538")
+					(reference "#PWR0670")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/ce2ea598-e429-4d38-aa7d-4e5f8e5963e2"
-					(reference "#PWR0528")
+					(reference "#PWR0660")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/d916ecc5-9d3c-47bc-9f14-309ae314b1ef"
-					(reference "#PWR0530")
+					(reference "#PWR0662")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/f9e1110c-5985-48d3-9125-5456e73e29d6"
-					(reference "#PWR0548")
+					(reference "#PWR0680")
 					(unit 1)
 				)
 			)
@@ -2762,7 +2692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -2784,7 +2714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +2953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 124.46 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -3046,7 +2976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 130.81 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 83.82 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -3308,7 +3238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 90.17 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3547,7 +3477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 104.14 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -3570,7 +3500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 110.49 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +3739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3831,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 64.77 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -4093,7 +4023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 71.12 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
