@@ -1,0 +1,15 @@
+{
+    "layout": {
+        "rows": "13",
+        "cols": "7"
+    },
+    "source": {
+        "stack": "6layer"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "vcuts"
+    }
+}
