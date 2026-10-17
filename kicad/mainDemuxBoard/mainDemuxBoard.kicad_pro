@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,9 +159,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.7,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -521,7 +521,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -706,7 +706,7 @@
         "uuid": "f888c822-9b6b-4788-a884-52437644ebdc"
       }
     ],
-    "used_designators": "J1-17,R1-16,#PWR1-108,Q1-184",
+    "used_designators": "R1-16,J1-17,#PWR1-109,Q1-184,C1-4",
     "variants": []
   },
   "sheets": [
@@ -717,6 +717,14 @@
     [
       "1a45d35c-9d3b-4677-823d-3f805a376771",
       "1_16_5V_DEMUX_NOTOUT"
+    ],
+    [
+      "2eaa3f80-bc8f-4d68-8197-aec1d21f5248",
+      "16_NOT"
+    ],
+    [
+      "0600d891-ccd3-4602-9849-fea3d7e045ca",
+      "5VNOT"
     ],
     [
       "2e151ebf-7913-49eb-83f7-10f1b73fc84d",
@@ -793,14 +801,6 @@
     [
       "b152f43e-4bcf-468f-9875-026c814ffa29",
       "5V_5NAND15"
-    ],
-    [
-      "2eaa3f80-bc8f-4d68-8197-aec1d21f5248",
-      "16_NOT"
-    ],
-    [
-      "0600d891-ccd3-4602-9849-fea3d7e045ca",
-      "5VNOT"
     ]
   ],
   "text_variables": {},

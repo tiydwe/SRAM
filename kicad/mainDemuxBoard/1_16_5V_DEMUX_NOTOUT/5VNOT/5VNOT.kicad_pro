@@ -645,13 +645,18 @@
       {
         "filename": "5VNOT.kicad_sch",
         "name": "5VNOT",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "cabc387a-6207-4601-83a6-292a0d885e49"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "cabc387a-6207-4601-83a6-292a0d885e49",
+      "5VNOT"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

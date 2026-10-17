@@ -145,12 +145,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -158,7 +156,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -168,8 +166,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -190,18 +188,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -212,40 +199,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,7 +210,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -400,7 +365,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -423,11 +388,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -442,10 +407,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -461,9 +426,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,7 +1006,7 @@
 		(uuid "fee4b433-b4cb-40ba-a551-78e21963bdda")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 124.46 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -1063,7 +1028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 130.81 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1074,7 +1039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1160,6 +1125,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q372")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1242,10 +1213,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 86.36 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -1267,7 +1244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 92.71 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,7 +1255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1364,6 +1341,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q370")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1400,7 +1383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.172 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -1447,6 +1430,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1532,10 +1521,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 105.41 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -1557,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 111.76 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +1563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1654,10 +1649,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q371")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 181.61 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -1679,7 +1680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 187.96 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 186.69 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1776,10 +1777,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q375")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 162.56 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -1801,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 168.91 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1898,6 +1905,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q374")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1977,6 +1990,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2062,6 +2081,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2144,6 +2169,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2180,7 +2211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -2227,6 +2258,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2312,6 +2349,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2348,7 +2391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.272 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -2395,6 +2438,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2480,10 +2529,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 200.66 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -2505,7 +2560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 207.01 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +2571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2602,6 +2657,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q376")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2681,6 +2742,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2766,10 +2833,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 143.51 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -2791,7 +2864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 149.86 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2802,7 +2875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2888,6 +2961,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q373")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2967,6 +3046,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3052,6 +3137,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3134,6 +3225,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3170,7 +3267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.322 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3220,6 +3317,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3256,7 +3359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3303,6 +3406,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3388,6 +3497,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3467,6 +3582,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3552,6 +3673,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3588,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 182.372 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3638,6 +3765,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3674,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.122 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3724,10 +3857,16 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 67.31 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -3749,7 +3888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 73.66 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 72.39 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3846,6 +3985,12 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "Q369")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3882,7 +4027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.422 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3929,6 +4074,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba3cdfe8-f437-4525-8f86-a4f1390c4f4d"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4014,6 +4165,17 @@
 					(unit 1)
 				)
 			)
+			(project "8_BL_CTRLR"
+				(path "/97437f80-2620-4be2-b56e-738318932f5c"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

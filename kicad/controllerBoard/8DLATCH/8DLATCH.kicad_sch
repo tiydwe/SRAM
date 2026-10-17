@@ -1041,6 +1041,11 @@
 					(page "61")
 				)
 			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1147,6 +1152,11 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bac368b4-3632-4a54-8f7e-0865a964629f"
 					(page "59")
+				)
+			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "9")
 				)
 			)
 		)
@@ -1257,6 +1267,11 @@
 					(page "60")
 				)
 			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "8")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1363,6 +1378,11 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bac368b4-3632-4a54-8f7e-0865a964629f"
 					(page "56")
+				)
+			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "3")
 				)
 			)
 		)
@@ -1473,6 +1493,11 @@
 					(page "57")
 				)
 			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "4")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1579,6 +1604,11 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bac368b4-3632-4a54-8f7e-0865a964629f"
 					(page "54")
+				)
+			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "6")
 				)
 			)
 		)
@@ -1689,6 +1719,11 @@
 					(page "58")
 				)
 			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "2")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1797,6 +1832,16 @@
 					(page "55")
 				)
 			)
+			(project "8DLATCH"
+				(path "/b0d763b0-76c9-43df-84c0-f4953595c34b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

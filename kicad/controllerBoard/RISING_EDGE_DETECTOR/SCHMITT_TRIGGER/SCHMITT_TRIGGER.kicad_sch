@@ -145,12 +145,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -158,7 +156,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -168,8 +166,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -190,18 +188,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -212,40 +199,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,7 +210,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -400,7 +365,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -423,25 +388,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -452,7 +399,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,6 +417,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -481,12 +446,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -494,7 +457,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -504,8 +467,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -526,18 +489,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -548,40 +500,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -592,7 +511,18 @@
 					)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -736,7 +666,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -759,11 +689,11 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -778,10 +708,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -797,9 +727,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1297,7 +1227,7 @@
 		(uuid "fbe54d38-d4ba-4e5b-a26f-1179f7aed539")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 128.27 100.33 270)
 		(unit 1)
 		(body_style 1)
@@ -1318,7 +1248,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 128.27 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,7 +1258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1404,6 +1334,12 @@
 			(uuid "d3cc32bf-b62e-4e16-97e9-e12fec4affd1")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q634")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q634")
@@ -1414,10 +1350,16 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q634")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 106.68 73.66 0)
 		(mirror x)
 		(unit 1)
@@ -1440,7 +1382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 113.03 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1451,7 +1393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1527,6 +1469,12 @@
 			(uuid "1b3d5847-cb50-4558-97e7-96249c1bf208")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q630")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q630")
@@ -1534,6 +1482,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q624")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q630")
 					(unit 1)
 				)
 			)
@@ -1609,6 +1563,12 @@
 			(uuid "e6e769fc-696c-4075-934b-2285dfa829c6")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0131")
@@ -1616,6 +1576,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -1691,6 +1657,12 @@
 			(uuid "253f6b47-8c10-4041-9b50-490ba70353af")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0129")
@@ -1698,6 +1670,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -1773,6 +1751,12 @@
 			(uuid "797bd012-3903-4f5b-b5c6-2ab2c076fae5")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0128")
@@ -1783,10 +1767,16 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 106.68 55.88 0)
 		(mirror x)
 		(unit 1)
@@ -1809,7 +1799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 113.03 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +1810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 111.76 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1896,6 +1886,12 @@
 			(uuid "9927c016-de57-4cf6-bec4-27a74d5205ea")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q629")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q629")
@@ -1903,6 +1899,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q623")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q629")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.442 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -1982,6 +1984,12 @@
 			(uuid "7ce2fe28-4e61-4b94-8370-a6f74c69007b")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R45")
@@ -1992,10 +2000,16 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 128.27 71.12 270)
 		(mirror x)
 		(unit 1)
@@ -2017,7 +2031,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 128.27 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2103,6 +2117,12 @@
 			(uuid "4c476f5a-f24b-42c3-8699-94be089d1a4e")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q633")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q633")
@@ -2110,6 +2130,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q627")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q633")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.442 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -2189,6 +2215,12 @@
 			(uuid "5c13f796-3d19-4a92-9c56-e63e595e20b8")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R47")
@@ -2196,6 +2228,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -2273,6 +2311,12 @@
 			(uuid "0cf3525b-9d48-4efb-bf79-9ce25cb1336a")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R49")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R49")
@@ -2280,6 +2324,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2355,6 +2405,12 @@
 			(uuid "9d36274a-b962-4169-ba50-334931e65794")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0130")
@@ -2362,6 +2418,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2399,7 +2461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -2439,6 +2501,12 @@
 			(uuid "0e299145-d533-4936-aecf-766945957eff")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R50")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R50")
@@ -2449,10 +2517,16 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R50")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -2474,7 +2548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 113.03 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2485,7 +2559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 111.76 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2561,6 +2635,12 @@
 			(uuid "043b55f1-b9ea-42fd-91bc-04b3e3e0c2ee")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q632")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q632")
@@ -2568,6 +2648,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q626")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q632")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.442 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -2647,6 +2733,12 @@
 			(uuid "1b1a2de2-2846-43bb-9fcd-2100220565b4")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R48")
@@ -2657,10 +2749,16 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 106.68 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -2682,7 +2780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 113.03 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 111.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2769,6 +2867,12 @@
 			(uuid "f6780b4b-326b-4fe3-be77-f6c2bb4529b1")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "Q631")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q631")
@@ -2776,6 +2880,12 @@
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "Q625")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "Q631")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.442 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -2855,6 +2965,12 @@
 			(uuid "bbe7f31d-70b0-49aa-b9ca-e6e79b83e12e")
 		)
 		(instances
+			(project "SCHMITT_TRIGGER"
+				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
 					(reference "R46")
@@ -2865,6 +2981,17 @@
 					(unit 1)
 				)
 			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

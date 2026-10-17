@@ -488,12 +488,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -501,7 +499,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -511,8 +509,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -533,18 +531,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -555,40 +542,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -599,7 +553,18 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -743,7 +708,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -766,25 +731,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -795,7 +742,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -813,6 +760,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -824,12 +789,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -837,7 +800,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -847,8 +810,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -869,18 +832,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -891,40 +843,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -935,7 +854,18 @@
 					)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1079,7 +1009,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -1102,11 +1032,11 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1121,10 +1051,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,9 +1070,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1518,6 +1448,12 @@
 		(uuid "7af45cc9-17c4-4026-8e08-529a55b17830")
 	)
 	(junction
+		(at 227.33 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "857fff0e-46e6-4411-b8b0-d63938109453")
+	)
+	(junction
 		(at 171.45 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1536,6 +1472,12 @@
 		(uuid "949b8e75-ea21-49e5-8d8e-2aa1179a712a")
 	)
 	(junction
+		(at 212.09 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1556d1-1433-49e6-93f9-149be58c39c6")
+	)
+	(junction
 		(at 93.98 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1552,6 +1494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f4e4c9-a37b-4d2b-b330-f7098a766394")
+	)
+	(junction
+		(at 219.71 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14174f5-ab0a-4d91-b0b0-5851d5a51e15")
 	)
 	(junction
 		(at 86.36 41.91)
@@ -1582,12 +1530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1a7842-6289-48f8-ac67-721916db9875")
-	)
-	(junction
-		(at 212.09 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df34fe9a-db74-4cd9-a4c2-f20278adc239")
 	)
 	(junction
 		(at 219.71 58.42)
@@ -1835,16 +1777,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 69.85) (xy 212.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "539edb33-8a6f-41a3-bd07-3197252a5887")
-	)
-	(wire
-		(pts
 			(xy 99.06 95.25) (xy 107.95 95.25)
 		)
 		(stroke
@@ -1962,6 +1894,16 @@
 			(type default)
 		)
 		(uuid "7611e7f6-13df-4dc0-80f9-c3338f3bab04")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 212.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76218fa1-136d-4e34-926c-13f910d24e99")
 	)
 	(wire
 		(pts
@@ -2439,7 +2381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 176.53 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -2461,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 182.88 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +2414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2594,7 +2536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -2649,7 +2591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 142.24 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -2671,7 +2613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 148.59 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 147.32 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2774,7 +2716,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 237.49 69.85 180)
+		(at 238.76 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2785,7 +2727,7 @@
 		(fields_autoplaced yes)
 		(uuid "14c4ce7b-1df7-44da-9978-afa5a483dff7")
 		(property "Reference" "D11"
-			(at 237.49 63.5 0)
+			(at 238.76 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2795,7 +2737,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 237.49 66.04 0)
+			(at 238.76 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2804,8 +2746,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 237.49 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 69.85 0)
+			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +2769,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 237.49 69.85 0)
+			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +2780,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 237.49 69.85 0)
+			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +2791,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 237.49 69.85 0)
+			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2866,6 +2808,12 @@
 			(uuid "81f5d874-59cd-4db1-a8a8-db0ba4953d20")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D11")
@@ -2906,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 238.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2968,6 +2916,12 @@
 			(uuid "0c9c4a39-b502-46d4-b193-b33f415fbaed")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D12")
@@ -2977,7 +2931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 72.39 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -3000,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 78.74 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,7 +2965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 158.75 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -3124,7 +3078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 165.1 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3259,7 +3213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.3452 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3398,7 +3352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 193.04 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -3421,7 +3375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 199.39 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +3386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 198.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3556,7 +3510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.152 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +3565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 72.39 46.99 0)
 		(mirror x)
 		(unit 1)
@@ -3634,7 +3588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 78.74 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3736,7 +3690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 93.98 62.23 270)
 		(mirror x)
 		(unit 1)
@@ -3757,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 93.98 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3767,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 96.52 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3973,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 254 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4035,6 +3989,12 @@
 			(uuid "e05a0d9d-f7ee-44ea-b82c-166ef90195e5")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D16")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D16")
@@ -4075,7 +4035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 215.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4183,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -4272,7 +4232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 228.2952 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4327,7 +4287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 176.53 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -4350,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 182.88 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +4321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4497,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 229.87 69.85 180)
+		(at 231.14 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4548,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "75431699-1e68-47d2-bf66-7d23cd1c724f")
 		(property "Reference" "D9"
-			(at 229.87 63.5 0)
+			(at 231.14 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4558,7 +4518,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 229.87 66.04 0)
+			(at 231.14 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4567,8 +4527,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 229.87 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 69.85 0)
+			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4550,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 229.87 69.85 0)
+			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4561,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 229.87 69.85 0)
+			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4572,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 69.85 0)
+			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,6 +4589,12 @@
 			(uuid "aa6a0c9c-55d9-489f-92c7-5ab98359cb32")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D9")
@@ -4669,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 223.52 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4731,6 +4697,12 @@
 			(uuid "8e2bc1f1-1d2a-41f5-879a-9c8420509517")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D8")
@@ -4740,7 +4712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 142.24 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -4763,7 +4735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 148.59 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4980,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 246.38 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5042,6 +5014,12 @@
 			(uuid "f574f026-44f9-459f-a4f0-f5930e1a6cb5")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D14")
@@ -5051,7 +5029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 193.04 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -5073,7 +5051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 199.39 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 198.12 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5209,7 +5187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 220.6752 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 93.98 92.71 270)
 		(unit 1)
 		(body_style 1)
@@ -5368,7 +5346,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 93.98 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5378,7 +5356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 96.52 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 158.75 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -5492,7 +5470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "Q_PMOS_GSD"
 			(at 165.1 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5503,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "easyeda2kicad:SOT-23-P"
 			(at 163.83 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 228.2952 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5767,7 +5745,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 214.63 69.85 180)
+		(at 215.9 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5778,7 +5756,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf4a4bfb-61b0-4b5b-84ca-7ffe83566e3e")
 		(property "Reference" "D5"
-			(at 214.63 63.5 0)
+			(at 215.9 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5788,7 +5766,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 214.63 66.04 0)
+			(at 215.9 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,8 +5775,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 214.63 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +5787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 69.85 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +5798,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 214.63 69.85 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5831,7 +5809,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 214.63 69.85 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5820,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 69.85 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,6 +5837,12 @@
 			(uuid "6537fda1-40e5-4d1e-85bd-a087244c5125")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D5")
@@ -5869,7 +5853,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 245.11 69.85 180)
+		(at 246.38 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5880,7 +5864,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2a7b058-f76f-4508-947b-c24887176cbe")
 		(property "Reference" "D13"
-			(at 245.11 63.5 0)
+			(at 246.38 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5890,7 +5874,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 245.11 66.04 0)
+			(at 246.38 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5899,8 +5883,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 245.11 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5911,7 +5895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 69.85 0)
+			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +5906,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 245.11 69.85 0)
+			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5917,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 245.11 69.85 0)
+			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5944,7 +5928,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 245.11 69.85 0)
+			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,6 +5945,12 @@
 			(uuid "8d1ca5b2-5609-46b2-9efb-212e86491cd1")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D13")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D13")
@@ -5971,7 +5961,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 252.73 69.85 180)
+		(at 254 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5982,7 +5972,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2fcdaba-5ba6-4db2-9cfb-5f4af80e0857")
 		(property "Reference" "D15"
-			(at 252.73 63.5 0)
+			(at 254 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +5982,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 252.73 66.04 0)
+			(at 254 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6001,8 +5991,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 252.73 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 254 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6013,7 +6003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 69.85 0)
+			(at 254 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6014,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 252.73 69.85 0)
+			(at 254 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,7 +6025,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 252.73 69.85 0)
+			(at 254 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +6036,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 252.73 69.85 0)
+			(at 254 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,6 +6053,12 @@
 			(uuid "0f333cd2-3b1d-4aae-885a-3b05b2c9142a")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D15")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D15")
@@ -6105,7 +6101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.152 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -6193,7 +6189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.152 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -6248,7 +6244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 72.39 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -6270,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 78.74 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 77.47 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6403,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 115.57 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -6459,7 +6455,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 222.25 69.85 180)
+		(at 223.52 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6470,7 +6466,7 @@
 		(fields_autoplaced yes)
 		(uuid "e81e7010-fffb-439b-827a-f157ce67b39c")
 		(property "Reference" "D7"
-			(at 222.25 63.5 0)
+			(at 223.52 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6480,7 +6476,7 @@
 			)
 		)
 		(property "Value" "MUR1560FAC"
-			(at 222.25 66.04 0)
+			(at 223.52 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6489,8 +6485,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 222.25 69.85 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,7 +6497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6508,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 222.25 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6519,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 222.25 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +6530,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 222.25 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,6 +6547,12 @@
 			(uuid "cca8d76f-547e-412a-8027-b7dc3dc2d5a5")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D7")
@@ -6591,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 231.14 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6653,6 +6655,12 @@
 			(uuid "8634b686-4d9b-48b7-a7cc-d6d874f84694")
 		)
 		(instances
+			(project "5V_TO_10V"
+				(path "/91cb18b0-a87c-4c68-a85c-2ce0110d5115"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2"
 					(reference "D10")
@@ -6662,7 +6670,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 72.39 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -6684,7 +6692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "Q_NMOS_GSD"
 			(at 78.74 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SOT-23-N"
 			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 220.6752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +6999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 263.8552 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7079,7 +7087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.152 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -7131,6 +7139,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
