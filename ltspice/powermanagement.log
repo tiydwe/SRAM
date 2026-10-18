@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\Users\jayde\hackclubprojects\SRAM\ltspice\powermanagement.net
-Start Time: Wed Oct 14 16:19:21 2026
+Start Time: Sat Oct 17 14:28:53 2026
 C:\Users\jayde\hackclubprojects\SRAM\ltspice\powermanagement.net(47): Ignoring unknown model parameter. This may or may not be a problem.
 .model JTD2302B NMOS(Level=1 Vto=0.65 Kp=22.8 Lambda=0.01 Rs=15m Rd=20m Cgso=120p Cgdo=80p Cbd=120p Vact=20 Is=1n)
                                                                                                     ^^^^^^^^
@@ -11,7 +11,7 @@ temp = 27
 method = trap
 .OP point found by inspection.
 .OP point found by inspection.
-Total elapsed time: 1.610 seconds.
+Total elapsed time: 1.579 seconds.
 
 Files loaded:
 C:\Users\jayde\hackclubprojects\SRAM\ltspice\powermanagement.net
