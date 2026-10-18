@@ -1,0 +1,43 @@
+Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
+8 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\1TO2_DEMUX\1TO2_DEMUX.kicad_sch
+Anchor changed to Q57
+Enabled leaf: 070613f7-cad7-4c93-89cf-54a08696deb9
+Enabled leaf: 5e55a23d-5e90-4357-bd9b-8b76f2836e2d
+Enabled leaf: 83c963e5-bf22-440c-89a1-27b31721f944
+Enabled leaf: 9c6253dc-cf7d-4c17-8d5d-0eb890cecb65
+Enabled leaf: a49b3ffe-7277-4c51-b425-e9126b0269df
+Enabled leaf: c68801ac-e378-4d54-81d1-730c03564526
+Enabled leaf: ce215dc3-4b3f-4036-8616-0f6847e4cd08
+Enabled leaf: e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8
+Root item: <wx._dataview.TreeListItem object at 0x000001BDD619CAF0>
+Valid board for 070613f7-cad7-4c93-89cf-54a08696deb9
+Valid child board for 
+Instance is a branch: Root
+Valid board for 070613f7-cad7-4c93-89cf-54a08696deb9
+Instance is a leaf: /070613f7-cad7-4c93-89cf-54a08696deb9
+Valid board for 5e55a23d-5e90-4357-bd9b-8b76f2836e2d
+Instance is a leaf: /5e55a23d-5e90-4357-bd9b-8b76f2836e2d
+Valid board for 83c963e5-bf22-440c-89a1-27b31721f944
+Instance is a leaf: /83c963e5-bf22-440c-89a1-27b31721f944
+Valid board for 9c6253dc-cf7d-4c17-8d5d-0eb890cecb65
+Instance is a leaf: /9c6253dc-cf7d-4c17-8d5d-0eb890cecb65
+Valid board for a49b3ffe-7277-4c51-b425-e9126b0269df
+Instance is a leaf: /a49b3ffe-7277-4c51-b425-e9126b0269df
+Valid board for c68801ac-e378-4d54-81d1-730c03564526
+Instance is a leaf: /c68801ac-e378-4d54-81d1-730c03564526
+Valid board for ce215dc3-4b3f-4036-8616-0f6847e4cd08
+Instance is a leaf: /ce215dc3-4b3f-4036-8616-0f6847e4cd08
+Valid board for e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8
+Instance is a leaf: /e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8
+Saving info for 070613f7-cad7-4c93-89cf-54a08696deb9
+Saving info for 5e55a23d-5e90-4357-bd9b-8b76f2836e2d
+Saving info for 83c963e5-bf22-440c-89a1-27b31721f944
+Saving info for 9c6253dc-cf7d-4c17-8d5d-0eb890cecb65
+Saving info for a49b3ffe-7277-4c51-b425-e9126b0269df
+Saving info for c68801ac-e378-4d54-81d1-730c03564526
+Saving info for ce215dc3-4b3f-4036-8616-0f6847e4cd08
+Saving info for e3920536-71f2-4b6c-a5bc-cfcc9ab0bde8
+Saving anchor Q57 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\1TO2_DEMUX\1TO2_DEMUX.kicad_sch
+Saved.

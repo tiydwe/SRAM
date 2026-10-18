@@ -1,0 +1,43 @@
+Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
+8 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\dlatch\dlatch.kicad_sch
+Anchor changed to Q3
+Enabled leaf: 08982da7-147a-48be-97b4-86225933a7bb
+Enabled leaf: 101c101a-f536-4b6f-954e-e924fe69ae85
+Enabled leaf: 44031237-7874-4f03-9456-582bd9f8eb41
+Enabled leaf: 70d169c9-5e57-4047-b10d-0e40d9dec267
+Enabled leaf: 751b952a-0577-41f3-b8b8-3e1d64141b16
+Enabled leaf: 8224d64b-d04b-4ee1-b731-c44a309bb8aa
+Enabled leaf: 9bca9f3d-9132-4862-8bc5-874f79d530ed
+Enabled leaf: d6420527-303b-4fc1-82fc-9d16c2f1bee1
+Root item: <wx._dataview.TreeListItem object at 0x000001BDFAC6E3B0>
+Valid board for 08982da7-147a-48be-97b4-86225933a7bb
+Valid child board for 
+Instance is a branch: Root
+Valid board for 08982da7-147a-48be-97b4-86225933a7bb
+Instance is a leaf: /08982da7-147a-48be-97b4-86225933a7bb
+Valid board for 101c101a-f536-4b6f-954e-e924fe69ae85
+Instance is a leaf: /101c101a-f536-4b6f-954e-e924fe69ae85
+Valid board for 44031237-7874-4f03-9456-582bd9f8eb41
+Instance is a leaf: /44031237-7874-4f03-9456-582bd9f8eb41
+Valid board for 70d169c9-5e57-4047-b10d-0e40d9dec267
+Instance is a leaf: /70d169c9-5e57-4047-b10d-0e40d9dec267
+Valid board for 751b952a-0577-41f3-b8b8-3e1d64141b16
+Instance is a leaf: /751b952a-0577-41f3-b8b8-3e1d64141b16
+Valid board for 8224d64b-d04b-4ee1-b731-c44a309bb8aa
+Instance is a leaf: /8224d64b-d04b-4ee1-b731-c44a309bb8aa
+Valid board for 9bca9f3d-9132-4862-8bc5-874f79d530ed
+Instance is a leaf: /9bca9f3d-9132-4862-8bc5-874f79d530ed
+Valid board for d6420527-303b-4fc1-82fc-9d16c2f1bee1
+Instance is a leaf: /d6420527-303b-4fc1-82fc-9d16c2f1bee1
+Saving info for 08982da7-147a-48be-97b4-86225933a7bb
+Saving info for 101c101a-f536-4b6f-954e-e924fe69ae85
+Saving info for 44031237-7874-4f03-9456-582bd9f8eb41
+Saving info for 70d169c9-5e57-4047-b10d-0e40d9dec267
+Saving info for 751b952a-0577-41f3-b8b8-3e1d64141b16
+Saving info for 8224d64b-d04b-4ee1-b731-c44a309bb8aa
+Saving info for 9bca9f3d-9132-4862-8bc5-874f79d530ed
+Saving info for d6420527-303b-4fc1-82fc-9d16c2f1bee1
+Saving anchor Q3 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\dlatch\dlatch.kicad_sch
+Saved.
