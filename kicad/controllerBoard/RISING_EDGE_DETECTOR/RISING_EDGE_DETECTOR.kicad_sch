@@ -1373,6 +1373,12 @@
 		(uuid "21181a71-8499-4114-8c63-17d21d8d51fc")
 	)
 	(junction
+		(at 173.99 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213bfc5c-95d3-4ecd-b4ca-3040cf78d3c0")
+	)
+	(junction
 		(at 166.37 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1389,6 +1395,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51665b0a-82c2-4298-8d83-f1214487c7d4")
+	)
+	(junction
+		(at 194.31 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6842e720-9036-4263-8add-e05526130dec")
+	)
+	(junction
+		(at 201.93 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743d2c29-9ab6-458d-b6a6-d29660cc4695")
 	)
 	(junction
 		(at 157.48 66.04)
@@ -1528,6 +1546,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 55.88) (xy 201.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbb0325-fa8a-4435-bef3-8f64e3cea81a")
+	)
+	(wire
+		(pts
+			(xy 201.93 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafa1b82-a0eb-4909-b8b8-d3f1a086153b")
+	)
+	(wire
+		(pts
 			(xy 88.9 48.26) (xy 99.06 48.26)
 		)
 		(stroke
@@ -1568,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d072494e-5158-4536-af58-0a4af0b5237e")
+	)
+	(wire
+		(pts
 			(xy 104.14 66.04) (xy 88.9 66.04)
 		)
 		(stroke
@@ -1595,6 +1643,16 @@
 			(type default)
 		)
 		(uuid "db0f1327-2142-457c-a564-08ec0ab7a9f8")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 194.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd7167e-2b16-465e-acbc-cc872219d78b")
 	)
 	(wire
 		(pts
@@ -1725,13 +1783,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR090")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1813,13 +1871,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0123")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR093")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1947,7 +2005,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q390")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2133,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q387")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2167,7 +2225,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R17")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2249,13 +2307,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0118")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR088")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2337,13 +2395,101 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0122")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR092")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bead5b-29a3-4055-9db7-73c8144d8716")
+		(property "Reference" "#PWR094"
+			(at 201.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7ba0560-9bee-4592-8c23-57544c322b80")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2427,13 +2573,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2707,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q391")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2949,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q388")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2931,7 +3077,99 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q389")
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bf216a4-aeed-4c53-802e-bde934fb1c97")
+		(property "Reference" "C4"
+			(at 198.12 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 198.12 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 193.3448 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d64b59-e017-4286-b04c-29cba4190052")
+		)
+		(pin "2"
+			(uuid "49b2cff4-0e06-45d0-9151-89a7897302f3")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3013,13 +3251,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0117")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR087")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3385,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q392")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -3239,7 +3477,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R20")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3331,7 +3569,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3661,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R19")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3505,13 +3743,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR089")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3877,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q385")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3969,99 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "R21")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d44b5f-8983-40b0-8bca-2dffe546b04b")
+		(property "Reference" "C5"
+			(at 212.09 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 212.09 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 207.3148 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b188f617-ad4a-4101-b02f-adfba5057ae9")
+		)
+		(pin "2"
+			(uuid "f739fbcf-f73f-4486-89fc-c8993a4d9282")
+		)
+		(instances
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "RISING_EDGE_DETECTOR"
+				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3813,13 +4143,13 @@
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "#PWR091")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3947,7 +4277,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde"
-					(reference "Q386")
+					(reference "Q2")
 					(unit 1)
 				)
 			)

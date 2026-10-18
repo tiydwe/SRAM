@@ -1,0 +1,18 @@
+Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Config file C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.projinst.json not found. Creating new one.
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
+1 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\SCHMITT_TRIGGER\SCHMITT_TRIGGER.kicad_sch
+New Anchor not found
+Enabled leaf: c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+Root item: <wx._dataview.TreeListItem object at 0x000002C3130420E0>
+Valid board for c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+Valid child board for 
+Instance is a branch: Root
+Valid board for c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+Instance is a leaf: /c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+subPcb selected SCHMITT_TRIGGER with 12 anchors
+Enabled leaf: c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+Saving info for c4446fb2-af0a-45d5-a693-fa4b1c9906b6
+Saving anchor R4 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\SCHMITT_TRIGGER\SCHMITT_TRIGGER.kicad_sch
+Saved.

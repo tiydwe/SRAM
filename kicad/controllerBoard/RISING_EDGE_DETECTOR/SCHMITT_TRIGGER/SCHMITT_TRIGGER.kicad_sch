@@ -1336,7 +1336,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q634")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -1352,7 +1352,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q634")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -1471,7 +1471,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q630")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1487,7 +1487,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q630")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1505,7 +1505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f753168-5479-4967-92c0-b7283be96248")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0130"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1565,23 +1565,23 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR0131")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0131")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0127")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0131")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1599,7 +1599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ff3366e-d709-49e4-abe2-3ccd17d6ceaa")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0128"
 			(at 109.22 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1659,23 +1659,23 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR0129")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0129")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0125")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0129")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab2bca3-e622-44f4-bd73-9c7e75662b94")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0127"
 			(at 109.22 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1753,23 +1753,23 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR0128")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0128")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0124")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0128")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1888,7 +1888,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q629")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1904,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q629")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R45")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2002,7 +2002,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R45")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2119,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q633")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2135,7 +2135,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q633")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2217,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R47")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2233,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R47")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2313,7 +2313,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R49")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2329,7 +2329,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R49")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea28a43-6f94-45d4-9bfa-dac32a0797f8")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0129"
 			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2407,23 +2407,23 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "#PWR0130")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0130")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/def1fdf8-7002-45c6-87e0-28926b899265/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0126")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "#PWR0130")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2503,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R50")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R50")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2637,7 +2637,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q632")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2653,7 +2653,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q632")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2735,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R48")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2751,7 +2751,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R48")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2869,7 +2869,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "Q631")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2885,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "Q631")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(instances
 			(project "SCHMITT_TRIGGER"
 				(path "/7d7252ea-1466-409d-afad-84a88f73b61f"
-					(reference "R46")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2983,7 +2983,7 @@
 			)
 			(project "RISING_EDGE_DETECTOR"
 				(path "/aa2cadd3-fea5-4489-81d0-08c5a28f9dde/c4446fb2-af0a-45d5-a693-fa4b1c9906b6"
-					(reference "R46")
+					(reference "R7")
 					(unit 1)
 				)
 			)

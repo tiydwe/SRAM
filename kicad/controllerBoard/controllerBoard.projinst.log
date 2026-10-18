@@ -1,0 +1,103 @@
+Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
+Config file C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.projinst.json not found. Creating new one.
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
+14 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_BL_CTRLR\8_BL_CTRLR.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\WL_PULSE_GEN\WL_PULSE_GEN.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\dlatch\dlatch.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\5V_TO_10V\5V_TO_10V.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\READ_PULSE_GEN\READ_PULSE_GEN.kicad_sch
+New Anchor not found
+New Anchor not found
+New Anchor not found
+New Anchor not found
+New Anchor not found
+New Anchor not found
+New Anchor not found
+New Anchor not found
+Enabled leaf: 0caaf583-102a-42ea-8c9f-aeb1b7245756
+Enabled leaf: 1568dcfe-2912-484d-9b09-635225cb9b4e
+Enabled leaf: 156fc5f9-33fe-4486-90ac-703537f74684
+Enabled leaf: 602ef35d-15f8-4ed8-aa30-f853ef082047
+Enabled leaf: 78511a9c-9f0e-4d86-9426-f2f4315fb398
+Enabled leaf: 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Enabled leaf: 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Enabled leaf: 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Enabled leaf: b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
+Enabled leaf: ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
+Enabled leaf: ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
+Enabled leaf: bac368b4-3632-4a54-8f7e-0865a964629f
+Enabled leaf: bd8eda89-0d1e-4854-ab6f-a575635da338
+Enabled leaf: def1fdf8-7002-45c6-87e0-28926b899265
+Root item: <wx._dataview.TreeListItem object at 0x000002C2D9E492D0>
+Valid board for 0caaf583-102a-42ea-8c9f-aeb1b7245756
+Valid child board for 
+Instance is a branch: Root
+Valid board for 0caaf583-102a-42ea-8c9f-aeb1b7245756
+Instance is a leaf: /0caaf583-102a-42ea-8c9f-aeb1b7245756
+Valid board for 1568dcfe-2912-484d-9b09-635225cb9b4e
+Instance is a leaf: /1568dcfe-2912-484d-9b09-635225cb9b4e
+Valid board for 156fc5f9-33fe-4486-90ac-703537f74684
+Instance is a leaf: /156fc5f9-33fe-4486-90ac-703537f74684
+Valid board for 602ef35d-15f8-4ed8-aa30-f853ef082047
+Instance is a leaf: /602ef35d-15f8-4ed8-aa30-f853ef082047
+Valid board for 78511a9c-9f0e-4d86-9426-f2f4315fb398
+Instance is a leaf: /78511a9c-9f0e-4d86-9426-f2f4315fb398
+Valid board for 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Instance is a leaf: /8a491917-4253-4ca5-a31e-fc7dcc04a377
+Valid board for 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Instance is a leaf: /8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Valid board for 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Instance is a leaf: /96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Valid board for b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
+Instance is a leaf: /b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
+Valid board for ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
+Instance is a leaf: /ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
+Valid board for ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
+Instance is a leaf: /ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
+Valid board for bac368b4-3632-4a54-8f7e-0865a964629f
+Instance is a leaf: /bac368b4-3632-4a54-8f7e-0865a964629f
+Valid board for bd8eda89-0d1e-4854-ab6f-a575635da338
+Instance is a leaf: /bd8eda89-0d1e-4854-ab6f-a575635da338
+Valid board for def1fdf8-7002-45c6-87e0-28926b899265
+Instance is a leaf: /def1fdf8-7002-45c6-87e0-28926b899265
+Enabled leaf: def1fdf8-7002-45c6-87e0-28926b899265
+Enabled leaf: bd8eda89-0d1e-4854-ab6f-a575635da338
+Enabled leaf: bac368b4-3632-4a54-8f7e-0865a964629f
+Enabled leaf: ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
+Enabled leaf: ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
+Enabled leaf: b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
+Enabled leaf: 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Enabled leaf: 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Enabled leaf: 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Enabled leaf: 78511a9c-9f0e-4d86-9426-f2f4315fb398
+Enabled leaf: 602ef35d-15f8-4ed8-aa30-f853ef082047
+Enabled leaf: 156fc5f9-33fe-4486-90ac-703537f74684
+Enabled leaf: 1568dcfe-2912-484d-9b09-635225cb9b4e
+Enabled leaf: 0caaf583-102a-42ea-8c9f-aeb1b7245756
+Saving info for 0caaf583-102a-42ea-8c9f-aeb1b7245756
+Saving info for 1568dcfe-2912-484d-9b09-635225cb9b4e
+Saving info for 156fc5f9-33fe-4486-90ac-703537f74684
+Saving info for 602ef35d-15f8-4ed8-aa30-f853ef082047
+Saving info for 78511a9c-9f0e-4d86-9426-f2f4315fb398
+Saving info for 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Saving info for 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Saving info for 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Saving info for b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
+Saving info for ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
+Saving info for ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
+Saving info for bac368b4-3632-4a54-8f7e-0865a964629f
+Saving info for bd8eda89-0d1e-4854-ab6f-a575635da338
+Saving info for def1fdf8-7002-45c6-87e0-28926b899265
+Saving anchor Q94 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
+Saving anchor R8 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_BL_CTRLR\8_BL_CTRLR.kicad_sch
+Saving anchor Q53 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
+Saving anchor C5 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\WL_PULSE_GEN\WL_PULSE_GEN.kicad_sch
+Saving anchor Q10 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
+Saving anchor Q3 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\dlatch\dlatch.kicad_sch
+Saving anchor R7 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\5V_TO_10V\5V_TO_10V.kicad_sch
+Saving anchor Q8 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\READ_PULSE_GEN\READ_PULSE_GEN.kicad_sch
+Saved.

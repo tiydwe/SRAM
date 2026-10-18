@@ -1373,6 +1373,18 @@
 		(uuid "13bc9158-9b95-4057-8bc5-f5791f3e583c")
 	)
 	(junction
+		(at 207.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a8afb35-dcad-4292-ae8e-8ce74f89076b")
+	)
+	(junction
+		(at 187.96 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e2c801-0c83-4251-9f38-91176f2247ae")
+	)
+	(junction
 		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1409,6 +1421,12 @@
 		(uuid "644665d8-21ba-4b60-9b90-f5ea603e3662")
 	)
 	(junction
+		(at 213.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a040dc3-ca36-46b0-b62f-741ff848c9b9")
+	)
+	(junction
 		(at 162.56 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,6 +1461,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7ef0bb-2eef-4579-a2c6-c57fb5220846")
+	)
+	(wire
+		(pts
+			(xy 207.01 58.42) (xy 220.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ccbc9e-a44b-4ee4-9fba-614431f283cd")
 	)
 	(wire
 		(pts
@@ -1546,6 +1574,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 66.04) (xy 220.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533bae27-4337-4268-ac79-254b0345e0d5")
+	)
+	(wire
+		(pts
 			(xy 105.41 63.5) (xy 105.41 76.2)
 		)
 		(stroke
@@ -1566,6 +1604,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 58.42) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfe22e3-a32d-4755-bd89-6a4e621fe680")
+	)
+	(wire
+		(pts
 			(xy 138.43 58.42) (xy 148.59 58.42)
 		)
 		(stroke
@@ -1583,6 +1631,16 @@
 			(type default)
 		)
 		(uuid "b5116632-a731-4128-94b7-a16c369e01c5")
+	)
+	(wire
+		(pts
+			(xy 207.01 66.04) (xy 213.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b987a696-b4d4-4d8b-b6a3-0f12fb987fae")
 	)
 	(wire
 		(pts
@@ -1718,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc23e63-bd07-407e-a677-c55241016cb5")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 113.03 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1784,7 +1842,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2623,7 +2681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d8856f8-fe06-40ba-a214-ac744f85fec1")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 85.09 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,7 +2749,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2709,7 +2767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e86c0fe-7720-47e6-828d-3160a6d09d34")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR098"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2769,13 +2827,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2793,7 +2851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e463d3f-14ed-4291-8ffc-487ffcfac4ec")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR096"
 			(at 99.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2859,7 +2917,7 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR095")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2965,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8376ca1b-4a0b-4d25-b450-a819ad78a292")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 148.59 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3025,13 +3083,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a62ca7e-fa8f-4434-833e-e063f2404612")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 147.32 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3109,13 +3167,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98290130-3aaa-4155-b410-abed46706b84")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 127 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3261,95 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "C5")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a345bf8c-417d-4355-b2db-3912e8990ef7")
+		(property "Reference" "C9"
+			(at 210.82 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 210.82 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 206.0448 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d12eb7a-7f11-4579-8c78-eb5283232c9e")
+		)
+		(pin "2"
+			(uuid "6b7fd08e-0abf-4c91-9671-0af02a733b96")
+		)
+		(instances
+			(project "WL_PULSE_GEN"
+				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5eac87c-32a1-4146-993f-108971649057")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 151.13 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3291,7 +3437,95 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "C6")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba92669f-a1a9-4b95-8d06-8198ae0e30b3")
+		(property "Reference" "C10"
+			(at 224.79 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 224.79 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 220.0148 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6215072a-94b6-4d9e-956a-20dd24e095e1")
+		)
+		(pin "2"
+			(uuid "9ba55451-0efb-4c81-a564-acb8232ba756")
+		)
+		(instances
+			(project "WL_PULSE_GEN"
+				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3733,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2cd8d1-3e96-4ba3-ad9d-7035f8657e7d")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR095"
 			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +4033,91 @@
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR094")
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14f3289-f9f0-46ef-8ff0-f9e3df0336b7")
+		(property "Reference" "#PWR0104"
+			(at 213.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "448e22dc-6c5c-4afc-af71-7b3ed5ce0496")
+		)
+		(instances
+			(project "WL_PULSE_GEN"
+				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "controllerBoard"
+				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3817,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54e891a-5422-49b2-88fc-6bfb4d58bd97")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3877,13 +4195,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3901,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f063ac47-b2e8-4204-bf94-84b5932f941d")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3961,13 +4279,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -4286,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8be654-0ff8-4432-94a2-5cf8410c3d0d")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 162.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4346,13 +4664,13 @@
 		(instances
 			(project "WL_PULSE_GEN"
 				(path "/8dc1dc34-55b4-4807-b291-fe4bcdf10793"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/8b3cd8c5-d66b-460c-b4ee-229e25c1238a"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)

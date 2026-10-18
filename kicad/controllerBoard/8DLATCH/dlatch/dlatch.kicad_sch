@@ -1053,7 +1053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1edad6fc-78b4-4499-975b-98c13e0aa43a")
-		(property "Reference" "Q1"
+		(property "Reference" "Q71"
 			(at 62.23 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b5f2b2-b3e7-42ad-8ea6-22754a24367c")
-		(property "Reference" "Q8"
+		(property "Reference" "Q78"
 			(at 99.06 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e536096-b978-4e70-9fd7-7d0c900bd595")
-		(property "Reference" "Q3"
+		(property "Reference" "Q73"
 			(at 72.39 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,7 +2001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6116ff8c-53c9-4b08-8790-02f8c9ae7867")
-		(property "Reference" "Q9"
+		(property "Reference" "Q79"
 			(at 109.22 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,7 +2317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c3c1e2-5b79-4686-a4a4-2f7c89bcaf68")
-		(property "Reference" "Q2"
+		(property "Reference" "Q72"
 			(at 62.23 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2633,7 +2633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "661b21e6-6859-4aca-9ede-66e955c667e7")
-		(property "Reference" "Q7"
+		(property "Reference" "Q77"
 			(at 99.06 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2949,7 +2949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7df1e6a8-2f44-4452-97bb-4be0e027a6da")
-		(property "Reference" "Q5"
+		(property "Reference" "Q75"
 			(at 104.14 55.8801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +3267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96da4217-f97e-4275-81c7-cc931b10956a")
-		(property "Reference" "Q12"
+		(property "Reference" "Q82"
 			(at 123.19 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +3585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a098c308-9974-4fa7-b8f8-81cfac470450")
-		(property "Reference" "Q10"
+		(property "Reference" "Q80"
 			(at 109.22 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab06fc3b-d299-42d5-bd0d-5994cb7fed11")
-		(property "Reference" "Q4"
+		(property "Reference" "Q74"
 			(at 72.39 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +4217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caab9e2d-ca07-42d1-9c18-58490a247aea")
-		(property "Reference" "Q6"
+		(property "Reference" "Q76"
 			(at 104.14 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1f4ddb7-04b3-4216-b287-f69539a7a1d5")
-		(property "Reference" "Q11"
+		(property "Reference" "Q81"
 			(at 123.19 55.8801 0)
 			(show_name no)
 			(do_not_autoplace no)
