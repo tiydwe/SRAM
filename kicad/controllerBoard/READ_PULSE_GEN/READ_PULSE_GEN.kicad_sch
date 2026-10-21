@@ -1962,7 +1962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b9378b4-903d-49a4-b11f-e50fa3019e16")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0161"
 			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2022,7 +2022,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0111")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -2171,7 +2171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20809038-0adc-4fd5-95e1-3d4cf082ac21")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0166"
 			(at 227.33 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2231,7 +2231,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0116")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -2255,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2260ebf2-9c03-42e4-88fd-e09490cad0ba")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0158"
 			(at 140.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2315,7 +2315,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0108")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2968a80a-9dd3-49a5-b8d8-3c8ae81c1d87")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 109.22 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2401,7 +2401,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2660,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bac0c6c-42ad-404c-928c-49ee829047bf")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0156"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2720,7 +2720,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0106")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -2744,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "498c1f0a-bfd0-4c28-b228-d43d2a39f8f1")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0164"
 			(at 204.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2804,7 +2804,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0114")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -2916,7 +2916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f7b5f14-fbeb-4867-8cea-1fb2300d04b0")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0159"
 			(at 152.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +2976,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0109")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -3000,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0f4cd5-ffa1-47a5-a07b-8e6a1d7a56b7")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0155"
 			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3060,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0105")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -3209,7 +3209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "797c2f1a-0494-48bb-97d7-6422f2375f0f")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0163"
 			(at 204.47 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3269,7 +3269,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0113")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -3717,7 +3717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a71e9445-c2cd-43c9-af89-a8d01bd5bbb5")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0165"
 			(at 227.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3777,7 +3777,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0115")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c5e2de-c626-4975-b08a-f28a58f210a0")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 186.69 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,7 +3865,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b499ca32-47e2-4b5e-b42b-4702b57234de")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0157"
 			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4073,7 +4073,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0107")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27f63d9-b212-438b-a930-1c9fc46a9135")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0162"
 			(at 182.88 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4457,7 +4457,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0112")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e615c036-ebb0-4082-9f27-d0f94731c3d8")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0167"
 			(at 247.65 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4541,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0117")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -4565,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98e47b5-9386-4c24-bf03-3b8fed1b4cb0")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0168"
 			(at 247.65 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4625,7 +4625,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0118")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f503ac38-7ebe-4f8f-a20f-c6307c8204c4")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0160"
 			(at 172.72 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4709,7 +4709,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "#PWR0110")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -4733,7 +4733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ebd39b-b244-42bf-8ebd-63e0553f3d99")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 156.21 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4797,7 @@
 		(instances
 			(project "controllerBoard"
 				(path "/93a9a1ca-4ee5-40da-ab67-92836146c003/bd8eda89-0d1e-4854-ab6f-a575635da338"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)

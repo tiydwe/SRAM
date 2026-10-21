@@ -508,7 +508,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -661,7 +661,7 @@
         "uuid": "a36fb024-9767-465c-a39e-8bc3766fc33f"
       }
     ],
-    "used_designators": "Q1-12",
+    "used_designators": "Q1-12,#PWR1-2",
     "variants": []
   },
   "sheets": [

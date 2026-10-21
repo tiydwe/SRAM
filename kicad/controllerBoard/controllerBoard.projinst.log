@@ -1,5 +1,4 @@
 Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
-Config file C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.projinst.json not found. Creating new one.
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
 14 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
@@ -10,14 +9,14 @@ Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\dlatch\dlatch.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\5V_TO_10V\5V_TO_10V.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\READ_PULSE_GEN\READ_PULSE_GEN.kicad_sch
-New Anchor not found
-New Anchor not found
-New Anchor not found
-New Anchor not found
-New Anchor not found
-New Anchor not found
-New Anchor not found
-New Anchor not found
+Anchor changed to Q94
+Anchor changed to R8
+Anchor changed to Q53
+Anchor changed to C5
+Anchor changed to Q10
+Anchor changed to Q3
+Anchor changed to R7
+Anchor changed to Q8
 Enabled leaf: 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Enabled leaf: 1568dcfe-2912-484d-9b09-635225cb9b4e
 Enabled leaf: 156fc5f9-33fe-4486-90ac-703537f74684
@@ -32,7 +31,7 @@ Enabled leaf: ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
 Enabled leaf: bac368b4-3632-4a54-8f7e-0865a964629f
 Enabled leaf: bd8eda89-0d1e-4854-ab6f-a575635da338
 Enabled leaf: def1fdf8-7002-45c6-87e0-28926b899265
-Root item: <wx._dataview.TreeListItem object at 0x000002C2D9E492D0>
+Root item: <wx._dataview.TreeListItem object at 0x000001E560A070A0>
 Valid board for 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Valid child board for 
 Instance is a branch: Root
@@ -78,6 +77,8 @@ Enabled leaf: 602ef35d-15f8-4ed8-aa30-f853ef082047
 Enabled leaf: 156fc5f9-33fe-4486-90ac-703537f74684
 Enabled leaf: 1568dcfe-2912-484d-9b09-635225cb9b4e
 Enabled leaf: 0caaf583-102a-42ea-8c9f-aeb1b7245756
+subPcb selected 5V_TO_10V with 51 anchors
+Enabled leaf: ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
 Saving info for 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Saving info for 1568dcfe-2912-484d-9b09-635225cb9b4e
 Saving info for 156fc5f9-33fe-4486-90ac-703537f74684
