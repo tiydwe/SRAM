@@ -6,6 +6,105 @@ created_at: "2026-10-01"
 ---
 
 
+
+# 2026-10-21: Routed the data lines for the main controller board
+
+**Total time spent: 1.5 hours**
+
+![image.png](images/2026-10-21_data.png)
+Doesn't it look so nice when all the data lines are nice and tidy?
+# What I did
+I routed all the data lines on the main controller board. Now that the dlatch ordering is all fixed up it was all nice and tidy.
+
+It may seem like I am finishing this project incredibly quickly, but the main problem is NONE of the stuff here has been tested in real life. I really want to get some parts and I'm waiting on a project in Stardance to get reviewed so I can get some pcb/electornics grant money to buy a small amount of components to test them. I really should run more simulations but simulations are like mind-dulling and boring.
+
+# Lapse links
+I did some work while lapse wasn't recording, probably about 30 minutes so I added that to the time
+https://lapse.hackclub.com/timelapse/39xw5WRfKN29
+
+# 2026-10-21: Added mounting holes
+
+**Total time spent: 1.5 hours**
+
+![image.png](images/2026-10-21_sram-mountin.png)
+The main sram board with the mounting holes
+
+# What I did
+I realized that I totally forgot mounting holes on my SRAM board, so I added them. I wasn't sure if I should ground my mounting holes so I just put a zero ohm resistor between the mounting hole and GND. Another issue was that my computer was low on battery and KiCad was being super slow with like 2000 components on the pcb.
+
+I also fixed up the 8 bit dlatch in the main controller board because for some reason the order of the bits was all messed up.
+
+# Lapse link
+https://lapse.hackclub.com/timelapse/NCqCv2yI-q3Z
+
+# 2026-10-18: Finished routing all sub-schematicss for the main controller board
+
+**Total time spent: 1h**
+
+![image.png](images/2026-10-18_sub-schematics.png)
+The sub schematics all arranged neatly. No traces routed yet
+# What I did
+I finished routing the sub schematics for the main controller board. It wasn't that interesting and was pretty easy, but I arranged it on the main board and it looks like its going to be a huge pain to route. I'm going to try and use a 150mmx150mm main board to fit everything but I might have to make it bigger later. The issue is the d-latches, they take up a huge amount of space and I use 5 of them. The main controller board basically has to have 8 bytes of extra memory, and its a d latch so it's super space consuming.
+
+I really want to order some parts for testing and I'm waiting for a different project to get rated in stardance so I can get a pcb and electronics grant from there. In the meantime, I'll try to route this board and maybe do some simulation work.
+
+# 2026-10-18: Routed the main demultiplexer board and started the main controller board
+
+**Total time spent: 2.75 hours**
+
+![image.png](images/2026-10-18_demux.png)
+The main demux board
+![image.png](images/2026-10-18_charge-pump.png)
+The 5v to 10v charge pump
+# What I did
+I finished fixing the demultiplexer board to use the correct G-S-D pinout. It was pretty easy because I copy/pasted the schematics I placed out earlier.
+
+I also started the routing for the main controller board which was harder. The most interesting thing was the charge pump. One, because it switches at 50kHz its bound to have a lot of noise so I had to put a bunch of decoupling capacitors (i'm going to literally be using like 1000s of decoupling capacitors across this whole project). Two, it's designed to handle high current so I'm using super thick pcb traces. I'm also kind of lazy and don't want to get actual power mosfets so I'm just putting like 3 signal mosfets in parallel (simulation shows each should only).
+
+The charge pump uses two parallel pumps operating 180 degrees apart to provide more current and smoother opreration. I'm using 1000uF capacitors with a ESR of 14mOhms to make sure this works well. Also the diodes are wayyyy over speced for this (they are rated for 15 amps) but that means that they will basically never overheat in normal conditions and I don't need to heatsink them. The diodes are very fast recovery too and have a good forward voltage. This is fine because here over designing stuff is really cheap while making a mistake is super expensive.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/JS_6fl9y1UiG
+https://lapse.hackclub.com/timelapse/_ycI8WU505L9
+https://lapse.hackclub.com/timelapse/ZLOBHP1drQfX
+
+
+# 2026-10-17: Made some SMT to DIP boards for testing
+
+**Total time spent: 1.25 hour**
+
+![image.png](images/2026-10-17_smt-to-dip.png)
+The panelized board (there will be v-cuts between each smt to dip board)
+# What I did
+I was feeling a bit burned out so I took a break and designed a small SMT to DIP board for testing my parts on a breadboard. Each board can support a sot-23, 1206, 0805, and 0603.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/5zcHNgXlIq7x
+
+# 2026-10-16: Re-routed the rest of the main RAM board
+
+**Total time spent: 2.5 hours**
+
+![image.png](images/2026-10-16_ramBoard.png)
+The re-routed RAM board
+# What I did
+I just finished re-routing the rest of the board to the correct GSD configuration. I also fixed the LED mosfets because I accidently put the n-mosfets high-side instead of low-side, which is not good, so I fixed that which was pretty easy. Other than that, not much more of note today.
+# Lapse links
+https://lapse.hackclub.com/timelapse/37X8GlZVRLlY
+
+# 2026-10-15: Re routed the 1 to 16 demultiplexer
+
+**Total time spent: 2.5 hours**
+
+![image.png](images/2026-10-15_demuxFixed.png)
+The new correctly routed 1 to 16 multiplexer
+# What I did
+So it turns out that the correct order is read datasheet THEN spend 20 hours routing... Pretty sad. Basically, my kicad model had Gate-Drain-Source on the sot-23 mosfet pins but the correct pinout is Gate-Source-Drain. That was pretty sad to figure out and I just spent 2 hours routing the 1:16 demux board (this time I checked BOTH datasheets for pmos and nmos to be sure). I think I'll probably have to take another like 15 hours to re-route everything. At least I can fix some annoying things from last time.
+
+# Lapse links
+https://lapse.hackclub.com/timelapse/dMLu61iej506
+
+
 # 2026-10-14: Did more simulation and wrote the (current) BOM
 
 **Total time spent: 2 hours**
@@ -273,4 +372,24 @@ Each write where the cell is flipped causes a very short transient current event
 # Lapse links:
 The lapse videos are sram 1 through sram 7 here (yes i accidently put two sram 6s, they are different) https://lapse.hackclub.com/user/@tiydwe
 
+# 2026-10-03: Research
+
+**Total time spent: 2 hours**
+
+![image.png](images/2026-10-03_sramcell.png)
+Source: https://commons.wikimedia.org/wiki/File:SRAM_Cell_(6_Transistors).svg
+# What I did
+I spent some time researching how modern RAM works and DRAM vs. SRAM. I initially considered DRAM for this project but the main issue was that although the DRAM cell would take more transistors, it would probally actually be more complex because of the refresh stuff and timing would be even worse.
+## How DRAM works
+Basically in DRAM, you have a transistor connecting a single capacitor to a bit line. The issue here is that your capacitor will slowly leak charge out onto the bit line, meaning that every once in a while the RAM has to read the row and refresh it. Modern ram does this every like 30ms, but I did the math and I will only have to refresh every like minute because my capacitors would be HUGE compared to what is in a chip (btw, they literally just put a cylinder inside another one thats a few 100s of nm big to store a few thousand electrons in modern DRAM).
+
+Although this can save lots of space when you are talking about gigabytes of ram, with 256 bytes of ram, it would be more work, complexity, component count, and space probally to get all that refresh logic working while AT THE SAME TIME making sure refresh didn't interfere with the normal operations.
+
+## SRAM
+SRAM uses a system where two inverters make a positive feedback loop. If the first inverter outputs HIGH, then the second outputs LOW, making the first output HIGH. This positive feedback loop means that it doesn't have to be refreshed making peripheral circuitry much easier. The main issue is that each cell requires 6 transistors (instead of 1 transistor and 1 capacitor), making the actual cell more space consuming.
+
+I decided to go with SRAM because it is easier to make, less things can go wrong, and I don't have to mess with crazy timing.
+
+# Lapse links
+I didn't record this because it was really spread out but it was over about the week before I pitched this.
 
