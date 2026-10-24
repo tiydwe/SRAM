@@ -6511,7 +6511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0faa0355-4ee0-44eb-a8c2-26536a5bef45")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR010"
 			(at 76.2 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6571,7 +6571,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0708")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13392d1b-50db-4956-a6a1-3f451040bcdc")
-		(property "Reference" "R274"
+		(property "Reference" "R2"
 			(at 69.85 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6732,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R274")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d3fcbe-f8cc-4fbc-8a63-371e803065d0")
-		(property "Reference" "R277"
+		(property "Reference" "R5"
 			(at 93.98 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +7126,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R277")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44f64ee9-7c10-43fe-a100-230542da5012")
-		(property "Reference" "#PWR0710"
+		(property "Reference" "#PWR012"
 			(at 91.44 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7204,7 +7204,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0710")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7382,7 +7382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d3d526-6969-4579-8768-aaa466b36a10")
-		(property "Reference" "R275"
+		(property "Reference" "R3"
 			(at 78.74 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7446,7 +7446,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R275")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7464,7 +7464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76298b21-6dc1-4602-85b5-816b4001a1a1")
-		(property "Reference" "R273"
+		(property "Reference" "R1"
 			(at 62.23 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7528,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R273")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7703,7 +7703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae22e4d0-58be-4649-b8d2-1cacdda2d2e1")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR09"
 			(at 67.31 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7763,7 +7763,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0707")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7781,7 +7781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b57efbdd-a3e6-4f03-9c9e-817ab313623e")
-		(property "Reference" "R276"
+		(property "Reference" "R4"
 			(at 86.36 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7845,7 +7845,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R276")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d4f325-1109-48f7-803e-93776e02f024")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR011"
 			(at 83.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8210,7 +8210,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0709")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40264c4-18c7-49d9-b6f8-ff23af4151ef")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR08"
 			(at 59.69 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +8688,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0706")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8785,7 +8785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3a0581-1b4b-43a3-a9c6-9bceb117b2cc")
-		(property "Reference" "#PWR0711"
+		(property "Reference" "#PWR013"
 			(at 99.06 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8845,7 +8845,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "#PWR0711")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff99390-780b-40d1-8fd2-8a6ad9863ea2")
-		(property "Reference" "R278"
+		(property "Reference" "R6"
 			(at 101.6 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +9006,7 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
-					(reference "R278")
+					(reference "R6")
 					(unit 1)
 				)
 			)

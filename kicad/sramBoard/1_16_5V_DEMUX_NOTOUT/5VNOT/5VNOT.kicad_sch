@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70593321-550b-45b3-acac-0732506d9aa7")
-		(property "Reference" "#PWR0648"
+		(property "Reference" "#PWR0654"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1161,19 +1161,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "#PWR0654")
+					(reference "#PWR0660")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "#PWR0652")
+					(reference "#PWR0658")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "#PWR0648")
+					(reference "#PWR0654")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "#PWR0650")
+					(reference "#PWR0656")
 					(unit 1)
 				)
 			)
@@ -1381,7 +1381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f98ddd-4758-4f59-9f7b-9f437f7814c5")
-		(property "Reference" "#PWR0649"
+		(property "Reference" "#PWR0655"
 			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1441,19 +1441,19 @@
 		(instances
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/0600d891-ccd3-4602-9849-fea3d7e045ca"
-					(reference "#PWR0655")
+					(reference "#PWR0661")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/2e151ebf-7913-49eb-83f7-10f1b73fc84d"
-					(reference "#PWR0653")
+					(reference "#PWR0659")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/40364bbe-d9b2-4f0d-a83e-984d8754432c"
-					(reference "#PWR0649")
+					(reference "#PWR0655")
 					(unit 1)
 				)
 				(path "/13380198-0e23-4241-a844-cca11526fb8d/a0132d23-2efe-4baa-845a-d59f49944fa0/afd2047a-5605-416e-9801-fddbd3089131"
-					(reference "#PWR0651")
+					(reference "#PWR0657")
 					(unit 1)
 				)
 			)
