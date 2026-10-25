@@ -14,12 +14,12 @@ created_at: "2026-10-01"
 
 The pcb I worked on
 
-# What I did
+## What I did
 I worked on the input breakout board that I talked about earlier. The schematic portion was pretty easy, but they small 4.5mm buttons I was using weren't in the kicad footprint so I had to figure out how to make new ones based on the schematic.
 
 I had to use really small buttons because otherwise it wouldn't properly fit into the 1 cell size. Other than that, it wasn't that hard to make. I really hope that I got the switch footprints correct. I'll check again later against the datasheet.
 
-# Lapse link
+## Lapse link
 https://lapse.hackclub.com/timelapse/jG3-Um5Zeg8E
 
 
