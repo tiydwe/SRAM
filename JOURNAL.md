@@ -420,11 +420,26 @@ I did some work while lapse wasn't recording, probably about 30 minutes so I add
 https://lapse.hackclub.com/timelapse/39xw5WRfKN29
 
 
+# 2026-10-24: Added the through holes for the buttons
+
+**Total time spent: 2 hrs**
+
+![image.png](images/2026-10-24_throuh-holes.png)
+The new squeezed in thorough holes
+# What I did
+I started routing the main controller board but then I realized that I forgot the input buttons on the SRAM board. As it would be 100% impossible to fit the button and control circuitry onto the main board, the only option for me was to add some sort of through hole to attach another pcb ON TOP to manually write to it with a switch. This was pretty hard because through holes take ALL layers which made it almost impossible for me to fit the relatively GIANT 1x2 pin header. Even after reducing to a tiny 1mm pitch, 0.5mm diameter header (smallest on LCSC), I had to move the ~BL wire into a really weird position around it and fix some DRC errors. It took me an entire hour just to figure out how in the world to fit another part into a completely full PCB footprint without increasing the size.
+
+Next time, I'll make that breakout board, adding yet ANOTHER separate board that I'll have to design, order, and assemble. Luckily, I don't need that many because only some of the SRAM cells need manual input.
+
+# Lapse link
+https://lapse.hackclub.com/timelapse/njcIv-Fqtl5y
+
+
 # 2026-10-25: Created the input board schematic and started the pcb
 
 **Total time spent: 1.5 hours**
 
-![image.png](https://cdn.hackclub.com/01a1715a-af1d-7b86-b073-e3cb0f2f7f7a/image.png)
+![image.png](images/2026-10-25_input-board-pcb.png)
 
 The pcb I worked on
 
