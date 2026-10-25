@@ -2,9 +2,377 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 344c9fe8-0be2-4c66-840f-4c859460acb5)
+	(uuid "344c9fe8-0be2-4c66-840f-4c859460acb5")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 52.07 113.03)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "17b6e754-156b-4c37-a052-a014d8ef41b6")
+		(property "Sheetname" "1CELL5"
+			(at 52.07 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 74.93)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1acc0f6e-969e-4918-a110-de5a8f2c26b6")
+		(property "Sheetname" "1CELL2"
+			(at 52.07 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 100.33)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2f8e4a6a-7338-41ed-b430-b1091d668c46")
+		(property "Sheetname" "1CELL4"
+			(at 52.07 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 49.53)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "525c3fcd-31d8-4be5-9d88-6dbcc172de8e")
+		(property "Sheetname" "1CELL"
+			(at 52.07 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 125.73)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a5fcc210-a79c-468d-a33d-ca7b66a6bea5")
+		(property "Sheetname" "1CELL6"
+			(at 52.07 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 138.43)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9a741a7-f675-420e-97ad-90df4536e879")
+		(property "Sheetname" "1CELL7"
+			(at 52.07 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 62.23)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e36ae732-eb92-4dae-8809-f8426d6d0f34")
+		(property "Sheetname" "1CELL1"
+			(at 52.07 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 87.63)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f47dff44-f24f-4eba-905f-6d128957dfe9")
+		(property "Sheetname" "1CELL3"
+			(at 52.07 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1CELL/1CELL.kicad_sch"
+			(at 52.07 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inputBoard"
+				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
