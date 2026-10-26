@@ -450,3 +450,26 @@ I had to use really small buttons because otherwise it wouldn't properly fit int
 
 ## Lapse link
 https://lapse.hackclub.com/timelapse/jG3-Um5Zeg8E
+
+
+# 2026-10-26: Finished the input board schematic and did some more parts research
+
+**Total time spent: 1 hour**
+
+![image.png](images/2026-10-26_input-board-finish.png)
+
+The finished input board
+
+## What I did
+### Input board
+The first thing I did was finish up the input board schematic. For some reason, when designing it yesterday, I totally forgot that *get this* current can just **go through** buttons. Earlier, I had buttons going into mosfet gates (which, btw, would not have worked cause i forgot the pull down resistors so the gates would be floating), but I just realized that I can connect the button between Q and GND. This simplifies a lot of stuff.
+
+Another problem I caught was that pressing the button would cause the whole board to bend because it was only supported on one side. I plan to fix this by using a 3d printed bracket underneath with M2 screws to connect to it to provide support on the other side.
+
+### Parts selection
+I realized that my BOM had the old 6mmx6mm button so I went out and found a suitable 4.5mmx4.5mm button. Additionally, I did some more LED reseach which was annoying (why does one part number of leds come in like 6 different bins from 270mcd to 600mcd, how will i know which one I will get?) but I ended up changing the resistor from 360 ohms to 180 ohms because I forgot the LED forward voltage in the calculations.
+
+## Lapse link
+https://lapse.hackclub.com/timelapse/eePEOU0iHmg6
+
+
