@@ -350,446 +350,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GSD"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GSD"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -906,22 +466,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 93.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a5f241e-1327-49f7-b191-d674ac76fe54")
-	)
-	(wire
-		(pts
-			(xy 92.71 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aed38bd-fb4b-492b-ac95-c2791cc18955")
-	)
 	(wire
 		(pts
 			(xy 73.66 100.33) (xy 73.66 99.06)
@@ -974,46 +518,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad930110-14d3-4061-a604-3d357768e122")
-	)
-	(wire
-		(pts
-			(xy 93.98 74.93) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d58406c9-af8d-4ae1-94c5-dadce7d5b601")
-	)
-	(wire
-		(pts
-			(xy 106.68 93.98) (xy 107.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d82046-9cd3-4c1c-85ee-463798849210")
-	)
-	(wire
-		(pts
-			(xy 81.28 93.98) (xy 82.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2b3fdb-f620-4307-a24d-70142e1a4479")
-	)
-	(wire
-		(pts
 			(xy 73.66 88.9) (xy 73.66 82.55)
 		)
 		(stroke
@@ -1024,7 +528,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 101.6 93.98 0)
+		(at 115.57 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1035,27 +539,29 @@
 		(fields_autoplaced yes)
 		(uuid "0afa23b3-94ae-4224-a41b-1f68631d1d47")
 		(property "Reference" "SW2"
-			(at 101.6 86.36 0)
+			(at 119.38 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 88.9 0)
+			(at 119.38 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_4.5mm"
-			(at 101.6 88.9 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1066,7 +572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1077,7 +583,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 93.98 0)
+			(at 115.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,109 +634,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 93.98 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212ea1ce-ffdb-4949-a93b-aabac025a63b")
-		(property "Reference" "#PWR02"
-			(at 93.98 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 93.98 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f47086da-d326-48f3-abd3-e20ab2be2fe7")
-		)
-		(instances
-			(project "inputBoard"
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/17b6e754-156b-4c37-a052-a014d8ef41b6"
-					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/1acc0f6e-969e-4918-a110-de5a8f2c26b6"
-					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/2f8e4a6a-7338-41ed-b430-b1091d668c46"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/525c3fcd-31d8-4be5-9d88-6dbcc172de8e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/a5fcc210-a79c-468d-a33d-ca7b66a6bea5"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/d9a741a7-f675-420e-97ad-90df4536e879"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/e36ae732-eb92-4dae-8809-f8426d6d0f34"
-					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/f47dff44-f24f-4eba-905f-6d128957dfe9"
-					(reference "#PWR011")
+			(project "1CELL"
+				(path "/4e353490-b220-486d-9f90-23ca90f68383"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -1340,11 +746,17 @@
 					(unit 1)
 				)
 			)
+			(project "1CELL"
+				(path "/4e353490-b220-486d-9f90-23ca90f68383"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 87.63 93.98 0)
+		(at 73.66 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1355,27 +767,29 @@
 		(fields_autoplaced yes)
 		(uuid "593118d2-7759-4842-819c-706a3d8365a6")
 		(property "Reference" "SW1"
-			(at 87.63 86.36 0)
+			(at 74.93 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 87.63 88.9 0)
+			(at 74.93 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_4.5mm"
-			(at 87.63 88.9 0)
+			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 88.9 0)
+			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1397,7 +811,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 87.63 93.98 0)
+			(at 73.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,116 +862,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 113.03 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "741c28dc-4fda-478f-9fe9-a6fd982a10f1")
-		(property "Reference" "Q2"
-			(at 119.38 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 119.38 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 118.11 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82505990-4dfd-4e7f-bdfa-ec03258adda3")
-		)
-		(pin "3"
-			(uuid "bffd0809-d644-44d8-b90e-7039cdff1be9")
-		)
-		(pin "2"
-			(uuid "3ba12238-459a-47dc-bf6a-4f5fdcea9027")
-		)
-		(instances
-			(project "inputBoard"
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/17b6e754-156b-4c37-a052-a014d8ef41b6"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/1acc0f6e-969e-4918-a110-de5a8f2c26b6"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/2f8e4a6a-7338-41ed-b430-b1091d668c46"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/525c3fcd-31d8-4be5-9d88-6dbcc172de8e"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/a5fcc210-a79c-468d-a33d-ca7b66a6bea5"
-					(reference "Q14")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/d9a741a7-f675-420e-97ad-90df4536e879"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/e36ae732-eb92-4dae-8809-f8426d6d0f34"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/f47dff44-f24f-4eba-905f-6d128957dfe9"
-					(reference "Q8")
+			(project "1CELL"
+				(path "/4e353490-b220-486d-9f90-23ca90f68383"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -1667,116 +974,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 76.2 93.98 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88b3033a-32b8-444d-a175-c6b0a64e8c27")
-		(property "Reference" "Q1"
-			(at 69.85 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 69.85 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 71.12 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 76.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ffbd623-0961-4534-b745-e0f3fd18e929")
-		)
-		(pin "3"
-			(uuid "ccfc19b1-e702-4b3c-aadb-218bc545af2f")
-		)
-		(pin "2"
-			(uuid "2ce530a7-e569-4300-8231-a45f7ac90c23")
-		)
-		(instances
-			(project "inputBoard"
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/17b6e754-156b-4c37-a052-a014d8ef41b6"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/1acc0f6e-969e-4918-a110-de5a8f2c26b6"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/2f8e4a6a-7338-41ed-b430-b1091d668c46"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/525c3fcd-31d8-4be5-9d88-6dbcc172de8e"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/a5fcc210-a79c-468d-a33d-ca7b66a6bea5"
-					(reference "Q13")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/d9a741a7-f675-420e-97ad-90df4536e879"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/e36ae732-eb92-4dae-8809-f8426d6d0f34"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/f47dff44-f24f-4eba-905f-6d128957dfe9"
-					(reference "Q7")
+			(project "1CELL"
+				(path "/4e353490-b220-486d-9f90-23ca90f68383"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1887,6 +1087,12 @@
 				)
 				(path "/344c9fe8-0be2-4c66-840f-4c859460acb5/f47dff44-f24f-4eba-905f-6d128957dfe9"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "1CELL"
+				(path "/4e353490-b220-486d-9f90-23ca90f68383"
+					(reference "J6")
 					(unit 1)
 				)
 			)
