@@ -5,6 +5,146 @@
 	(uuid "13380198-0e23-4241-a844-cca11526fb8d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -2100,6 +2240,12 @@
 		)
 	)
 	(junction
+		(at 30.48 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d0e602-ca30-4875-b907-840a37bf93ba")
+	)
+	(junction
 		(at 44.45 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2110,6 +2256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230fbaa1-cb8c-404a-91c0-f9d85fb0f53a")
+	)
+	(junction
+		(at 22.86 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23fea241-c2ad-46a4-bbc5-a01234b5b929")
 	)
 	(junction
 		(at 46.99 39.37)
@@ -2124,6 +2276,12 @@
 		(uuid "34861342-4622-4bf5-84a6-d9bb730f1c63")
 	)
 	(junction
+		(at 17.78 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aa51afd-318f-4447-a433-8670ea454144")
+	)
+	(junction
 		(at 46.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2136,6 +2294,18 @@
 		(uuid "4ae8815c-2600-49bf-9fd9-487e57cbd8a7")
 	)
 	(junction
+		(at 27.94 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f653bc8-0c02-4b49-85c9-763c54d045f6")
+	)
+	(junction
+		(at 15.24 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53211f2a-a87e-4275-8ff8-f3e6d0cd6419")
+	)
+	(junction
 		(at 59.69 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2146,6 +2316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "794ba36c-094a-4fc5-9a79-27249a3eab43")
+	)
+	(junction
+		(at 33.02 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f1f1a46-1071-4812-b73a-6485fb30e87f")
 	)
 	(junction
 		(at 46.99 17.78)
@@ -2178,6 +2354,12 @@
 		(uuid "a027f822-21cd-4fcb-8a92-db0dbb0c5636")
 	)
 	(junction
+		(at 25.4 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c1c20a-7d5d-41c1-a03d-b9f101c64269")
+	)
+	(junction
 		(at 46.99 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2188,6 +2370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc292f05-60d3-4c23-9523-a709c3efb258")
+	)
+	(junction
+		(at 20.32 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cceaca2d-acf8-4d25-ac67-5a54084b7e72")
 	)
 	(junction
 		(at 21.59 181.61)
@@ -2438,6 +2626,16 @@
 			(type default)
 		)
 		(uuid "0aeefbd0-dedc-482e-895c-991b31bf1a04")
+	)
+	(wire
+		(pts
+			(xy 27.94 27.94) (xy 25.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdb84f8-da84-40b6-8561-8541c1bddf1b")
 	)
 	(wire
 		(pts
@@ -3181,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 27.94) (xy 30.48 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2a8654-9538-4c84-b98b-f40d82cca1c8")
+	)
+	(wire
+		(pts
 			(xy 72.39 87.63) (xy 171.45 87.63)
 		)
 		(stroke
@@ -3701,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 27.94) (xy 15.24 27.94)
+			(xy 44.45 27.94) (xy 33.02 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3868,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "5ae08784-7c22-4d1d-8892-aae6035daeeb")
+	)
+	(wire
+		(pts
+			(xy 30.48 27.94) (xy 27.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b23d0e3-06cf-4ca3-ace1-a25c0a113628")
 	)
 	(wire
 		(pts
@@ -6151,6 +6369,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 27.94) (xy 20.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b2779f-ee56-4c25-b68d-1c4997f4e9f9")
+	)
+	(wire
+		(pts
 			(xy 72.39 107.95) (xy 78.74 107.95)
 		)
 		(stroke
@@ -6431,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 27.94) (xy 17.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f750a5eb-6005-4aa2-b36a-a401b8cfe900")
+	)
+	(wire
+		(pts
 			(xy 201.93 158.75) (xy 196.85 158.75)
 		)
 		(stroke
@@ -6471,6 +6709,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 27.94) (xy 15.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9262b0-3ae9-4b59-9fed-841a974b3b97")
+	)
+	(wire
+		(pts
 			(xy 59.69 30.48) (xy 83.82 30.48)
 		)
 		(stroke
@@ -6491,6 +6739,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 27.94) (xy 22.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6fea20-9c2f-40f2-94cb-a8dc4059b924")
+	)
+	(wire
+		(pts
 			(xy 236.22 38.1) (xy 231.14 38.1)
 		)
 		(stroke
@@ -6498,6 +6756,85 @@
 			(type default)
 		)
 		(uuid "fff36593-9b8c-4b60-8233-5d590974c91c")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 15.24 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032c8445-1f54-45cd-b43d-ef02b5b2f40f")
+		(property "Reference" "J130"
+			(at 16.51 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 16.51 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 15.24 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 15.24 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b553517-0fd1-420e-9cc5-02441972143d")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J130")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6739,6 +7076,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 22.86 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1734d871-49ce-4268-8131-22fc7648447f")
+		(property "Reference" "J133"
+			(at 24.13 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 24.13 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7b697b-6fa8-4919-b2dc-2f84512f0e2f")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 21.59 185.42 0)
 		(unit 1)
@@ -6811,6 +7227,85 @@
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 20.32 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2280624a-3b98-47be-8f94-a5e7cf9dac49")
+		(property "Reference" "J132"
+			(at 21.59 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 21.59 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 20.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "123e04fb-d0af-47ce-8d88-208a497bc60f")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J132")
 					(unit 1)
 				)
 			)
@@ -7453,6 +7948,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 30.48 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717794ec-1e1b-4d7e-a6ef-5b3c4f4464de")
+		(property "Reference" "J136"
+			(at 31.75 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 31.75 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 30.48 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 30.48 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e04fa014-0e6d-4ea0-a3f1-3043b2da6eef")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 161.29 0)
 		(unit 1)
@@ -7613,6 +8187,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc074eb-9b4f-4875-a707-45d8b70becc2")
+		(property "Reference" "J134"
+			(at 26.67 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52dc62b4-62aa-4c12-9dba-afb42a08a112")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 76.2 154.94 0)
 		(unit 1)
@@ -7686,6 +8339,85 @@
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 33.02 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a384fcf7-eac7-46bb-a71c-faf38ca93356")
+		(property "Reference" "J137"
+			(at 34.29 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 34.29 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 33.02 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 33.02 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fed16309-3d4b-4005-babf-18212ba5130a")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J137")
 					(unit 1)
 				)
 			)
@@ -8139,6 +8871,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 27.94 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce0a81c-a072-484e-b5e2-af7cdb4aef57")
+		(property "Reference" "J135"
+			(at 29.21 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 29.21 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12a35724-768b-4c08-b724-ed20aa8ed574")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 165.1 0)
 		(unit 1)
@@ -8532,6 +9343,85 @@
 			(project "sramBoard"
 				(path "/13380198-0e23-4241-a844-cca11526fb8d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 17.78 22.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec82984e-ea38-4c76-8aa2-dd79f463c5fb")
+		(property "Reference" "J131"
+			(at 19.05 22.2249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 19.05 24.7649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:Wire_Pad_18AWG_stranded"
+			(at 17.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 17.78 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d181417d-a39b-4c95-9683-fc3cb751f26d")
+		)
+		(instances
+			(project "sramBoard"
+				(path "/13380198-0e23-4241-a844-cca11526fb8d"
+					(reference "J131")
 					(unit 1)
 				)
 			)

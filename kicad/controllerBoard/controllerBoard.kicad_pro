@@ -699,7 +699,7 @@
         "uuid": "93a9a1ca-4ee5-40da-ab67-92836146c003"
       }
     ],
-    "used_designators": "R1-61,J1-2,D1-16,#PWR1-235,Q1-652,C1-30,H1-6",
+    "used_designators": "R1-61,J1-2,D1-16,#PWR1-266,Q1-652,C1-51,H1-6",
     "variants": []
   },
   "sheets": [
@@ -962,6 +962,66 @@
     [
       "ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2",
       "5V_TO_10V"
+    ],
+    [
+      "a9acf7b1-ba3f-474c-869f-8e4644141886",
+      "DECOUPLING_CAPCITOR"
+    ],
+    [
+      "2b919bea-4dc6-4c79-9aab-a8665741428e",
+      "DECOUPLING_CAPCITOR1"
+    ],
+    [
+      "ce7aff5c-c5df-4b60-868c-5e95732a1218",
+      "DECOUPLING_CAPCITOR2"
+    ],
+    [
+      "a5264d7e-c189-40de-988c-a926e56dc912",
+      "DECOUPLING_CAPCITOR3"
+    ],
+    [
+      "212972bf-da90-42f9-b607-49016a3321e2",
+      "DECOUPLING_CAPCITOR4"
+    ],
+    [
+      "dedcd01b-8600-443f-bf4e-dcf42a0a665a",
+      "DECOUPLING_CAPCITOR5"
+    ],
+    [
+      "a4457f8b-f078-433c-9779-85c0ebda14ea",
+      "DECOUPLING_CAPCITOR6"
+    ],
+    [
+      "7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d",
+      "DECOUPLING_CAPCITOR7"
+    ],
+    [
+      "4a174db6-06cf-4173-a9ea-3ae72cce2259",
+      "DECOUPLING_CAPCITOR8"
+    ],
+    [
+      "f71130eb-dc0a-445d-b5bd-91dccd138433",
+      "DECOUPLING_CAPCITOR9"
+    ],
+    [
+      "fef7167b-6e9a-4cdd-834b-409cec9614a1",
+      "DECOUPLING_CAPCITOR10"
+    ],
+    [
+      "9548b0b2-1543-41c9-88cf-a2a5f2bec9ea",
+      "DECOUPLING_CAPCITOR11"
+    ],
+    [
+      "e3526b73-00e7-4d24-8a17-95c60e7c9b33",
+      "DECOUPLING_CAPCITOR12"
+    ],
+    [
+      "d1626fce-9010-4720-8fa4-e38dc6a7a2ef",
+      "DECOUPLING_CAPCITOR13"
+    ],
+    [
+      "8a501f8a-d6f2-46b7-b88a-b1d445bd05d2",
+      "DECOUPLING_CAPCITOR14"
     ]
   ],
   "text_variables": {},

@@ -1,8 +1,9 @@
 Plugin v0.0.1 running on KiCad 10.0.4 and Python 3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)] on win32.
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
-14 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
+29 sheet instances entries in C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\controllerBoard.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_BL_CTRLR\8_BL_CTRLR.kicad_sch
+Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\DECOUPLING_CAPCITOR\DECOUPLING_CAPCITOR.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\WL_PULSE_GEN\WL_PULSE_GEN.kicad_sch
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
@@ -11,6 +12,7 @@ Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard
 Valid Board found for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\READ_PULSE_GEN\READ_PULSE_GEN.kicad_sch
 Anchor changed to Q94
 Anchor changed to R8
+New Anchor not found
 Anchor changed to Q53
 Anchor changed to C5
 Anchor changed to Q10
@@ -20,18 +22,33 @@ Anchor changed to Q8
 Enabled leaf: 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Enabled leaf: 1568dcfe-2912-484d-9b09-635225cb9b4e
 Enabled leaf: 156fc5f9-33fe-4486-90ac-703537f74684
+Enabled leaf: 212972bf-da90-42f9-b607-49016a3321e2
+Enabled leaf: 2b919bea-4dc6-4c79-9aab-a8665741428e
+Enabled leaf: 4a174db6-06cf-4173-a9ea-3ae72cce2259
 Enabled leaf: 602ef35d-15f8-4ed8-aa30-f853ef082047
+Enabled leaf: 7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d
 Enabled leaf: 78511a9c-9f0e-4d86-9426-f2f4315fb398
 Enabled leaf: 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Enabled leaf: 8a501f8a-d6f2-46b7-b88a-b1d445bd05d2
 Enabled leaf: 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Enabled leaf: 9548b0b2-1543-41c9-88cf-a2a5f2bec9ea
 Enabled leaf: 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Enabled leaf: a4457f8b-f078-433c-9779-85c0ebda14ea
+Enabled leaf: a5264d7e-c189-40de-988c-a926e56dc912
+Enabled leaf: a9acf7b1-ba3f-474c-869f-8e4644141886
 Enabled leaf: b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
 Enabled leaf: ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
 Enabled leaf: ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
 Enabled leaf: bac368b4-3632-4a54-8f7e-0865a964629f
 Enabled leaf: bd8eda89-0d1e-4854-ab6f-a575635da338
+Enabled leaf: ce7aff5c-c5df-4b60-868c-5e95732a1218
+Enabled leaf: d1626fce-9010-4720-8fa4-e38dc6a7a2ef
+Enabled leaf: dedcd01b-8600-443f-bf4e-dcf42a0a665a
 Enabled leaf: def1fdf8-7002-45c6-87e0-28926b899265
-Root item: <wx._dataview.TreeListItem object at 0x000001724135AC20>
+Enabled leaf: e3526b73-00e7-4d24-8a17-95c60e7c9b33
+Enabled leaf: f71130eb-dc0a-445d-b5bd-91dccd138433
+Enabled leaf: fef7167b-6e9a-4cdd-834b-409cec9614a1
+Root item: <wx._dataview.TreeListItem object at 0x0000028DD8F4D870>
 Valid board for 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Valid child board for 
 Instance is a branch: Root
@@ -41,16 +58,34 @@ Valid board for 1568dcfe-2912-484d-9b09-635225cb9b4e
 Instance is a leaf: /1568dcfe-2912-484d-9b09-635225cb9b4e
 Valid board for 156fc5f9-33fe-4486-90ac-703537f74684
 Instance is a leaf: /156fc5f9-33fe-4486-90ac-703537f74684
+Valid board for 212972bf-da90-42f9-b607-49016a3321e2
+Instance is a leaf: /212972bf-da90-42f9-b607-49016a3321e2
+Valid board for 2b919bea-4dc6-4c79-9aab-a8665741428e
+Instance is a leaf: /2b919bea-4dc6-4c79-9aab-a8665741428e
+Valid board for 4a174db6-06cf-4173-a9ea-3ae72cce2259
+Instance is a leaf: /4a174db6-06cf-4173-a9ea-3ae72cce2259
 Valid board for 602ef35d-15f8-4ed8-aa30-f853ef082047
 Instance is a leaf: /602ef35d-15f8-4ed8-aa30-f853ef082047
+Valid board for 7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d
+Instance is a leaf: /7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d
 Valid board for 78511a9c-9f0e-4d86-9426-f2f4315fb398
 Instance is a leaf: /78511a9c-9f0e-4d86-9426-f2f4315fb398
 Valid board for 8a491917-4253-4ca5-a31e-fc7dcc04a377
 Instance is a leaf: /8a491917-4253-4ca5-a31e-fc7dcc04a377
+Valid board for 8a501f8a-d6f2-46b7-b88a-b1d445bd05d2
+Instance is a leaf: /8a501f8a-d6f2-46b7-b88a-b1d445bd05d2
 Valid board for 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
 Instance is a leaf: /8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Valid board for 9548b0b2-1543-41c9-88cf-a2a5f2bec9ea
+Instance is a leaf: /9548b0b2-1543-41c9-88cf-a2a5f2bec9ea
 Valid board for 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
 Instance is a leaf: /96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Valid board for a4457f8b-f078-433c-9779-85c0ebda14ea
+Instance is a leaf: /a4457f8b-f078-433c-9779-85c0ebda14ea
+Valid board for a5264d7e-c189-40de-988c-a926e56dc912
+Instance is a leaf: /a5264d7e-c189-40de-988c-a926e56dc912
+Valid board for a9acf7b1-ba3f-474c-869f-8e4644141886
+Instance is a leaf: /a9acf7b1-ba3f-474c-869f-8e4644141886
 Valid board for b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
 Instance is a leaf: /b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
 Valid board for ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
@@ -61,30 +96,89 @@ Valid board for bac368b4-3632-4a54-8f7e-0865a964629f
 Instance is a leaf: /bac368b4-3632-4a54-8f7e-0865a964629f
 Valid board for bd8eda89-0d1e-4854-ab6f-a575635da338
 Instance is a leaf: /bd8eda89-0d1e-4854-ab6f-a575635da338
+Valid board for ce7aff5c-c5df-4b60-868c-5e95732a1218
+Instance is a leaf: /ce7aff5c-c5df-4b60-868c-5e95732a1218
+Valid board for d1626fce-9010-4720-8fa4-e38dc6a7a2ef
+Instance is a leaf: /d1626fce-9010-4720-8fa4-e38dc6a7a2ef
+Valid board for dedcd01b-8600-443f-bf4e-dcf42a0a665a
+Instance is a leaf: /dedcd01b-8600-443f-bf4e-dcf42a0a665a
 Valid board for def1fdf8-7002-45c6-87e0-28926b899265
 Instance is a leaf: /def1fdf8-7002-45c6-87e0-28926b899265
-subPcb selected WL_PULSE_GEN with 20 anchors
-Enabled leaf: 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Valid board for e3526b73-00e7-4d24-8a17-95c60e7c9b33
+Instance is a leaf: /e3526b73-00e7-4d24-8a17-95c60e7c9b33
+Valid board for f71130eb-dc0a-445d-b5bd-91dccd138433
+Instance is a leaf: /f71130eb-dc0a-445d-b5bd-91dccd138433
+Valid board for fef7167b-6e9a-4cdd-834b-409cec9614a1
+Instance is a leaf: /fef7167b-6e9a-4cdd-834b-409cec9614a1
+subPcb selected RISING_EDGE_DETECTOR1 with 29 anchors
 subPcb selected RISING_EDGE_DETECTOR with 29 anchors
 Enabled leaf: 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
 subPcb selected RISING_EDGE_DETECTOR1 with 29 anchors
 Enabled leaf: def1fdf8-7002-45c6-87e0-28926b899265
+subPcb selected DECOUPLING_CAPCITOR10 with 1 anchors
+Enabled leaf: fef7167b-6e9a-4cdd-834b-409cec9614a1
+subPcb selected DECOUPLING_CAPCITOR9 with 1 anchors
+Enabled leaf: f71130eb-dc0a-445d-b5bd-91dccd138433
+subPcb selected DECOUPLING_CAPCITOR12 with 1 anchors
+subPcb selected DECOUPLING_CAPCITOR5 with 1 anchors
+Enabled leaf: dedcd01b-8600-443f-bf4e-dcf42a0a665a
+subPcb selected DECOUPLING_CAPCITOR12 with 1 anchors
+Enabled leaf: e3526b73-00e7-4d24-8a17-95c60e7c9b33
+subPcb selected DECOUPLING_CAPCITOR13 with 1 anchors
+Enabled leaf: d1626fce-9010-4720-8fa4-e38dc6a7a2ef
+subPcb selected DECOUPLING_CAPCITOR2 with 1 anchors
+Enabled leaf: ce7aff5c-c5df-4b60-868c-5e95732a1218
+subPcb selected DECOUPLING_CAPCITOR with 1 anchors
+Enabled leaf: a9acf7b1-ba3f-474c-869f-8e4644141886
+subPcb selected DECOUPLING_CAPCITOR3 with 1 anchors
+Enabled leaf: a5264d7e-c189-40de-988c-a926e56dc912
+subPcb selected DECOUPLING_CAPCITOR6 with 1 anchors
+Enabled leaf: a4457f8b-f078-433c-9779-85c0ebda14ea
+subPcb selected DECOUPLING_CAPCITOR11 with 1 anchors
+Enabled leaf: 9548b0b2-1543-41c9-88cf-a2a5f2bec9ea
+subPcb selected DECOUPLING_CAPCITOR14 with 1 anchors
+Enabled leaf: 8a501f8a-d6f2-46b7-b88a-b1d445bd05d2
+subPcb selected DECOUPLING_CAPCITOR7 with 1 anchors
+Enabled leaf: 7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d
+subPcb selected DECOUPLING_CAPCITOR8 with 1 anchors
+Enabled leaf: 4a174db6-06cf-4173-a9ea-3ae72cce2259
+subPcb selected DECOUPLING_CAPCITOR4 with 1 anchors
+subPcb selected DECOUPLING_CAPCITOR1 with 1 anchors
+Enabled leaf: 2b919bea-4dc6-4c79-9aab-a8665741428e
+subPcb selected DECOUPLING_CAPCITOR4 with 1 anchors
+Enabled leaf: 212972bf-da90-42f9-b607-49016a3321e2
 Saving info for 0caaf583-102a-42ea-8c9f-aeb1b7245756
 Saving info for 1568dcfe-2912-484d-9b09-635225cb9b4e
 Saving info for 156fc5f9-33fe-4486-90ac-703537f74684
+Saving info for 212972bf-da90-42f9-b607-49016a3321e2
+Saving info for 2b919bea-4dc6-4c79-9aab-a8665741428e
+Saving info for 4a174db6-06cf-4173-a9ea-3ae72cce2259
 Saving info for 602ef35d-15f8-4ed8-aa30-f853ef082047
+Saving info for 7166d2e4-d58a-4e2a-b6a0-3d09f67fd84d
 Saving info for 78511a9c-9f0e-4d86-9426-f2f4315fb398
 Saving info for 8a491917-4253-4ca5-a31e-fc7dcc04a377
+Saving info for 8a501f8a-d6f2-46b7-b88a-b1d445bd05d2
 Saving info for 8b3cd8c5-d66b-460c-b4ee-229e25c1238a
+Saving info for 9548b0b2-1543-41c9-88cf-a2a5f2bec9ea
 Saving info for 96d1d3a9-3ebd-46ac-a2d2-b692fac1af2c
+Saving info for a4457f8b-f078-433c-9779-85c0ebda14ea
+Saving info for a5264d7e-c189-40de-988c-a926e56dc912
+Saving info for a9acf7b1-ba3f-474c-869f-8e4644141886
 Saving info for b3c7aff3-dbde-42be-b8ef-dbeca04a7fe7
 Saving info for ba3cdfe8-f437-4525-8f86-a4f1390c4f4d
 Saving info for ba89c823-0b97-4162-9c8c-b0bfe5b1c3f2
 Saving info for bac368b4-3632-4a54-8f7e-0865a964629f
 Saving info for bd8eda89-0d1e-4854-ab6f-a575635da338
+Saving info for ce7aff5c-c5df-4b60-868c-5e95732a1218
+Saving info for d1626fce-9010-4720-8fa4-e38dc6a7a2ef
+Saving info for dedcd01b-8600-443f-bf4e-dcf42a0a665a
 Saving info for def1fdf8-7002-45c6-87e0-28926b899265
+Saving info for e3526b73-00e7-4d24-8a17-95c60e7c9b33
+Saving info for f71130eb-dc0a-445d-b5bd-91dccd138433
+Saving info for fef7167b-6e9a-4cdd-834b-409cec9614a1
 Saving anchor Q94 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8DLATCH\8DLATCH.kicad_sch
 Saving anchor R8 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_BL_CTRLR\8_BL_CTRLR.kicad_sch
+Saving anchor C1 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\DECOUPLING_CAPCITOR\DECOUPLING_CAPCITOR.kicad_sch
 Saving anchor Q53 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\8_1TO2_DEMUX\8_1TO2_DEMUX.kicad_sch
 Saving anchor C5 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\WL_PULSE_GEN\WL_PULSE_GEN.kicad_sch
 Saving anchor Q10 for C:\Users\jayde\hackclubprojects\SRAM\kicad\controllerBoard\RISING_EDGE_DETECTOR\RISING_EDGE_DETECTOR.kicad_sch
