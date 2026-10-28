@@ -473,3 +473,21 @@ I realized that my BOM had the old 6mmx6mm button so I went out and found a suit
 https://lapse.hackclub.com/timelapse/eePEOU0iHmg6
 
 
+# 2026-10-28: Updated BOM and finished up controller board
+
+**Total time spent: 2 hours**
+
+![alt text](images/2026-10-28_finished-controller-board.png)
+The completed controller board
+
+## What I did
+The first thing I found out while I was that there were some cheaper mosfets available in suffient quantity. I don't know how I didn't notice them before, maybe they got a new shipment of parts? Anyway, I saved around $50 by swapping out those mosfets and they are basically identical datasheet to datasheet (yes, i checked the pinout this time...).
+
+I also finished up the controller board by routing the few remaining special lines. I realized I did forget to add the decoupling capacitors, so I just copy/pasted (project instances!) a decoupling capacitor footprint 15 times across the board. I also added some bulk aluminimum electrolytic capacitors to keep power stable.
+
+I really should probally CAD those brackets I talked about earlier in my last devlog, so I will probally do that next.
+
+## Lapse links
+https://lapse.hackclub.com/timelapse/W9Wpp0q-BkuI<br>
+https://lapse.hackclub.com/timelapse/zi02sU_XEx6q<br>
+(I spent a bunch of time at school examining the datasheets, so I added 30 more minutes)
