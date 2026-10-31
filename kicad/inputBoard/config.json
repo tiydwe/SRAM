@@ -1,0 +1,12 @@
+{
+    "layout": {
+        "rows": "8"
+    },
+    "tabs": {
+        "vwidth": "5mm"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "Edge.Cuts"
+    }
+}

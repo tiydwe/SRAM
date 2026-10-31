@@ -491,3 +491,24 @@ I really should probally CAD those brackets I talked about earlier in my last de
 https://lapse.hackclub.com/timelapse/W9Wpp0q-BkuI<br>
 https://lapse.hackclub.com/timelapse/zi02sU_XEx6q<br>
 (I spent a bunch of time at school examining the datasheets, so I added 30 more minutes)
+
+
+# 2026-10-31: Changed the bracket design
+
+**Total time spent: 1.5 hours**
+
+![alt text](images/2026-10-31_support-screw-diagram.png)
+My drawing skills are so amazing... right...
+
+## What I did
+I was starting to cad the bracket when I noticed two things. First of all, if I moved the board to the other side, itw ould be on the same side as the leds and have more space for support. Second of all, the pin headers wernet long enough to easily get to the other side of the board (like they were 0.1mm long enough, super close). I realized that by moving the board to the other side and ordering a thinner 0.8mm board, I could fix both problems.
+
+Since I wanted the design to be as low-profile as possible, I also wanted the input board to be as close to the main board as possible. This left only 1-2mm of clearance, too small for a full 3d printed bracket. But then, I had this really smart realization that since I had so much space (back side, remember), I can just have like some sort of screw coming out the bottom and supporting it with the screw head.
+
+It's kind of a hacky solution but its probally fine. I was able to find some screws with head thickness 1.6mm, which gives me 0.6 mm extra pin header to work with. Plus, screws are dirt cheap and I don't even have to 3d print anything.
+
+Besides that, I also panalized the input board and fixed some misc. issues on the 5v to 10v section of the main controller board. I also added an additional gnd through hole to the input pcb so it doesn't matter which way it goes in.
+
+## Lapse links
+https://lapse.hackclub.com/timelapse/cdUFAvUgX7du<br>
+https://lapse.hackclub.com/timelapse/CpBSfuKvi4je
