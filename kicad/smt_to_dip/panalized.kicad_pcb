@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 99.5 20)
 		(grid_origin 99.5 20)
 		(pcbplotparams

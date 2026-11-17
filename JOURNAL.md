@@ -512,3 +512,37 @@ Besides that, I also panalized the input board and fixed some misc. issues on th
 ## Lapse links
 https://lapse.hackclub.com/timelapse/cdUFAvUgX7du<br>
 https://lapse.hackclub.com/timelapse/CpBSfuKvi4je
+
+
+# 2026-11-16: Finally ordered my test parts!
+
+**Total time spent: 2 hours**
+
+## What I did
+So I finally got that stardance grant and I got to ordering parts. Ordering parts is one of those tasks that seems super easy and straightforward until you actually you know... try to order parts.
+
+I ordered all my loose LCSC parts along with the smt to dip boards, and I'm going to go ahead and rant to you about that now.
+
+### My struggles with LCSC
+So first off, some of my parts became out of stock for some reason (maybe because I choose the cheapest option...) and I had to go find alternatives. Luckly, most of those parts were pretty common so I just found some slightly more expensive ones. Then right before I was going to order I suddently remembered that I wanted everything lead free, so I had to check all my parts for rohs (it really doesn't help when the "rohs complient" text is like in tiny text on the 3rd page of the datasheet). Luckly, I think most of my items were actually lead free, so not much changed.
+
+Then I remembered that last time I ordered from LCSC I got hit with an extra $50 of customs charges from UPS (never use UPS btw), but according to some random reddit posts and some community members I talked to in hack club, Global Standard Direct Line doesn't do that.
+
+With that I placed the order for my parts:
+![alt text](images/2026-11-16_bom-ordered.png)
+
+Also, LCSC for some reason doesn't automatically generate reciepts or proforma invoices for HCB so I had to manually email them too. (LCSC, why does your docs say its on the order page? iTs LiTeRaLy NoT)
+
+### My struggles with JLCPCB
+I needed some smt to dip adapter boards from JLCPCB, so I went ahead and ordered the panalized version with v cuts. I placed the order, it said it would cost like $9, and I thought that was that. But then, I got an email 1 day later saying they charge extra for customer panalization AND my panels were too small so that costs extra too.
+![alt text](images/2026-11-16_extra-charge.png)
+All the extra fees would have added up to another $20, for a total of around $30, which was a bit crazy for me. Then I realized that I could just order a few from OSH park because my PCBs are so small and I don't actually need like 500, and OSH park has free shipping. I ordered 9 from OSH park (should arrive in like 1 week) for just $5.
+
+If I ever need more smt-to-dip, I'll probally repanalize them into groups of 2 to avoid the extra $15 small panel fee, but that's for future me.
+
+I also re routed the smt-to-dip boards and updated the width for better clearance (and to fit the 15mm min) next time. Since they are wider, I also can move the pads closer in so snapping the boards apart at a v-cut is less likely to accidently expose a pad or break it. But that's all for next time and I should really stop rambling on about this.
+
+## Lapse links
+None!
+
+In all seriousness though, I've done this over the last like 2 weeks and been pretty busy with other stuff, so the time is a rough estimate based on the effort it felt like to me and the stuff I had to do.
