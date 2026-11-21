@@ -560,7 +560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_4.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_4.5mm_v2"
 			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -788,7 +788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_4.5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_4.5mm_v2"
 			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1096,6 +1096,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
